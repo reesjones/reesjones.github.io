@@ -1,0 +1,20 @@
+.navbutton {
+	float: none;
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	position: relative;
+	background-color: #8ad9ff;
+	display: inline;
+}
+
+#logo {
+	display: inline;
+	float: left;
+}
+
+nav {
+	display: inline;
+	float: right;
+	margin-right: 10%;
+}
+
