@@ -6,12 +6,18 @@
 /* orange #B9543C */
 /* yellow #EAD075 */
 
+html {
+	/* Pages with a scroll bar shift the page content slightly. Forcing
+	addition of vertical scroll bar to each page prevents this. */
+	overflow-y: scroll;
+}
+
 body {
 	background: url("../resources/bg.png"); /* Noise background */
 }
 
 hr {
-	width: 90%;
+	width: 80%;
 	height: 5px;
 	background-color: #000000;
 	border-style: none;
@@ -21,10 +27,10 @@ hr {
 /*****************/
 
 header {
+	background-color: #752121;
 	position: relative;
-	width: 90%;
-	left: 5%;
-	text-align: right;
+	width: 80%;
+	left: 10%;
 	border-bottom: 3px solid #000000;
 	border-left: 3px solid #000000;
 	/* border-right: 3px solid #000000; */ /* Image already had black border on right */
@@ -32,32 +38,31 @@ header {
 	background-color: #F2C164;
 	background: url("../resources/fire-bg.jpg");
 	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	
 }
 
 header ul {
-	display: inline;
-	position: relative;
-	bottom: 40px;
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	margin-bottom: 0.5em;
 }
 
 header li {
 	display: inline-block;
-	text-align: center;
-	width: 7em;
-	margin: 0em 4em 0.5em 0em;
+	vertical-align: middle;
+	margin: 0em 0em 0em 3em;
 }
 
 #logo {
-	padding: 40px 15px 20px 15px;
-	text-align: left;
-	width: 40%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 30px 0px 30px 15px;
+	width: auto;
 }
 
 #logo img {
 	background-color: #000000;
-	display: inline;
+	display: inline-block;
 	
 	/* Image darken effect */
 	-webkit-filter: brightness(100%);
@@ -78,12 +83,19 @@ header li {
 footer {
 	background-color: #000000;
 	margin: 0%;
+	padding: 1% 5% 1% 5%;
 	position: relative;
-	left: 5%;
-	width: 90%;
+	left:10%;
+	width: 70%;
 	border-radius: 10px 10px 0px 0px;
 }
 
+.footer-block {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
 
 /* <section> styles */
@@ -97,10 +109,29 @@ section {
 	background: #f2c164;
 	border-radius: 4px;
 	position: relative;
-	left: 5%;
-	width: 70%;
+	left: 10%;
+	width: 60%;
+	height: auto;
 }
 
+/* Matt Faulkner <hr> Glass Blower */
+#matt {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+
+#matt > img {
+	width: 100%;
+}
+
+#name {
+	margin-left: 5%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+}
 
 /* Navbar button styling */
 /*************************/
@@ -130,10 +161,6 @@ section {
 	vertical-align: middle;
 }
 
-.button:hover {
-	font-size: 100%;
-}
-
 .active-button {
 	border-top: 1px solid #d48b79;
 	background: #b9553c;
@@ -152,7 +179,7 @@ section {
 	background: -ms-linear-gradient(top, #114991, #2869BF);
 	background: -o-linear-gradient(top, #114991, #2869BF);
 	background: -webkit-gradient(linear, left top, left bottom, from(#114991), to(#2869BF));
-	color: #ffffff;
+	color: #000000;
 }
 
 
@@ -164,10 +191,9 @@ section {
 	background: -ms-linear-gradient(top, #114991, #2869BF);
 	background: -o-linear-gradient(top, #114991, #2869BF);
 	background: -webkit-gradient(linear, left top, left bottom, from(#114991), to(#2869BF));
-	color: #ffffff;
+	color: #000000;
 }
 
-.pagebreak {
-	border: 2px solid black;
-}
-
+.inactive-button:hover {
+	color: #000000;
+{

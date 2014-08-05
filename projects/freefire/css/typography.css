@@ -28,7 +28,7 @@ p {
 	font-size: 110%;
 	line-height: 1.1;
 	margin: 0 0 1em;
-	text-indent: 2em;
+	text-indent: 3em;
 	word-break: break-all;
  
 	/* Non standard for webkit */
@@ -39,9 +39,16 @@ p {
 	hyphens: auto;
 }
 
+ p:first-of-type::first-letter {
+	font-size: 150%;
+	color: #0F4B99;
+}
+
 q {
 	font-family: Georgia, serif;
 	color: #616161;
+	font-style: italic;
+	font-variant: small-caps;
 }
 
 blockquote {
@@ -50,7 +57,7 @@ blockquote {
 
 	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
 	letter-spacing:0.17em;
-	width: 400px;
+	width: 50%;
 	text-align:center;
 	margin: 40px auto;	
 	text-transform: lowercase;
@@ -75,6 +82,5 @@ a {
 a:hover {
 	color: #300000;
 	text-decoration: none;
-	font-size: 110%;
 
 }
