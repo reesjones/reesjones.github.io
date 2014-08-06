@@ -133,6 +133,60 @@ section {
 	width: 50%;
 }
 
+/* Form styles */
+/***************/
+
+form {
+
+}
+
+input, textarea {
+	width: 400px;
+	height: 30px;
+	background: #ffffff;
+	border: none;
+	font-size: 90%;
+	color: #000000;
+}
+
+textarea {
+	height: 6em;
+}
+
+#submit {
+	display: block;
+	margin: 1em 0em;
+	color: #ffffff;
+	background: #a53539;
+}
+
+#submit:hover {
+	background: #300000;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	
+}
+
+::-webkit-input-placeholder {
+   color: #666666;
+}
+
+:-moz-placeholder {
+   color: #666666;
+}
+
+::-moz-placeholder {
+   color: #666666;
+}
+
+:-ms-input-placeholder {  
+   color: #666666;
+}
+
 /* Navbar button styling */
 /*************************/
 /* .button applies to all nav buttons. */
