@@ -3,7 +3,6 @@ reesjones.github.io
 
 Development projects &amp; blog
 
-Project status: On hold
+Project status: With us no longer
 
-The source for my official GitHub Pages website. I'll be overhauling this eventually; the focus of
-the new version will be to showcase my GitHub respositories.
+This site has been replaced by [www.reesjones.co](http://www.reesjones.co/ "Mitch Rees-Jones - www.reesjones.co").
