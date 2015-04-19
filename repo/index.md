@@ -1,5 +1,5 @@
 ---
-title: REPO
+title: Repository Homepage
 layout: repo-content
 ---
 
