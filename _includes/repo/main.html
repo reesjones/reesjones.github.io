@@ -1,0 +1,26 @@
+<div class="col-sm-10 col-md-10 col-lg-10"> 
+	<!-- Logos -->
+	<div class="row">
+		<div class="col-sm-8 col-md-8 col-lg-8" id="repo-logo-div"> 
+			<h1 id="repo-logo-text">tera-PROMISE Repository</h1>
+		</div>
+		
+		<div class="col-sm-4 col-md-4 col-lg-4">
+			<img src="/img/csc-logo.jpg" class="pull-right">
+		</div>
+	</div>
+
+	<!-- Menu bar -->
+	{% include repo/menubar.html %}		
+
+	<!-- Content and right column -->
+	<div class="row"> 
+		<div class="col-sm-10 col-md-10 col-lg-10">
+			{{ content }}
+		</div>
+		
+		<div class="col-sm-2 col-md-2 col-lg-2" style="background-color: #fcbo3c;">
+			{% include repo/socialbar.html %}
+		</div>
+	</div>
+</div>
