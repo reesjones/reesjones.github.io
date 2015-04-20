@@ -38,13 +38,39 @@
 	background-color: #FDAF17;
 }
 
+/* Leftbar */
+#leftbar {
+	background-color: @gray-lighter;
+}
+
+/* li elements in the category ul in leftbar */
+#category-list li {
+	height: 30px;
+}
 
 /* A subcategory in leftbar */
 .subcategory {
-	margin-left: 3em;
+	margin-left: 25px;
 }
 
 /* Used by the social media buttons in socialbar.html */
 .no-border {
 	border: 0px solid transparent;
+}
+
+/* Back to portal button */
+#back-to-portal {
+	background-color: @gray-dark;
+	color: @gray-lighter;
+	
+	border: 1px solid @gray-base;
+	border-radius: 0px 0px @border-radius-large @border-radius-large;
+}
+#back-to-portal:hover {
+	background-color: @gray-darker;
+}
+
+/* Twitter feed */
+.twitter-timeline {
+	width: auto;
 }
