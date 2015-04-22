@@ -8504,6 +8504,17 @@ button.close {
 @navbar-default-color: @gray-dark; */
 /* Site mixins */
 /* Site nav less */
+/*********************/
+/* Site path styling */
+/*********************/
+.breadcrumb a,
+.breadcrumb li {
+  font-size: 28px;
+  text-transform: lowercase;
+}
+/******************/
+/* Navbar styling */
+/******************/
 .navbar-default {
   background-color: #777777;
   border-color: #333333;
