@@ -3,7 +3,7 @@
 	{% assign sitepath = page.url | split: '/' %}
 	
 	{% for directoryLinkText in sitepath %} <!--offset: {{ sitepath | size | plus: 1 }} %}-->
-		<li><a href="
+		<li><a href="/
 			{% for directory in sitepath limit:forloop.index0 offset:1 %}
 				{{directory}}/{% endfor %}"> 
 			{{ directoryLinkText }}
