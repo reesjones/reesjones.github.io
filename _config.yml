@@ -12,3 +12,6 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# Changes the link structure of posts to /repo/category/<post name>.html
+permalink: none
