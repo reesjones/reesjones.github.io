@@ -8605,6 +8605,22 @@ button.close {
 .navbar-brand:hover {
   background-color: #333333;
 }
+/************************/
+/* Left category navbar */
+/************************/
+/* Leftbar */
+#leftbar {
+  background-color: #eeeeee;
+  border-right: 1px solid #dddddd;
+}
+/* li elements in the category ul in leftbar */
+#category-list li {
+  height: 30px;
+}
+/* A subcategory in leftbar */
+.subcategory {
+  margin-left: 25px;
+}
 /* Site header less */
 /* */
 .fullwidth {
@@ -8654,18 +8670,6 @@ hr {
 #repo-home-button {
   background-color: #FDAF17;
 }
-/* Leftbar */
-#leftbar {
-  background-color: #eeeeee;
-}
-/* li elements in the category ul in leftbar */
-#category-list li {
-  height: 30px;
-}
-/* A subcategory in leftbar */
-.subcategory {
-  margin-left: 25px;
-}
 /* Used by the social media buttons in socialbar.html */
 .no-border {
   border: 0px solid transparent;
@@ -8679,6 +8683,7 @@ hr {
 }
 #back-to-portal:hover {
   background-color: #333333;
+  color: #fdaf17;
 }
 /* Twitter feed */
 .navbar {
