@@ -8681,17 +8681,8 @@ button.close {
 hr {
   border: 1px solid #b3b3b3;
 }
-.no-underline {
-  text-decoration: none;
-}
-.no-underline :active {
-  text-decoration: none;
-}
-.no-underline :focus {
-  text-decoration: none;
-}
-.no-underline :hover {
-  text-decoration: none;
+.blue-text:hover {
+  color: #4a7ead;
 }
 .navbar {
   border: none;
