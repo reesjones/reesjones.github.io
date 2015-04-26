@@ -1,10 +1,7 @@
 ---
-title: Repository Homepage
+title: Welcome to the tera-PROMISE repository!
 layout: repo-content
 ---
-
-
-# Welcome to the tera-PROMISE Repository!
 
 We offer a long-term storage solution for research data (mostly software engineering research data).
 

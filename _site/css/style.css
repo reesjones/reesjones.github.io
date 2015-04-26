@@ -8617,12 +8617,20 @@ button.close {
   height: auto;
 }
 /* li elements in the category ul in leftbar */
+#category-list {
+  /* The dataset counter */
+
+}
 #category-list li :hover {
   background-color: #333333;
 }
 #category-list li a {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+#category-list span :hover {
+  background-color: #eeeeee;
+  color: #fdaf17;
 }
 /* A subcategory in leftbar */
 .subcategory {
@@ -8682,7 +8690,7 @@ hr {
   border: 1px solid #b3b3b3;
 }
 .blue-text:hover {
-  color: #4a7ead;
+  color: #333333;
 }
 .navbar {
   border: none;
