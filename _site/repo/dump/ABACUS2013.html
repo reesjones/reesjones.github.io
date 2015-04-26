@@ -1,0 +1,56 @@
+<h1 id="url">URL</h1>
+
+<ul>
+  <li>With change log:
+    <ul>
+      <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/dump/ABACUS2013/">ABACUS2013</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="change-log">Change Log</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January 7, 2013</td>
+      <td>Donated by <a href="/repo/people/data-donors/promise3.html">André Riboira</a> (andre.riboira@fe.up.pt) and <a href="/repo/people/data-donors/promise3.html">Rui Abreu</a> (rui@computer.org)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="about-the-data">About the data</h1>
+
+<p>This archive contains all the logs, datasets and results of the 255 combinations 
+of the 8 injected faults, as well as the 8 executions of untouched and 
+uninstrumented versions of Wordpress.</p>
+
+<p>Each folder of this archive relates to a different scenario and has all the log 
+files (including the standard output and standard error messages) and ABACUS 
+tools’ output files generated during the experiment processing.</p>
+
+<p>Each folder present the following structure:</p>
+
+<p>ABACUS.stdout     - File with the standard output messages</p>
+
+<p>ABACUS.stderr     - File with the standard error messages (includes the time and memory used in each execution)</p>
+
+<p>ABACUS.log        - File with the PHPunit TAP log result</p>
+
+<p>ABACUS.matrix     - File with the SFL’s hit-spectra matrix and the error vector</p>
+
+<p>ABACUS.components - File with the map between the SFL’s hit spectra matrix and the correspondent code component</p>
+
+<p>ABACUS.staccato   - File with the result of the STACCATO tool</p>
+
+<p>ABACUS.barinel    - File with the result of the BARINEL tool</p>
+
+<p>Note that the “vanilla” folders only have ABACUS.stdout, ABACUS.stderr and 
+ABACUS.log files, because are related to the untouched and uninstrumented 
+versions of Wordpress, and the ABACUS toolset was not used.</p>

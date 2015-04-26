@@ -1,0 +1,243 @@
+<h1 id="url">URL</h1>
+
+<ul>
+  <li>Latest version:
+    <ul>
+      <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/defect/mccabehalsted/jm/jm1/jm1.arff">jm1</a>
+        <ul>
+          <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/defect/mccabehalsted/jm/jm1/d">jm1’</a>, the cleaned version by Shepperd et al., described as D’ <a href="http://nasa-softwaredefectdatasets.wikispaces.com/home">here</a>.</li>
+          <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/defect/mccabehalsted/jm/jm1/dd">jm1’’</a>, the cleaned version by Shepperd et al., described as D’’ <a href="http://nasa-softwaredefectdatasets.wikispaces.com/home">here</a>.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>With change log:
+    <ul>
+      <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/defect/mccabehalsted/jm/jm1/jm1">jm1</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="change-log">Change Log</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nov 2011</td>
+      <td>Dataset has been cleaned by MartinShepperd et al. (jm1’ and jm1’’ are the cleaned versions)</td>
+    </tr>
+    <tr>
+      <td>December 2, 2004</td>
+      <td>Donated by <a href="/repo/people/data-donors/promise3.html">Tim Menzies</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="notes-from-the-author">Notes from the Author</h1>
+
+<h1 id="titletopic-jm1software-defect-prediction">Title/Topic: JM1/software defect prediction</h1>
+<ul>
+  <li>Sources:
+    <ul>
+      <li>Creators:  NASA, then the NASA Metrics Data Program</li>
+      <li>Contacts:
+        <ul>
+          <li>Mike Chapman, Galaxy Global Corporation (Robert.Chapman@ivv.nasa.gov) +1-304-367-8341;</li>
+          <li>Pat Callis, NASA, NASA project manager for MDP (Patrick.E.Callis@ivv.nasa.gov) +1-304-367-8309</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Past usage:
+    <ul>
+      <li>How Good is Your Blind  Spot Sampling Policy?; 2003; Tim Menzies and Justin S. Di Stefano; 2004 IEEE Conference on High Assurance Software Engineering (<a href="http://menzies.us/pdf/03blind.pdf">http://menzies.us/pdf/03blind.pdf</a>).
+        <ul>
+          <li>Results:
+            <ul>
+              <li>Very simple learners (ROCKY) perform as well in this domain as more sophisticated methods (e.g. J48, model trees, model trees) for predicting detects</li>
+              <li>Many learners have very low false alarm rates.</li>
+              <li>Probability of detection (PD) rises with effort and rarely rises above it.</li>
+              <li>High PDs are associated with high PFs (probability of failure)</li>
+              <li>PD, PF, effort can change significantly while accuracy remains essentially stable</li>
+              <li>With two notable exceptions, detectors learned from one data set (e.g. KC2) have nearly they same properties when applied to another (e.g. PC2, KC2). Exceptions:
+                <ul>
+                  <li>LinesOfCode measures generate wider inter-data-set variances;</li>
+                  <li>Precision’s inter-data-set variances vary wildly</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>“Assessing Predictors of Software Defects”, T. Menzies and J. DiStefano and A. Orrego and R. Chapman, 2004, Proceedings, workshop on Predictive Software Models, Chicago, Available from <a href="http://menzies.us/pdf/04psm.pdf">http://menzies.us/pdf/04psm.pdf</a>
+        <ul>
+          <li>Results:
+            <ul>
+              <li>From JM1, Naive Bayes generated PDs of 25% with PF of 20%</li>
+              <li>Naive Bayes out-performs J48 for defect detection</li>
+              <li>When learning on more and more data, little improvement is seen after processing 300 examples.</li>
+              <li>PDs are much higher from data collected below the sub-sub-system level.</li>
+              <li>Accuracy is a surprisingly uninformative measure of success for a defect detector. Two detectors with the same accuracy can have widely varying PDs and PFs.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Relevant information:
+    <ul>
+      <li>JM1 is written in “C” and is a real-time predictive ground system: Uses simulations to generate predictions</li>
+      <li>Data comes from McCabe and Halstead features extractors of source code.  These features were defined in the 70s in an attempt to objectively characterize code features that are associated with software quality.  The nature of association is under dispute. Notes on McCabe can be found <a href="/repo/defect/mccabehalsted/tut.html">here</a> and notes on Halstead can be found <a href="/repo/defect/mccabehalsted/tut.html">here</a>. These metrics are widely used for defect prediction purposes, a quick tutorial on defect prediction is given <a href="/repo/defect/tut.html">here</a>.</li>
+    </ul>
+  </li>
+  <li>Number of instances: 10885</li>
+  <li>Number of attributes: 22 (5 different lines of code measure, 3 McCabe metrics, 4 base Halstead measures, 8 derived Halstead measures, a branch-count, and 1 goal field).</li>
+  <li>Attribute Information:
+    <ul>
+      <li>loc             : numeric, McCabe’s line count of code</li>
+      <li>v(g)            : numeric, McCabe “cyclomatic complexity”</li>
+      <li>ev(g)           : numeric, McCabe “essential complexity”</li>
+      <li>iv(g)           : numeric, McCabe “design complexity”</li>
+      <li>n               : numeric, Halstead total operators + operands</li>
+      <li>v               : numeric, Halstead “volume”</li>
+      <li>l               : numeric, Halstead “program length”</li>
+      <li>d               : numeric, Halstead “difficulty”</li>
+      <li>i               : numeric, Halstead “intelligence”</li>
+      <li>e               : numeric, Halstead “effort”</li>
+      <li>b               : numeric, Halstead</li>
+      <li>t               : numeric, Halstead’s time estimator</li>
+      <li>lOCode          : numeric, Halstead’s line count</li>
+      <li>lOComment       : numeric, Halstead’s count of lines of comments</li>
+      <li>lOBlank         : numeric, Halstead’s count of blank lines</li>
+      <li>lOCodeAndComment: numeric</li>
+      <li>uniq_Op         : numeric, unique operators</li>
+      <li>uniq_Opnd       : numeric, unique operands</li>
+      <li>total_Op        : numeric, total operators</li>
+      <li>total_Opnd      : numeric, total operands</li>
+      <li>branchCount     : numeric, the flow graph</li>
+      <li>defects         : {false,true}, module has/has not one or more reported defects</li>
+    </ul>
+  </li>
+  <li>Missing attributes: none</li>
+  <li>Class Distribution: the class value (defects) is discrete
+    <ul>
+      <li>false: 2106 = 19.35%</li>
+      <li>true:  8779 = 80.65%</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="comments-on-the-data">Comments on the Data</h1>
+
+<p>Martin Shepperd | August 19th, 2011 at 10:52 am
+I’ve realised this version of the dataset <em>differs</em> from the version available from the NASA MDP website. The following tabulates the differences for all 13 NASA datasets:
+{{{</p>
+
+<p>Dataset	        n cases	p features
+CM1 – NASA	505	40</p>
+
+<p>CM1 – Promise	498	21</p>
+
+<p>JM1 – NASA	10878	21</p>
+
+<p>JM1 – Promise	10885	21</p>
+
+<p>KC1 – NASA	2107	21</p>
+
+<p>KC1 – Promise	2109	21</p>
+
+<p>KC3 – NASA	458	40</p>
+
+<p>KC3 – Promise	458	39</p>
+
+<p>MC1 – NASA	9466	39</p>
+
+<p>MC1 – Promise	9466	38</p>
+
+<p>MC2 – NASA	161	40</p>
+
+<p>MC2 – Promise	161	39</p>
+
+<p>MW1 – NASA	403	40</p>
+
+<p>MW1 – Promise	403	37</p>
+
+<p>PC1 – NASA	1107	40</p>
+
+<p>PC1 – Promise	1109	21</p>
+
+<p>PC2 – NASA	5589	40</p>
+
+<p>PC2 – Promise	5589	36</p>
+
+<p>PC3 – NASA	1563	40</p>
+
+<p>PC3 – Promise	1563	37</p>
+
+<p>PC4 – NASA	1458	40</p>
+
+<p>PC4 – Promise	1458	37</p>
+
+<p>PC5- NASA	17186	39</p>
+
+<p>PC5 – Promise	17186	38</p>
+
+<p>KC4- NASA	125	40</p>
+
+<p>KC2 – Promise	522	22
+}}}</p>
+
+<p>Therefore researchers are <em>strongly</em> advised to indicate which version of these files they are using!</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Martin Shepperd</td>
+      <td>August 19th, 2011 at 10:54 am: It is also puzzling how features such as loc can contain values like 1.1 (see feature 1, case 1).</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Martin Shepperd</td>
+      <td>August 20th, 2011 at 7:03 am: Sorry small error — the two versions of this dataset have the following sizes:</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>{{{</p>
+
+<p>Version,         Cases(n),   Features(p)
+JM1 – NASA,      10878,      24
+JM1 – Promise,   10885,      22</p>
+
+<p>}}}</p>
+
+<h1 id="reference">Reference</h1>
+
+<ul>
+  <li>M. Shepperd, Q. Song, Z. Sun and C. Mair, <a href="http://goo.gl/OlHNh">Data Quality: Some Comments on the NASA Software Defect Data Sets</a> (under review), 2011</li>
+</ul>
+
+<h2 id="people">People</h2>
+<ul>
+  <li><a href="/repo/people">Tim Menzies</a></li>
+  <li><a href="/repo/people">Justin Di Stefano</a></li>
+  <li><a href="/repo/people">Mike Chapman</a></li>
+  <li><a href="/repo/people">Pat Callis</a></li>
+  <li><a href="/repo/people">Andres Orrego</a></li>
+  <li><a href="/repo/people">Robert (Mike) Chapman</a></li>
+</ul>
+
+<h2 id="papers">Papers</h2>
+<p>“How Good is Your Blind Spot Sampling Policy?” by Tim Menzies and Justin S. Di~Stefano. 2004 IEEE Conference on High Assurance Software Engineering 2003 . Available from <a href="http://menzies.us/pdf/03blind.pdf">http://menzies.us/pdf/03blind.pdf</a>.</p>
+
+<p>“Assessing Predictors of Software Defects” by Tim Menzies and J. DiStefano and A. Orrego and R. Chapman. Proceedings, workshop on Predictive Software Models, Chicago 2004 . Available from <a href="http://menzies.us/pdf/04psm.pdf">http://menzies.us/pdf/04psm.pdf</a> .</p>
