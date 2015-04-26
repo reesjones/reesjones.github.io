@@ -1,0 +1,382 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>tera-PROMISE: taskdict dataset</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/css/style.css" rel="stylesheet">
+	
+	</head>
+	
+	<body>
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Left sidebar -->
+<div class="col-lg-2 col-md-2 col-sm-2" id="leftbar">
+	
+	<a href="/repo"><img src="/img/repologo.png" class="img-responsive hidden-xs"></a>
+	
+	<a href="/" class="btn btn-default btn-block" id="back-to-portal">
+		<span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+		Back to Portal
+	</a>
+	
+	<hr>
+	
+	<h2>Categories</h2>
+	
+	<ul class="nav nav-pills nav-stacked" id="category-list">
+		<li><a href="/repo/code-analysis">
+			Code Analysis 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/defect">
+			Defect 
+			<span class="badge">48</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/ck">
+			CK 
+			<span class="badge">33</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/mccabehalsted">
+			McCabe &amp; Halsted 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/other-defect">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/dump">
+			Dump 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/effort">
+			Effort 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cobol">
+			Cobol <span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cocomo">
+			Cocomo 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/function-points">
+			Function Points Analysis 
+			<span class="badge">4</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/isbsg">
+			ISBSG <span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/personnel">
+			Personnel 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/other-effort">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/green-mining">
+			Green Mining 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/issues">
+			Issues 
+			<span class="badge">16</span>
+		</a></li>
+		
+		<li><a href="/repo/model">
+			Model 
+			<span class="badge">3</span>
+		</a></li>
+		<li><a href="/repo/msr">
+			MSR 
+			<span class="badge">8</span>
+		</a></li>
+		
+		<li><a href="/repo/performance-predict">
+			Performance Predict 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/requirements">
+			Requirements 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/nrp">
+			NRP 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/other-requirements">
+			Other 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-Based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/social-analysis">
+			Social Analysis 
+			<span class="badge">0</span>
+		</a></li>
+		<li><a href="/repo/spreadsheet">
+			Spreadsheet 
+			<span class="badge">3</span>
+			</a></li>
+		
+		<li><a href="/repo/other">
+			Other 
+			<span class="badge">17</span>
+		</a></li>
+		
+		<br><br>
+	</ul>
+
+</div>
+
+				
+					<div class="col-sm-10 col-md-10 col-lg-10">
+
+	<!-- Content and right column -->
+	<div class="row"> 
+		<div class="col-sm-10 col-md-10 col-lg-10">
+			<!-- Menu bar -->
+<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12">
+		<br>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Homepage link -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/repo">Repo Home</a>
+				</div>
+				
+				<!-- Search bar -->
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group"> 
+						<input type="text" style="height: 2em;" class="form-control" placeholder="Search for a dataset..."> 
+					</div>
+					<button type="submit" class="btn btn-default" style="height: 100%;">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+				</form>
+				<!-- About/People/Blog/Contribute -->
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/repo/about">About</a></li>
+						<li><a href="/repo/people">People</a></li>
+						<li><a href="/repo/blog">Blog</a></li>
+						<li><a href="mailto:openscience.content@gmail.com">Contact</a></li>
+						<!-- Contribute menu -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contribute <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/repo/contribute">As a student</a></li>
+								<li><a href="/repo/contribute">As a researcher</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</nav>
+	</div>
+</div>
+		
+			<!-- Site path -->
+<ul class="breadcrumb">
+	
+	
+	
+		<li><a href="/
+			"> 
+			
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+			
+			
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/"> 
+			
+			repo
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				other/"> 
+			
+			other
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				other/
+				taskdict.html/"> 
+			
+			taskdict.html
+		</a></li>
+	
+</ul>
+
+			<br>
+			<h1 id="url">URL</h1>
+
+<ul>
+  <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/other/taskdict">Data in Terapromise</a></li>
+  <li><a href="http://dl.acm.org/citation.cfm?id=2597095">Paper in ACM Digital Library</a></li>
+</ul>
+
+<h1 id="change-log">Change Log</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>March 13, 2015</td>
+      <td>Donated by <a href="/repo/people/data-donors/promise4.html">Katja Kevic</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="reference">Reference</h1>
+
+<p>Studies who have been using the data (in any form) are required to add the following reference to their report/paper:</p>
+
+<p><code>
+@inproceedings{Kevic:2014:DTC:2597073.2597095,
+   author = {Kevic, Katja and Fritz, Thomas},
+   title = {A Dictionary to Translate Change Tasks to Source Code},
+   booktitle = {Proceedings of the 11th Working Conference on Mining Software Repositories},
+   series = {MSR 2014},
+   year = {2014},
+   isbn = {978-1-4503-2863-0},
+   location = {Hyderabad, India},
+   pages = {320--323},
+   numpages = {4},
+   url = {http://doi.acm.org/10.1145/2597073.2597095},
+   doi = {10.1145/2597073.2597095},
+   acmid = {2597095},
+   publisher = {ACM},
+   address = {New York, NY, USA},
+   keywords = {Dictionary, change task, interaction history, location},
+}
+</code></p>
+
+<h1 id="about-the-data">About the Data</h1>
+
+<p>For the empirical analysis, the authors created two datasets: dataset1 includes all change tasks 
+that have at least one change set associated with them; dataset 2 is a subset of dataset 1 and 
+includes all change tasks that have at least one change set and one task context associated. For 
+the AspectJ project the authors only created dataset 1, since only two tasks had a task context 
+associated. For each project the authors split each dataset into a training set to create the 
+dictionary and a test set. For reasonable training and test sets and to be able to compare them 
+across projects, they chose the test set size to be ten. Also, to be able to compare the results 
+of the dictionaries using dierent in-formation sources (change sets and/or task contexts) as well 
+as preserving the chronological order, they chose the last ten change tasks in dataset 2 as the 
+test set for Mylyn.Tasks,Mylyn. Context and Remus and the last ten change tasks in dataset 1 for 
+AspectJ. All change tasks that were resolved before the ones in the test set were used as the 
+training set.</p>
+
+<h2 id="paper-abstract">Paper Abstract</h2>
+
+<p>At the beginning of a change task, software developers spend a substantial amount of their time 
+searching and navigating to locate relevant parts in the source code. Current approaches to 
+support developers in this initial code search predominantly use information retrieval techniques 
+that leverage the similarity between task descriptions and the identifiers of code elements to 
+recommend relevant elements. However, the vocabulary or language used in source code often 
+differs from the one used for describing change tasks, especially since the people developing the 
+code are not the same as the ones reporting bugs or defining new features to be implemented. In 
+our work, we investigate the creation of a dictionary that maps the different vocabularies using 
+information from change sets and interaction histories stored with previously completed tasks. 
+In an empirical analysis on four open source projects, our approach substantially improved upon 
+the results of traditional information retrieval techniques for recommending relevant code 
+elements.</p>
+
+			
+			
+		</div>
+		
+		<div class="col-sm-2 col-md-2 col-lg-2" style="background-color: #fcbo3c;">
+			<br>
+
+<!-- Twitter feed -->
+<div class="row text-center">
+	<a class="twitter-timeline" href="https://twitter.com/promiserepo" data-widget-id="589936627964837888">Tweets by @promiserepo</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<hr>
+
+<div class="row text-center">
+	<a href="" class="btn btn-default no-border"><img src="/img/facebook.png"></a>
+	<a href="mailto:openscience.content@gmail.com" class="btn btn-default no-border"><img src="/img/gmail.png"></a>
+	<a href="https://github.com/opensciences/opensciences.github.io" class="btn btn-default no-border"><img src="/img/github.png"></a>
+</div>
+
+<hr>
+
+<div class="row text-center">
+    <a href="http://csc.ncsu.edu/" alt="N.C. State Computer Science Department Homepage"><img src="/img/csc-logo.jpg"></a>
+</div>
+
+		</div>
+	</div>
+</div>
+
+				</div>
+				
+<!--				<div class="row">
+					<footer class="footer">
+	<br>
+	<h4>Site built by Mitch Rees-Jones</h4>
+</footer>
+
+				</div>-->
+		
+				<!-- JQuery and Bootstrap -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+			</div>
+	</body>
+
+</html>

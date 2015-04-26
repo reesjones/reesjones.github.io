@@ -1,23 +1,9 @@
-/* Height of footer */
-@footer-height: 60px;
+@import "variables.less";
 
-
-/* Wrapper for page content to push down footer */
-#wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	
-	/* Negative indent footer by it's height */
-	margin: 0 auto -@footer-height;
-	
-	/* Pad bottom */
-	padding: 0 0 @footer-height;
-}
-
-#footer {
-	height: @footer-height;
-	background-color: #f5f5f5;
+.footer {
+	background-color: @gray-light;
+	color: #ffffff;
+	text-align: center;
 }
 
 /* The tera-PROMISE logo div */
@@ -60,3 +46,4 @@
 .twitter-timeline {
 
 }
+

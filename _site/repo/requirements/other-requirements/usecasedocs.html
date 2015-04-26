@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>tera-PROMISE: usecasedocs dataset</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/css/style.css" rel="stylesheet">
+	
+	</head>
+	
+	<body>
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Left sidebar -->
+<div class="col-lg-2 col-md-2 col-sm-2" id="leftbar">
+	
+	<a href="/repo"><img src="/img/repologo.png" class="img-responsive hidden-xs"></a>
+	
+	<a href="/" class="btn btn-default btn-block" id="back-to-portal">
+		<span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+		Back to Portal
+	</a>
+	
+	<hr>
+	
+	<h2>Categories</h2>
+	
+	<ul class="nav nav-pills nav-stacked" id="category-list">
+		<li><a href="/repo/code-analysis">
+			Code Analysis 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/defect">
+			Defect 
+			<span class="badge">48</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/ck">
+			CK 
+			<span class="badge">33</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/mccabehalsted">
+			McCabe &amp; Halsted 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/other-defect">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/dump">
+			Dump 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/effort">
+			Effort 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cobol">
+			Cobol <span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cocomo">
+			Cocomo 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/function-points">
+			Function Points Analysis 
+			<span class="badge">4</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/isbsg">
+			ISBSG <span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/personnel">
+			Personnel 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/other-effort">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/green-mining">
+			Green Mining 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/issues">
+			Issues 
+			<span class="badge">16</span>
+		</a></li>
+		
+		<li><a href="/repo/model">
+			Model 
+			<span class="badge">3</span>
+		</a></li>
+		<li><a href="/repo/msr">
+			MSR 
+			<span class="badge">8</span>
+		</a></li>
+		
+		<li><a href="/repo/performance-predict">
+			Performance Predict 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/requirements">
+			Requirements 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/nrp">
+			NRP 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/other-requirements">
+			Other 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-Based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/social-analysis">
+			Social Analysis 
+			<span class="badge">0</span>
+		</a></li>
+		<li><a href="/repo/spreadsheet">
+			Spreadsheet 
+			<span class="badge">3</span>
+			</a></li>
+		
+		<li><a href="/repo/other">
+			Other 
+			<span class="badge">17</span>
+		</a></li>
+		
+		<br><br>
+	</ul>
+
+</div>
+
+				
+					<div class="col-sm-10 col-md-10 col-lg-10">
+
+	<!-- Content and right column -->
+	<div class="row"> 
+		<div class="col-sm-10 col-md-10 col-lg-10">
+			<!-- Menu bar -->
+<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12">
+		<br>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Homepage link -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/repo">Repo Home</a>
+				</div>
+				
+				<!-- Search bar -->
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group"> 
+						<input type="text" style="height: 2em;" class="form-control" placeholder="Search for a dataset..."> 
+					</div>
+					<button type="submit" class="btn btn-default" style="height: 100%;">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+				</form>
+				<!-- About/People/Blog/Contribute -->
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/repo/about">About</a></li>
+						<li><a href="/repo/people">People</a></li>
+						<li><a href="/repo/blog">Blog</a></li>
+						<li><a href="mailto:openscience.content@gmail.com">Contact</a></li>
+						<!-- Contribute menu -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contribute <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/repo/contribute">As a student</a></li>
+								<li><a href="/repo/contribute">As a researcher</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</nav>
+	</div>
+</div>
+		
+			<!-- Site path -->
+<ul class="breadcrumb">
+	
+	
+	
+		<li><a href="/
+			"> 
+			
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+			
+			
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/"> 
+			
+			repo
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				requirements/"> 
+			
+			requirements
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				requirements/
+				other-requirements/"> 
+			
+			other-requirements
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				requirements/
+				other-requirements/
+				usecasedocs.html/"> 
+			
+			usecasedocs.html
+		</a></li>
+	
+</ul>
+
+			<br>
+			<h1 id="url">URL</h1>
+
+<ul>
+  <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/requirements/usecasedocs">Data in Terapromise</a></li>
+  <li><a href="http://dl.acm.org/citation.cfm?id=2642969">Paper in ACM Digital Library</a></li>
+</ul>
+
+<h1 id="change-log">Change Log</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>April 8th, 2015</td>
+      <td>Donated by <a href="/repo/people/data-donors/promise4.html">Shuang Liu</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="reference">Reference</h1>
+
+<p>Studies who have been using the data (in any form) are required to include the following reference:</p>
+
+<p><code>
+@inproceedings{Liu:2014:AED:2642937.2642969,
+   author = {Liu, Shuang and Sun, Jun and Liu, Yang and Zhang, Yue and Wadhwa, Bimlesh and Dong, Jin Song and Wang, Xinyu},
+   title = {Automatic Early Defects Detection in Use Case Documents},
+   booktitle = {Proceedings of the 29th ACM/IEEE International Conference on Automated Software Engineering},
+   series = {ASE '14},
+   year = {2014},
+   isbn = {978-1-4503-3013-8},
+   location = {Vasteras, Sweden},
+   pages = {785--790},
+   numpages = {6},
+   url = {http://doi.acm.org/10.1145/2642937.2642969},
+   doi = {10.1145/2642937.2642969},
+   acmid = {2642969},
+   publisher = {ACM},
+   address = {New York, NY, USA},
+   keywords = {natural language processing, use cases},
+}
+</code></p>
+
+<h1 id="about-the-data">About the Data</h1>
+
+<h2 id="overview-of-data">Overview of Data</h2>
+
+<p>It has been reported that “More than 60% of the errors in a software product are committed during the design and less than 40% during coding.”[1] and “Finding and fixing a software problem after delivery is often 100 times more expensive than finding and fixing it during the requirements and design phase” [2]. So finding defects in an early stage of software development is of great importance.</p>
+
+<p>Use cases are widely used in Model-Driven Development to capture user requirements. Since the majority part of a use case document is written in natural language, it is thus highly desirable to rely on advanced natural language processing techniques to automatic the procedure of defects detection in use case documents.</p>
+
+<h3 id="natural-language-parser">Natural Language Parser</h3>
+
+<p>Zpar is a statistical muti-language parser. It has the state-of-the-art speed and accuracy for both Chinese and English on standard Penn Treebank data. Zpar provides word segmentation, part-of-speech tagging, dependency parsing and phrase structure parsing functionalities.</p>
+
+<h3 id="use-case-defect-finder-ucdf">Use Case Defect Finder (UCDF)</h3>
+
+<p>We developed a tool (UCDF) to automatically analysis use case documents and find defects. The source code is available here.</p>
+
+<h3 id="input-use-case-documents">Input Use Case Documents</h3>
+
+<p>We tested UCDF on two use case documents (for real systems). One is a stock trading system and the other is a personalized health informatics system for a reference implementation for IEEEP2407-compliant system. The stock trading system is in real use, thus the specifications of the system are confidential. We release the use case document for the personalized health informatics system, the automated guided vehicle system, the emergency monitoring system and the online shopping system.</p>
+
+<h2 id="paper-abstract">Paper Abstract</h2>
+
+<p>Use cases, as the primary techniques in the user requirement analysis, have been widely adopted in the requirement engineering practice. As developed early, use cases also serve as the basis for function requirement development, system design and testing. Errors in the use cases could potentially lead to problems in the system design or implementation. It is thus highly desirable to detect errors in use cases. Automatically analyzing use case documents is challenging primarily because they are written in natural languages. In this work, we aim to achieve automatic defect detection in use case documents by leveraging on advanced parsing techniques. In our approach, we first parse the use case document using dependency parsing techniques. The parsing results of each use case are further processed to form an activity diagram. Lastly, we perform defect detection on the activity diagrams. To evaluate our approach, we have conducted experiments on 200+ real-world as well as academic use cases. The results show the effectiveness of our method.</p>
+
+			
+			
+		</div>
+		
+		<div class="col-sm-2 col-md-2 col-lg-2" style="background-color: #fcbo3c;">
+			<br>
+
+<!-- Twitter feed -->
+<div class="row text-center">
+	<a class="twitter-timeline" href="https://twitter.com/promiserepo" data-widget-id="589936627964837888">Tweets by @promiserepo</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<hr>
+
+<div class="row text-center">
+	<a href="" class="btn btn-default no-border"><img src="/img/facebook.png"></a>
+	<a href="mailto:openscience.content@gmail.com" class="btn btn-default no-border"><img src="/img/gmail.png"></a>
+	<a href="https://github.com/opensciences/opensciences.github.io" class="btn btn-default no-border"><img src="/img/github.png"></a>
+</div>
+
+<hr>
+
+<div class="row text-center">
+    <a href="http://csc.ncsu.edu/" alt="N.C. State Computer Science Department Homepage"><img src="/img/csc-logo.jpg"></a>
+</div>
+
+		</div>
+	</div>
+</div>
+
+				</div>
+				
+<!--				<div class="row">
+					<footer class="footer">
+	<br>
+	<h4>Site built by Mitch Rees-Jones</h4>
+</footer>
+
+				</div>-->
+		
+				<!-- JQuery and Bootstrap -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+			</div>
+	</body>
+
+</html>

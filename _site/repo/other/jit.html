@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>tera-PROMISE: jit dataset</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/css/style.css" rel="stylesheet">
+	
+	</head>
+	
+	<body>
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Left sidebar -->
+<div class="col-lg-2 col-md-2 col-sm-2" id="leftbar">
+	
+	<a href="/repo"><img src="/img/repologo.png" class="img-responsive hidden-xs"></a>
+	
+	<a href="/" class="btn btn-default btn-block" id="back-to-portal">
+		<span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+		Back to Portal
+	</a>
+	
+	<hr>
+	
+	<h2>Categories</h2>
+	
+	<ul class="nav nav-pills nav-stacked" id="category-list">
+		<li><a href="/repo/code-analysis">
+			Code Analysis 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/defect">
+			Defect 
+			<span class="badge">48</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/ck">
+			CK 
+			<span class="badge">33</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/mccabehalsted">
+			McCabe &amp; Halsted 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/other-defect">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/dump">
+			Dump 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/effort">
+			Effort 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cobol">
+			Cobol <span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cocomo">
+			Cocomo 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/function-points">
+			Function Points Analysis 
+			<span class="badge">4</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/isbsg">
+			ISBSG <span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/personnel">
+			Personnel 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/other-effort">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/green-mining">
+			Green Mining 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/issues">
+			Issues 
+			<span class="badge">16</span>
+		</a></li>
+		
+		<li><a href="/repo/model">
+			Model 
+			<span class="badge">3</span>
+		</a></li>
+		<li><a href="/repo/msr">
+			MSR 
+			<span class="badge">8</span>
+		</a></li>
+		
+		<li><a href="/repo/performance-predict">
+			Performance Predict 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/requirements">
+			Requirements 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/nrp">
+			NRP 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/other-requirements">
+			Other 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-Based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/social-analysis">
+			Social Analysis 
+			<span class="badge">0</span>
+		</a></li>
+		<li><a href="/repo/spreadsheet">
+			Spreadsheet 
+			<span class="badge">3</span>
+			</a></li>
+		
+		<li><a href="/repo/other">
+			Other 
+			<span class="badge">17</span>
+		</a></li>
+		
+		<br><br>
+	</ul>
+
+</div>
+
+				
+					<div class="col-sm-10 col-md-10 col-lg-10">
+
+	<!-- Content and right column -->
+	<div class="row"> 
+		<div class="col-sm-10 col-md-10 col-lg-10">
+			<!-- Menu bar -->
+<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12">
+		<br>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Homepage link -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/repo">Repo Home</a>
+				</div>
+				
+				<!-- Search bar -->
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group"> 
+						<input type="text" style="height: 2em;" class="form-control" placeholder="Search for a dataset..."> 
+					</div>
+					<button type="submit" class="btn btn-default" style="height: 100%;">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+				</form>
+				<!-- About/People/Blog/Contribute -->
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/repo/about">About</a></li>
+						<li><a href="/repo/people">People</a></li>
+						<li><a href="/repo/blog">Blog</a></li>
+						<li><a href="mailto:openscience.content@gmail.com">Contact</a></li>
+						<!-- Contribute menu -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contribute <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/repo/contribute">As a student</a></li>
+								<li><a href="/repo/contribute">As a researcher</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</nav>
+	</div>
+</div>
+		
+			<!-- Site path -->
+<ul class="breadcrumb">
+	
+	
+	
+		<li><a href="/
+			"> 
+			
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+			
+			
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/"> 
+			
+			repo
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				other/"> 
+			
+			other
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				other/
+				jit.html/"> 
+			
+			jit.html
+		</a></li>
+	
+</ul>
+
+			<br>
+			<h1 id="url">URL</h1>
+
+<ul>
+  <li><a href="https://terapromise.csc.ncsu.edu:8443/!/#repo/view/head/other/jit">Data in Terapromise</a></li>
+  <li><a href="http://posl.ait.kyushu-u.ac.jp/~kamei/publications/Fukushima_MSR2014.pdf">Paper link</a></li>
+</ul>
+
+<h1 id="change-log">Change Log</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>April 9th, 2015</td>
+      <td>Donated by <a href="/repo/people/data-donors/promise4.html">Takafumi Fukushima</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="reference">Reference</h1>
+
+<p>Studies who have been using the data (in any form) are required to include the following reference:</p>
+
+<p><code>
+@inproceedings{fukushima2014empirical,
+  title={An empirical study of just-in-time defect prediction using cross-project models},
+  author={Fukushima, Takafumi and Kamei, Yasutaka and McIntosh, Shane and Yamashita, Kazuhiro and Ubayashi, Naoyasu},
+  booktitle={Proceedings of the 11th Working Conference on Mining Software Repositories},
+  pages={172--181},
+  year={2014},
+  organization={ACM}
+}
+</code></p>
+
+<h1 id="about-the-data">About the Data</h1>
+
+<h2 id="overview-of-data">Overview of Data</h2>
+
+<p>JDT: <em>eclipse-cvs-jdt.tgz</em> (1.10G, retrieved on 2006-11-25)</p>
+
+<p>SWT: <em>eclipse-cvs-swt.tgz</em> (488M, retrieved on 2006-11-25)</p>
+
+<p>Rest: <em>eclipse-cvs-rest.tgz</em> (1.82G, retrieved on 2006-11-25)</p>
+
+<p><strong>Eclipse Bugzilla export (in XML):</strong></p>
+
+<p>Bugs: 1-162656: <em>eclipse-bugs.zip</em> (125M, retrieved on 2006-10-30)</p>
+
+<p>Firefox/Mozilla CVS repository: <em>mozilla-cvs.tgz</em> (609M, retrieved on 2006-12-17)</p>
+
+<p><strong>Firefox/Mozilla Bugzilla export (in XML):</strong></p>
+
+<p>Bugs 35-100000: <em>mozilla-bugs-000001-100000.zip</em> (886M, retrieved on 2007-01-06)</p>
+
+<p>Bugs 100001-200000: <em>mozilla-bugs-100001-200000.zip</em> (1.10G, retrieved on 2007-01-06)</p>
+
+<p>Bugs 200001-300000: <em>mozilla-bugs-200001-300000.zip</em> (1.00G, retrieved on 2007-01-06)</p>
+
+<p>Bugs 300001-366112: <em>mozilla-bugs-300001-367500.zip</em> (724M, retrieved on 2007-01-06)</p>
+
+<p><strong>Eclipse CVS repository in TARE format:</strong></p>
+
+<p><em>eclipse-tare.tgz</em> (247M, retrieved by Tom Zimmermann on 2006-11-25)</p>
+
+<p><strong>Eclipse Bug Data (more details):</strong></p>
+
+<p><em>eclipse-bug-data-1.1a.zip</em> (920K, retrieved by Adrian Schröter)</p>
+
+<p><strong>Eclipse CVS repository:</strong></p>
+
+<p>JDT: <em>eclipse-cvs-jdt.tgz</em> (1.1G, retrieved on 2007-12-19 by Thomas Zimmermann)</p>
+
+<p>SWT: <em>eclipse-cvs-swt.tgz</em> (686M, retrieved on 2007-12-19 by Thomas Zimmermann)</p>
+
+<p>Platform: <em>eclipse-cvs-plarform.tgz</em> (686M, retrieved on 2007-12-19 by Thomas Zimmermann)</p>
+
+<p>Rest: <em>eclipse-cvs-rest.tgz</em> (1.7G, retrieved on 2007-12-19 by Thomas Zimmermann)</p>
+
+<p><strong>Eclipse Bugzilla export (in XML):</strong></p>
+
+<p>Bugs: 1-213000: <em>eclipse-bugs–000001-213000.zip</em> (3.2G, retrieved on 2007-12-19 by Thomas Zimmermann)</p>
+
+<h2 id="paper-abstract">Paper Abstract</h2>
+
+<p>Prior research suggests that predicting defect-inducing changes,
+i.e., Just-In-Time (JIT) defect prediction is a more practical
+alternative to traditional defect prediction techniques, providing
+immediate feedback while design decisions are still
+fresh in the minds of developers. Unfortunately, similar to
+traditional defect prediction models, JIT models require a
+large amount of training data, which is not available when
+projects are in initial development phases. To address this
+flaw in traditional defect prediction, prior work has proposed
+cross-project models, i.e., models learned from older
+projects with su!cient history. However, cross-project models
+have not yet been explored in the context of JIT prediction.
+Therefore, in this study, we empirically evaluate the
+performance of JIT cross-project models. Through a case
+study on 11 open source projects, we find that in a JIT
+cross-project context: (1) high performance within-project
+models rarely perform well; (2) models trained on projects
+that have similar correlations between predictor and dependent
+variables often perform well; and (3) ensemble learning
+techniques that leverage historical data from several other
+projects (e.g., voting experts) often perform well. Our findings
+empirically confirm that JIT cross-project models learned
+using other projects are a viable solution for projects with
+little historical data. However, JIT cross-project models perform
+best when the data used to learn them is carefully selected.</p>
+
+			
+			
+		</div>
+		
+		<div class="col-sm-2 col-md-2 col-lg-2" style="background-color: #fcbo3c;">
+			<br>
+
+<!-- Twitter feed -->
+<div class="row text-center">
+	<a class="twitter-timeline" href="https://twitter.com/promiserepo" data-widget-id="589936627964837888">Tweets by @promiserepo</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<hr>
+
+<div class="row text-center">
+	<a href="" class="btn btn-default no-border"><img src="/img/facebook.png"></a>
+	<a href="mailto:openscience.content@gmail.com" class="btn btn-default no-border"><img src="/img/gmail.png"></a>
+	<a href="https://github.com/opensciences/opensciences.github.io" class="btn btn-default no-border"><img src="/img/github.png"></a>
+</div>
+
+<hr>
+
+<div class="row text-center">
+    <a href="http://csc.ncsu.edu/" alt="N.C. State Computer Science Department Homepage"><img src="/img/csc-logo.jpg"></a>
+</div>
+
+		</div>
+	</div>
+</div>
+
+				</div>
+				
+<!--				<div class="row">
+					<footer class="footer">
+	<br>
+	<h4>Site built by Mitch Rees-Jones</h4>
+</footer>
+
+				</div>-->
+		
+				<!-- JQuery and Bootstrap -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+			</div>
+	</body>
+
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>tera-PROMISE: nasa93 dataset</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/css/style.css" rel="stylesheet">
+	
+	</head>
+	
+	<body>
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Left sidebar -->
+<div class="col-lg-2 col-md-2 col-sm-2" id="leftbar">
+	
+	<a href="/repo"><img src="/img/repologo.png" class="img-responsive hidden-xs"></a>
+	
+	<a href="/" class="btn btn-default btn-block" id="back-to-portal">
+		<span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+		Back to Portal
+	</a>
+	
+	<hr>
+	
+	<h2>Categories</h2>
+	
+	<ul class="nav nav-pills nav-stacked" id="category-list">
+		<li><a href="/repo/code-analysis">
+			Code Analysis 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/defect">
+			Defect 
+			<span class="badge">48</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/ck">
+			CK 
+			<span class="badge">33</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/mccabehalsted">
+			McCabe &amp; Halsted 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/other-defect">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/dump">
+			Dump 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/effort">
+			Effort 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cobol">
+			Cobol <span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cocomo">
+			Cocomo 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/function-points">
+			Function Points Analysis 
+			<span class="badge">4</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/isbsg">
+			ISBSG <span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/personnel">
+			Personnel 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/other-effort">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/green-mining">
+			Green Mining 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/issues">
+			Issues 
+			<span class="badge">16</span>
+		</a></li>
+		
+		<li><a href="/repo/model">
+			Model 
+			<span class="badge">3</span>
+		</a></li>
+		<li><a href="/repo/msr">
+			MSR 
+			<span class="badge">8</span>
+		</a></li>
+		
+		<li><a href="/repo/performance-predict">
+			Performance Predict 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/requirements">
+			Requirements 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/nrp">
+			NRP 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/other-requirements">
+			Other 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-Based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/social-analysis">
+			Social Analysis 
+			<span class="badge">0</span>
+		</a></li>
+		<li><a href="/repo/spreadsheet">
+			Spreadsheet 
+			<span class="badge">3</span>
+			</a></li>
+		
+		<li><a href="/repo/other">
+			Other 
+			<span class="badge">17</span>
+		</a></li>
+		
+		<br><br>
+	</ul>
+
+</div>
+
+				
+					<div class="col-sm-10 col-md-10 col-lg-10">
+
+	<!-- Content and right column -->
+	<div class="row"> 
+		<div class="col-sm-10 col-md-10 col-lg-10">
+			<!-- Menu bar -->
+<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12">
+		<br>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Homepage link -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/repo">Repo Home</a>
+				</div>
+				
+				<!-- Search bar -->
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group"> 
+						<input type="text" style="height: 2em;" class="form-control" placeholder="Search for a dataset..."> 
+					</div>
+					<button type="submit" class="btn btn-default" style="height: 100%;">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+				</form>
+				<!-- About/People/Blog/Contribute -->
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/repo/about">About</a></li>
+						<li><a href="/repo/people">People</a></li>
+						<li><a href="/repo/blog">Blog</a></li>
+						<li><a href="mailto:openscience.content@gmail.com">Contact</a></li>
+						<!-- Contribute menu -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contribute <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/repo/contribute">As a student</a></li>
+								<li><a href="/repo/contribute">As a researcher</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</nav>
+	</div>
+</div>
+		
+			<!-- Site path -->
+<ul class="breadcrumb">
+	
+	
+	
+		<li><a href="/
+			"> 
+			
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+			
+			
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/"> 
+			
+			repo
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				effort/"> 
+			
+			effort
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				effort/
+				cocomo/"> 
+			
+			cocomo
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				effort/
+				cocomo/
+				nasa93.html/"> 
+			
+			nasa93.html
+		</a></li>
+	
+</ul>
+
+			<br>
+			<p>This is a cross-listed data set that contains effort <em>and</em> defect information.</p>
+
+<p>This data uses the attributes defined in the <a href="http://openscience.us/repo/model">model</a>.</p>
+
+<h1 id="url">URL</h1>
+
+<ul>
+  <li>Latest version:
+    <ul>
+      <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/effort/cocomo/cocomo2/nasa93-dem/nasa93-dem.arff">nasa93-dem</a> (with defect and month counts)</li>
+      <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/effort/cocomo/cocomo1/nasa93/nasa93.arff">nasa93</a></li>
+    </ul>
+  </li>
+  <li>With change log:
+    <ul>
+      <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/effort/cocomo/cocomo2/nasa93-dem">nasa93-dem</a> (with defect and month counts)</li>
+      <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/effort/cocomo/cocomo1/nasa93">nasa93</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="change-log">Change Log</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>March  2010</td>
+      <td>JPL experts added expected number of defects and months to create nasa93-dem</td>
+    </tr>
+    <tr>
+      <td>February 8, 2006</td>
+      <td>Donated by <a href="/repo/people/data-donors/promise3.html">Tim Menzies</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="notes-from-the-author">Notes from the Author</h1>
+
+<ul>
+  <li>Title/Topic: COCOMO NASA 2 / Software cost estimation</li>
+</ul>
+
+<h2 id="sources">Sources</h2>
+
+<ul>
+  <li>93 NASA projects from different centers for projects from the following years:</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>n</th>
+      <th>year</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1971</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1974</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1975</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1976</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>1977</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>1978</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>1979</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>1980</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>1982</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>1983</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>1984</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>1985</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>1986</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1987</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Collected by: Jairus Hihn, JPL, NASA, Manager SQIP Measurement &amp; Benchmarking Element. Phone (818) 354-1248 (Jairus.M.Hihn@jpl.nasa.gov)</li>
+</ul>
+
+<h2 id="past-usage">Past Usage</h2>
+
+<ul>
+  <li>None with this specific data set. But for older work on similar data, see:
+    <ul>
+      <li>“Validation Methods for Calibrating Software Effort Models”, T. Menzies and D. Port and Z. Chen and J. Hihn and S. Stukes, Proceedings ICSE 2005,<a href="http://menzies.us/pdf/04coconut.pdf">http://menzies.us/pdf/04coconut.pdf</a></li>
+      <li>Results:
+        <ul>
+          <li>Given background knowledge on 60 prior projects, a new cost model can be tuned to local data using as little as 20 new projects.</li>
+          <li>A very simple calibration method (COCONUT) can achieve PRED(30)=7% or PRED(20)=50% (after 20 projects).  These are results seen in 30 repeats of an incremental cross-validation study.</li>
+          <li>Two cost models are compared; one based on just lines of code and one using over a dozen “effort multipliers”. Just using lines of code loses 10 to 20 PRED(N) points.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Additional Usage:
+    <ul>
+      <li>“Feature Subset Selection Can Improve Software Cost Estimation Accuracy” Zhihao Chen, Tim Menzies, Dan Port and Barry Boehm Proceedings PROMISE Workshop 2005,<a href="http://promise.site.uottawa.ca/proceedings/pdf/1.pdf">http://promise.site.uottawa.ca/proceedings/pdf/1.pdf</a> P02, P03, P04 are used in this paper.</li>
+      <li>Results
+        <ul>
+          <li>To the best of our knowledge, this is the first report of applying feature subset selection (FSS) to software effort data.</li>
+          <li>FSS can dramatically improve cost estimation.</li>
+          <li>T-tests are applied to the results to demonstrate that always in our data sets, removing attributes improves performance without increasing the variance in model behavior.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="relevant-information">Relevant Information</h2>
+
+<h3 id="number-of-instances">Number of instances</h3>
+
+<p>93</p>
+
+<h3 id="number-of-attributes">Number of attributes</h3>
+
+<p>24:</p>
+
+<ul>
+  <li>15 standard COCOMO-I discrete  attributes in the range Very_Low to Extra_High</li>
+  <li>7 others describing the project</li>
+  <li>one lines of code measure</li>
+  <li>one goal field being the actual effort in person months.</li>
+</ul>
+
+<h1 id="reference">Reference</h1>
+
+<p>See above section “Relevant Information” for further reference.</p>
+
+<h2 id="people">People</h2>
+
+<ul>
+  <li><a href="/repo/people">Tim Menzies</a></li>
+</ul>
+
+			
+			
+		</div>
+		
+		<div class="col-sm-2 col-md-2 col-lg-2" style="background-color: #fcbo3c;">
+			<br>
+
+<!-- Twitter feed -->
+<div class="row text-center">
+	<a class="twitter-timeline" href="https://twitter.com/promiserepo" data-widget-id="589936627964837888">Tweets by @promiserepo</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<hr>
+
+<div class="row text-center">
+	<a href="" class="btn btn-default no-border"><img src="/img/facebook.png"></a>
+	<a href="mailto:openscience.content@gmail.com" class="btn btn-default no-border"><img src="/img/gmail.png"></a>
+	<a href="https://github.com/opensciences/opensciences.github.io" class="btn btn-default no-border"><img src="/img/github.png"></a>
+</div>
+
+<hr>
+
+<div class="row text-center">
+    <a href="http://csc.ncsu.edu/" alt="N.C. State Computer Science Department Homepage"><img src="/img/csc-logo.jpg"></a>
+</div>
+
+		</div>
+	</div>
+</div>
+
+				</div>
+				
+<!--				<div class="row">
+					<footer class="footer">
+	<br>
+	<h4>Site built by Mitch Rees-Jones</h4>
+</footer>
+
+				</div>-->
+		
+				<!-- JQuery and Bootstrap -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+			</div>
+	</body>
+
+</html>

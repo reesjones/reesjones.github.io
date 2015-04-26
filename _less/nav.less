@@ -9,7 +9,7 @@
 /*********************/
 
 .breadcrumb a, .breadcrumb li {
-	font-size: @font-size-h3;
+	font-size: @font-size-h4;
 	text-transform: lowercase;
 }
 
@@ -84,27 +84,39 @@
 
 /* Hover color of navbar list elements */
 .navbar li:hover {
-	background-color: @link-hover-color;
+	background-color: @gray-dark;
 }
 
 /* Hover color of navbar header element */
 .navbar-brand:hover {
-	background-color: @link-hover-color;
+	background-color: @gray-dark;
 }
 
 
 /************************/
 /* Left category navbar */
 /************************/
+
 /* Leftbar */
 #leftbar {
     background-color: @gray-lighter;
     border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+	border-radius: 0px 0px @border-radius-base 0px;
+	height: auto;
 }
 
 /* li elements in the category ul in leftbar */
 #category-list li {
-    height: 30px;
+
+	:hover {
+		background-color: @gray-dark;
+	}
+	
+	a {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
 }
 
 /* A subcategory in leftbar */

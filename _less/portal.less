@@ -1,3 +1,5 @@
+@import "variables.less";
+
 .thumbnail img {
 	min-height: 100px;
 	height: 100px;
@@ -8,4 +10,18 @@
 }
 hr {
 	border: 1px solid lighten(black, 70%);
+}
+
+.no-underline {
+	text-decoration: none;
+	
+	:active {
+		text-decoration: none;
+	}
+	:focus {
+		text-decoration: none;
+	}
+	:hover {
+		text-decoration: none;
+	}
 }

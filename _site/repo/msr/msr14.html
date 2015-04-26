@@ -1,0 +1,828 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<title>tera-PROMISE: msr14 dataset</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/css/style.css" rel="stylesheet">
+	
+	</head>
+	
+	<body>
+			<div class="container-fluid">
+				<div class="row">
+					<!-- Left sidebar -->
+<div class="col-lg-2 col-md-2 col-sm-2" id="leftbar">
+	
+	<a href="/repo"><img src="/img/repologo.png" class="img-responsive hidden-xs"></a>
+	
+	<a href="/" class="btn btn-default btn-block" id="back-to-portal">
+		<span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+		Back to Portal
+	</a>
+	
+	<hr>
+	
+	<h2>Categories</h2>
+	
+	<ul class="nav nav-pills nav-stacked" id="category-list">
+		<li><a href="/repo/code-analysis">
+			Code Analysis 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/defect">
+			Defect 
+			<span class="badge">48</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/ck">
+			CK 
+			<span class="badge">33</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/mccabehalsted">
+			McCabe &amp; Halsted 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/other-defect">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/dump">
+			Dump 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/effort">
+			Effort 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cobol">
+			Cobol <span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cocomo">
+			Cocomo 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/function-points">
+			Function Points Analysis 
+			<span class="badge">4</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/isbsg">
+			ISBSG <span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/personnel">
+			Personnel 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/other-effort">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/green-mining">
+			Green Mining 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/issues">
+			Issues 
+			<span class="badge">16</span>
+		</a></li>
+		
+		<li><a href="/repo/model">
+			Model 
+			<span class="badge">3</span>
+		</a></li>
+		<li><a href="/repo/msr">
+			MSR 
+			<span class="badge">8</span>
+		</a></li>
+		
+		<li><a href="/repo/performance-predict">
+			Performance Predict 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/requirements">
+			Requirements 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/nrp">
+			NRP 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/other-requirements">
+			Other 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-Based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/social-analysis">
+			Social Analysis 
+			<span class="badge">0</span>
+		</a></li>
+		<li><a href="/repo/spreadsheet">
+			Spreadsheet 
+			<span class="badge">3</span>
+			</a></li>
+		
+		<li><a href="/repo/other">
+			Other 
+			<span class="badge">17</span>
+		</a></li>
+		
+		<br><br>
+	</ul>
+
+</div>
+
+				
+					<div class="col-sm-10 col-md-10 col-lg-10">
+
+	<!-- Content and right column -->
+	<div class="row"> 
+		<div class="col-sm-10 col-md-10 col-lg-10">
+			<!-- Menu bar -->
+<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12">
+		<br>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Homepage link -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/repo">Repo Home</a>
+				</div>
+				
+				<!-- Search bar -->
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group"> 
+						<input type="text" style="height: 2em;" class="form-control" placeholder="Search for a dataset..."> 
+					</div>
+					<button type="submit" class="btn btn-default" style="height: 100%;">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+				</form>
+				<!-- About/People/Blog/Contribute -->
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/repo/about">About</a></li>
+						<li><a href="/repo/people">People</a></li>
+						<li><a href="/repo/blog">Blog</a></li>
+						<li><a href="mailto:openscience.content@gmail.com">Contact</a></li>
+						<!-- Contribute menu -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contribute <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/repo/contribute">As a student</a></li>
+								<li><a href="/repo/contribute">As a researcher</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</nav>
+	</div>
+</div>
+		
+			<!-- Site path -->
+<ul class="breadcrumb">
+	
+	
+	
+		<li><a href="/
+			"> 
+			
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+			
+			
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/"> 
+			
+			repo
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				msr/"> 
+			
+			msr
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				msr/
+				msr14.html/"> 
+			
+			msr14.html
+		</a></li>
+	
+</ul>
+
+			<br>
+			<h1 id="url">URL</h1>
+
+<p>The dataset contains 90 GitHub projects and their folks that are not randomly selected and thus not representative of GitHub.</p>
+
+<ul>
+  <li><a href="http://ghtorrent.org/downloads/msr14-mongo.tar.gz">MongoDB dump on ghtorrent (external)</a></li>
+  <li><a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/other/msr14">MySQL dump in Terapromise</a></li>
+</ul>
+
+<h3 id="challenge-chair">Challenge Chair</h3>
+
+<ul>
+  <li><a href="/repo/people/data-donors/promise4.html">Olga Baysal</a></li>
+</ul>
+
+<h1 id="overview">Overview</h1>
+
+<p>The International Working Conference on Mining Software Repositories (MSR) has hosted a mining challenge since 2006. With this challenge we call upon everyone interested to apply their tools to bring research and industry closer together by analyzing a common data set. The challenge is for researchers and practitioners who bravely put their mining tools and approaches on a dare.</p>
+
+<p>In 2014, the challenge was on the <em>GitHub</em> data. We provide the data for the GitHub repository and you should use your brain, tools, computational power, and magic to uncover interesting findings related to it.</p>
+
+<h1 id="challenge-data">Challenge Data</h1>
+
+<p>This year, the focus of the challenge is the GitHub data. <a href="https://github.com/">GitHub</a> is a web-based service providing a collaborative software development environment and a social network for developers. We provide you with the dataset extracted from GHTorrent by <a href="http://www.gousios.gr/">Georgios Gousios</a>.</p>
+
+<p>When you use the data provided by the MSR 2014 Challenge, we ask you to cite it as following:</p>
+
+<p><code>
+@inproceedings{Gousi13,
+  author = {Gousios, Georgios},
+  title = {The GHTorrent dataset and tool suite},
+  booktitle = {Proceedings of the 10th Working Conference on Mining Software Repositories},
+  series = {MSR'13},
+  year = {2013},
+  isbn = {978-1-4673-2936-1},
+  location = {San Francisco, CA, USA},
+  pages = {233--236},
+  numpages = {4},
+  url = {http://dl.acm.org/citation.cfm?id=2487085.2487132}
+}
+</code></p>
+
+<h1 id="dataset-description">Dataset Description</h1>
+
+<p>The MSR 2014 challenge dataset is a (very) trimmed down version of the original GHTorrent dataset. It includes data from the top-10 starred software projects for the top programming languages on Github, which gives 90 projects and their forks. For each project, we retrieved all data including issues, pull requests organizations, followers, stars and labels (milestones and events not included). The dataset was constructed from scratch to ensure the latest information is in it.</p>
+
+<p>Similarly to GHTorrent itself, the MSR challenge dataset comes in two flavours:</p>
+
+<ul>
+  <li>A <a href="http://ghtorrent.org/downloads/msr14-mongo.tar.gz">MongoDB database dump</a> containing the results of querying the Github API. See format below.</li>
+  <li>A <a href="https://terapromise.csc.ncsu.edu:8443/svn/repo/other/msr14">MySQL database dump</a> containing a queriable version of important fields extracted from the raw data. See schema below.</li>
+</ul>
+
+<p>The included projects are the following:</p>
+
+<ul>
+  <li><a href="http://github.com/akka/akka">akka/akka</a></li>
+  <li><a href="http://github.com/hadley/devtools">devtools/hadley</a></li>
+  <li><a href="http://github.com/johnmyleswhite/ProjectTemplate">ProjectTemplate/johnmyleswhite</a></li>
+  <li><a href="http://github.com/mavam/stat-cookbook">stat-cookbook/mavam</a></li>
+  <li><a href="http://github.com/facebook/hiphop-php">hiphop-php/facebook</a></li>
+  <li><a href="http://github.com/yihui/knitr">knitr/yihui</a></li>
+  <li><a href="http://github.com/rstudio/shiny">shiny/rstudio</a></li>
+  <li><a href="http://github.com/facebook/folly">folly/facebook</a></li>
+  <li><a href="http://github.com/mongodb/mongo">mongo/mongodb</a></li>
+  <li><a href="http://github.com/TTimo/doom3.gpl">doom3.gpl/TTimo</a></li>
+  <li><a href="http://github.com/ariya/phantomjs">phantomjs/ariya</a></li>
+  <li><a href="http://github.com/TrinityCore/TrinityCore">TrinityCore/TrinityCore</a></li>
+  <li><a href="http://github.com/mangos/MaNGOS">MaNGOS/mangos</a></li>
+  <li><a href="http://github.com/bitcoin/bitcoin">bitcoin/bitcoin</a></li>
+  <li><a href="http://github.com/keithw/mosh">mosh/keithw</a></li>
+  <li><a href="http://github.com/xbmc/xbmc">xbmc/xbmc</a></li>
+  <li><a href="http://github.com/joyent/http-parser">http-parser/joyent</a></li>
+  <li><a href="http://github.com/kr/beanstalkd">beanstalkd/kr</a></li>
+  <li><a href="http://github.com/antirez/redis">redis/antirez</a></li>
+  <li><a href="http://github.com/liuliu/ccv">ccv/liuliu</a></li>
+  <li><a href="http://github.com/memcached/memcached">memcached/memcached</a></li>
+  <li><a href="http://github.com/openframeworks/openFrameworks">openFrameworks/openframeworks</a></li>
+  <li><a href="http://github.com/libgit2/libgit2">libgit2/libgit2</a></li>
+  <li><a href="http://github.com/vmg/redcarpet">redcarpet/vmg</a></li>
+  <li><a href="http://github.com/joyent/libuv">libuv/joyent</a></li>
+  <li><a href="http://github.com/SignalR/SignalR">SignalR/SignalR</a></li>
+  <li><a href="http://github.com/hbons/SparkleShare">SparkleShare/hbons</a></li>
+  <li><a href="http://github.com/moxiecode/plupload">plupload/moxiecode</a></li>
+  <li><a href="http://github.com/mono/mono">mono/mono</a></li>
+  <li><a href="http://github.com/NancyFx/Nancy">Nancy/NancyFx</a></li>
+  <li><a href="http://github.com/ServiceStack/ServiceStack">ServiceStack/ServiceStack</a></li>
+  <li><a href="http://github.com/AutoMapper/AutoMapper">AutoMapper/AutoMapper</a></li>
+  <li><a href="http://github.com/restsharp/RestSharp">RestSharp/restsharp</a></li>
+  <li><a href="http://github.com/ravendb/ravendb">ravendb/ravendb</a></li>
+  <li><a href="http://github.com/SamSaffron/MiniProfiler">MiniProfiler/SamSaffron</a></li>
+  <li><a href="http://github.com/nathanmarz/storm">storm/nathanmarz</a></li>
+  <li><a href="http://github.com/elasticsearch/elasticsearch">elasticsearch/elasticsearch</a></li>
+  <li><a href="http://github.com/JakeWharton/ActionBarSherlock">ActionBarSherlock/JakeWharton</a></li>
+  <li><a href="http://github.com/facebook/facebook-android-sdk">facebook-android-sdk/facebook</a></li>
+  <li><a href="http://github.com/clojure/clojure">clojure/clojure</a></li>
+  <li><a href="http://github.com/Bukkit/CraftBukkit">CraftBukkit/Bukkit</a></li>
+  <li><a href="http://github.com/netty/netty">netty/netty</a></li>
+  <li><a href="http://github.com/github/android">android/github</a></li>
+  <li><a href="http://github.com/joyent/node">node/joyent</a></li>
+  <li><a href="http://github.com/jquery/jquery">jquery/jquery</a></li>
+  <li><a href="http://github.com/h5bp/html5-boilerplate">html5-boilerplate/h5bp</a></li>
+  <li><a href="http://github.com/bartaz/impress.js">impress.js/bartaz</a></li>
+  <li><a href="http://github.com/mbostock/d3">d3/mbostock</a></li>
+  <li><a href="http://github.com/harvesthq/chosen">chosen/harvesthq</a></li>
+  <li><a href="http://github.com/FortAwesome/Font-Awesome">Font-Awesome/FortAwesome</a></li>
+  <li><a href="http://github.com/mrdoob/three.js">three.js/mrdoob</a></li>
+  <li><a href="http://github.com/zurb/foundation">foundation/zurb</a></li>
+  <li><a href="http://github.com/symfony/symfony">symfony/symfony</a></li>
+  <li><a href="http://github.com/EllisLab/CodeIgniter">CodeIgniter/EllisLab</a></li>
+  <li><a href="http://github.com/facebook/php-sdk">php-sdk/facebook</a></li>
+  <li><a href="http://github.com/zendframework/zf2">zf2/zendframework</a></li>
+  <li><a href="http://github.com/cakephp/cakephp">cakephp/cakephp</a></li>
+  <li><a href="http://github.com/ginatrapani/ThinkUp">ThinkUp/ginatrapani</a></li>
+  <li><a href="http://github.com/sebastianbergmann/phpunit">phpunit/sebastianbergmann</a></li>
+  <li><a href="http://github.com/codeguy/Slim">Slim/codeguy</a></li>
+  <li><a href="http://github.com/django/django">django/django</a></li>
+  <li><a href="http://github.com/facebook/tornado">tornado/facebook</a></li>
+  <li><a href="http://github.com/jkbr/httpie">httpie/jkbr</a></li>
+  <li><a href="http://github.com/mitsuhiko/flask">flask/mitsuhiko</a></li>
+  <li><a href="http://github.com/kennethreitz/requests">requests/kennethreitz</a></li>
+  <li><a href="http://github.com/xphere-forks/symfony">symfony/xphere-forks</a></li>
+  <li><a href="http://github.com/reddit/reddit">reddit/reddit</a></li>
+  <li><a href="http://github.com/boto/boto">boto/boto</a></li>
+  <li><a href="http://github.com/django-debug-toolbar/django-debug-toolbar">django-debug-toolbar/django-debug-toolbar</a></li>
+  <li><a href="http://github.com/midgetspy/Sick-Beard">Sick-Beard/midgetspy</a></li>
+  <li><a href="http://github.com/divio/django-cms">django-cms/divio</a></li>
+  <li><a href="http://github.com/rails/rails">rails/rails</a></li>
+  <li><a href="http://github.com/mxcl/homebrew">homebrew/mxcl</a></li>
+  <li><a href="http://github.com/mojombo/jekyll">jekyll/mojombo</a></li>
+  <li><a href="http://github.com/gitlabhq/gitlabhq">gitlabhq/gitlabhq</a></li>
+  <li><a href="http://github.com/diaspora/diaspora">diaspora/diaspora</a></li>
+  <li><a href="http://github.com/plataformatec/devise">devise/plataformatec</a></li>
+  <li><a href="http://github.com/joshuaclayton/blueprint-css">blueprint-css/joshuaclayton</a></li>
+  <li><a href="http://github.com/imathis/octopress">octopress/imathis</a></li>
+  <li><a href="http://github.com/vinc/vinc.cc">vinc.cc/vinc</a></li>
+  <li><a href="http://github.com/thoughtbot/paperclip">paperclip/thoughtbot</a></li>
+  <li><a href="http://github.com/chriseppstein/compass">compass/chriseppstein</a></li>
+  <li><a href="http://github.com/twitter/finagle">finagle/twitter</a></li>
+  <li><a href="http://github.com/robey/kestrel">kestrel/robey</a></li>
+  <li><a href="http://github.com/twitter/flockdb">flockdb/twitter</a></li>
+  <li><a href="http://github.com/twitter/gizzard">gizzard/twitter</a></li>
+  <li><a href="http://github.com/sbt/sbt">sbt/sbt</a></li>
+  <li><a href="http://github.com/scala/scala">scala/scala</a></li>
+  <li><a href="http://github.com/scalatra/scalatra">scalatra/scalatra</a></li>
+  <li><a href="http://github.com/twitter/zipkin">zipkin/twitter</a></li>
+</ul>
+
+<h1 id="importing-and-using">Importing and using</h1>
+
+<p>The following instructions assume an OSX or Linux based host.</p>
+
+<h2 id="mongodb">MongoDB</h2>
+
+<p><code>
+$ wget http://ghtorrent.org/downloads/msr14-mongo.tar.gz
+$ tar zxvf msr14-mongo.tar.gz
+$ mongorestore
+$ mongo msr14
+mongo&gt; db.commits.count()
+601080
+mongo&gt; db.issues.count()
+126308
+</code></p>
+
+<h2 id="mysql">MySQL</h2>
+
+<p><code>
+$ wget http://ghtorrent.org/downloads/msr14-mysql.gz
+$ mysql -u root -p
+mysql &gt; create user 'msr14'@'localhost' identified by 'msr14';
+mysql&gt; create database msr14;
+mysql&gt; GRANT ALL PRIVILEGES ON msr14.* to msr14@'localhost';
+mysql&gt; flush privileges;
+# Exit MySQL prompt
+$ zcat msr14-mysql.gz |mysql -u msr14 -p msr14
+$ mysql -u msr14 -p msr14
+mysql&gt; select language,count(*) from projects where forked_from is null group by language;
++------------+----------+
+| language   | count(*) |
++------------+----------+
+| C          |       10 |
+| C#         |        8 |
+| C++        |        8 |
+| CSS        |        3 |
+| Go         |        1 |
+| Java       |        8 |
+| JavaScript |        9 |
+| PHP        |        9 |
+| Python     |       10 |
+| R          |        4 |
+| Ruby       |       10 |
+| Scala      |        9 |
+| TypeScript |        1 |
++------------+----------+
+13 rows in set (0.01 sec)
+</code></p>
+
+<h1 id="faq">FAQ</h1>
+
+<p>Answers to frequently asked questions</p>
+
+<h2 id="why-a-new-dataset">Why a new dataset?</h2>
+
+<p>For practical reasons. The dataset is small enough to be used on a laptop, yet rich enough to do really interesting research with it.</p>
+
+<h2 id="what-are-the-hardware-requirements">What are the hardware requirements?</h2>
+
+<p>We have succesfully imported and used both dumps into a 2011 MacBookAir with 4GB of RAM. Your mileage may vary, but relatively new systems with more than 4GB RAM should have no trouble with both databases. If you only need to use the MySQL data dump, the hardware requirements are even lower.</p>
+
+<h2 id="why-two-databases-do-i-need-both">Why two databases? Do I need both?</h2>
+
+<p>Not necessarily. The MySQL database can readily cover many aspects of activity on Github. Perhaps the only reason to use the MongoDB dump is to analyse commit contents, branches affected by pull requests or milestones, which are not included in MySQL.</p>
+
+<h1 id="the-relational-db-schema">The relational DB schema</h1>
+
+<p><img src="/repo/other/img/msr14/schemaThumb.png" alt="Schema thumbnail" /></p>
+
+<p><a href="/repo/other/img/msr14/schema.png">See full schema</a></p>
+
+<h2 id="entities-and-their-relationships">Entities and their relationships</h2>
+
+<h3 id="users">users</h3>
+
+<p>Github users.</p>
+
+<ul>
+  <li>A user has a unique user name or email. May contain artificially generated user names, see <code>commits</code> below.</li>
+  <li>There are two types of <code>user</code>s, <code>USER</code>s and <code>ORG</code>anizations. The second type defines a collection of users.
+organization_members</li>
+</ul>
+
+<p>Users that are members of an organization.</p>
+
+<ul>
+  <li>The <code>created_at</code> field is only filled in accurately for memberships for which GHTorrent has recorded a corresponding event. Otherwise, it is filled in with the latest date that the corresponding user or organization has been created.</li>
+</ul>
+
+<h3 id="projects">projects</h3>
+
+<p>Information about repositories. A repository is always owned by a user.</p>
+
+<ul>
+  <li>The <code>forked_from</code> field is empty unless the project is a fork in which case it contains the <code>id</code> of the project the project is forked from.</li>
+  <li>The <code>deleted</code> field means that the project has been deleted from Github.</li>
+</ul>
+
+<h3 id="projectmembers">project_members</h3>
+
+<p>Users that have commit access to the repository.</p>
+
+<p>The <code>created_at</code> field is only filled in accurately for memberships for which GHTorrent has recorded a corresponding event. Otherwise, it is filled in with the latest date that the corresponding user or project has been created.</p>
+
+<h3 id="commits">commits</h3>
+
+<p>Unique commits.</p>
+
+<ul>
+  <li>Each commit is identified globally through its <code>sha</code> field. If the author or the committer has not configured his Github email address, no resolution to a User enty is possible. In that case, GHTorrent generates artificial users using the provided email in the Git commit author or committer fields. If the user then configures his Github account, GHTorrent will update the artificial user accordingly.</li>
+  <li>The <code>project_id</code> field contains a link to the project that this commit has been first associated with. This might not be the project this commit was initially pushed to, e.g. in case the fork is processed before the parent. See <code>project_commits</code>.</li>
+  <li>The <code>project_id</code> field may be null when the repository has been deleted at the time the commit is processed. This situation might happen when retrospectively processing pull requests for a repository and the repository which the pull request originates from has been deleted.</li>
+</ul>
+
+<h3 id="commitparents">commit_parents</h3>
+
+<p>The parent commit(s) for each commit, as specified by Git.</p>
+
+<h3 id="projectcommits">project_commits</h3>
+
+<p>The commits belonging to the history of a project.</p>
+
+<p>More than one projects can share the same commits if one is a fork of the other.</p>
+
+<h3 id="commitcomments">commit_comments</h3>
+
+<p>Code review comments on commits.</p>
+
+<p>These are comments on individual commits. If a commit is associated with a pull request, then its comments are in the <code>pull_request_comments</code> table.</p>
+
+<h3 id="followers">followers</h3>
+
+<p>A follower to a user.</p>
+
+<p>The <code>created_at field</code> is only filled in accurately for followships for which GHTorrent has recorded a corresponding event. Otherwise, it is filled in with the latest date that the corresponding user or follower has been created.</p>
+
+<h3 id="watchers">watchers</h3>
+
+<p>Users that have starred (was watched) a project</p>
+
+<p>The <code>created_at</code> field is only filled in accurately for starrings for which GHTorrent has recorded a corresponding event. Otherwise, it is filled in with the latest date that the corresponding user or project has been created.</p>
+
+<h3 id="pullrequests">pull_requests</h3>
+
+<p>A pull request initiated from <code>head_repo_id</code>:<code>head_commit_id</code> to <code>base_repo_id</code>:<code>base_commit_id</code></p>
+
+<p>Pull requests can be in various states. The states and their transitions are recorded in the <code>pull_request_history</code> table.
+The <code>pullreq_id</code> field is Github’s pull request unique identifier
+The <code>intra_branch</code> field signifies that the head and base repositories are the same
+If the head repository is NULL, this means that the corresponding project had been deleted when GHTorrent processed the pull request.</p>
+
+<h3 id="pullrequesthistory">pull_request_history</h3>
+
+<p>An event in the pull request lifetime</p>
+
+<p>The action field can take the following values</p>
+
+<ul>
+  <li><code>opened</code>: When the pull request has been opened</li>
+  <li><code>closed</code>: When the pull request has been closed</li>
+  <li><code>merged</code>: When Github detected that the pull request has been merged. No merges outside Github (i.e. Git based) are reported</li>
+  <li><code>reoponed</code>: When a pull request is opened after being closed</li>
+  <li><code>syncrhonize</code>: When new commits are added/removed to the head repository</li>
+</ul>
+
+<h3 id="pullrequestcommits">pull_request_commits</h3>
+
+<p>A commit associated with a pull request</p>
+
+<p>The list is additive. This means if a rebase with commit squashing takes place after the commits of a pull request have been processed, the old commits will not be deleted.</p>
+
+<h3 id="pullrequestcomments">pull_request_comments</h3>
+
+<p>A code review comment on a commit associated with a pull request</p>
+
+<p>The list is additive. If commits are squashed on the head repo, the comments remain intact.</p>
+
+<h3 id="issues">issues</h3>
+
+<p>An issue associated with a repository</p>
+
+<ul>
+  <li>The <code>assignee</code> field is filed in with the user to which the issue was assigned at the time the issue was processed.</li>
+  <li>Issues have history recorded in the <code>issue_events</code> table.</li>
+  <li>For every pull request, GHTorrent creates a corresponding issue. The <code>pull_request_id</code> field points to the associated pull request</li>
+  <li>The <code>issue_id</code> field is the unique identifier given to the issue by Github.</li>
+</ul>
+
+<h3 id="issueevents">issue_events</h3>
+
+<p>An event on an issue</p>
+
+<ul>
+  <li>The <code>action</code> field can have the following values:
+    <ul>
+      <li><code>subscribed</code>: When a user subscribes to receive notifications about the issue.</li>
+      <li><code>mentioned</code>: When a user is mentioned by another user (@user notation)</li>
+      <li><code>closed</code>: When the issue has been closed</li>
+      <li><code>referenced</code>: The issue was referenced in a commit (using the fixes: conventions)</li>
+      <li><code>assigned</code>: When the issue has been assigned to an actor.</li>
+      <li><code>reopened</code>: When a closed issue is reopened</li>
+      <li><code>unsubscribed</code>: When a user unsubscribed from issue.</li>
+      <li><code>merged</code>: When the pull request pointed by the issue has been merged.</li>
+      <li><code>head_ref_cleaned</code>: (Not documented) ?</li>
+      <li><code>head_ref_deleted</code>: (Not documented) When the branch of the head repository has been deleted</li>
+      <li><code>head_ref_restored</code>: (Not documented) When the head repository of a pull request has     * been restored (using the restore branch functionality).</li>
+    </ul>
+  </li>
+  <li>The <code>action_specific</code> field gets filled in with the commit_id of the last commit when a pull request has been closed, merged or referenced.</li>
+</ul>
+
+<h3 id="issuecomments">issue_comments</h3>
+
+<p>An entry to the issue discussion. This table is always filled in with pull request (or issue) discussion comments, irrespective of whether the repo has issues enabled or not.</p>
+
+<h3 id="repolabels">repo_labels</h3>
+
+<p>A label to be assigned to an issue affecting this repository.</p>
+
+<h3 id="issuelabels">issue_labels</h3>
+
+<p>A label that has been assigned to an issue</p>
+
+<h2 id="example-queries">Example queries</h2>
+
+<h3 id="list-commits-for-a-repository">List commits for a repository</h3>
+
+<p><code>
+select c.*
+from commits c, project_commits pc, projects p, users u
+where u.login = 'rails'
+  and p.name = 'rails'
+  and p.id = pc.project_id
+  and c.id = pc.commit_id
+order by c.created_at desc
+</code></p>
+
+<h3 id="get-all-actions-for-a-pull-request">Get all actions for a pull request</h3>
+
+<p>```
+select user, action, created_at from
+(
+  select prh.action as action, prh.created_at as created_at, u.login as user
+  from pull_request_history prh, users u
+  where prh.pull_request_id = ?
+    and prh.actor_id = u.id
+  union
+  select ie.action as action, ie.created_at as created_at, u.login as user
+  from issues i, issue_events ie, users u
+  where ie.issue_id = i.id
+    and i.pull_request_id = ?
+    and ie.actor_id = u.id
+  union
+  select ‘discussed’ as action, ic.created_at as created_at, u.login as user
+  from issues i, issue_comments ic, users u
+  where ic.issue_id = i.id
+    and u.id = ic.user_id
+    and i.pull_request_id = ?
+  union
+  select ‘reviewed’ as action, prc.created_at as created_at, u.login as user
+  from pull_request_comments prc, users u
+  where prc.user_id = u.id
+    and prc.pull_request_id = ?
+) as actions
+order by created_at;
+Get participants in an issue or pull request</p>
+
+<p>select distinct(user_id) from
+(
+  select user_id
+  from pull_request_comments
+  where pull_request_id = ?
+  union
+  select user_id
+  from issue_comments ic, issues i
+  where i.id = ic.issue_id and i.pull_request_id = ?
+) as participants
+```</p>
+
+<h1 id="collections-in-mongodb">Collections in MongoDB</h1>
+
+<p>Here is a list of collections along with the Github API URL they cache data from. All URLs need to be prefixed with <code>https://api.github.com/</code>. In MongoDB, each entity is by default indexed by the parameter fields in each corresponding URL (see also the actual <a href="https://github.com/gousiosg/github-mirror/blob/master/lib/ghtorrent/adapters/mongo_persister.rb#L23">default indexes</a>).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Collection name</th>
+      <th>Github API URL</th>
+      <th>Documentation URL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>commit_comments</td>
+      <td><code>#{user}/#{repo}/commits/#{sha}/comments</code></td>
+      <td><a href="http://developer.github.com/v3/repos/comments/#list-comments-for-a-single-commit">commit comments</a></td>
+    </tr>
+    <tr>
+      <td>commits</td>
+      <td><code>repos/#{user}/#{repo}/commits</code></td>
+      <td><a href="http://developer.github.com/v3/repos/commits/#list-commits-on-a-repository">commits</a></td>
+    </tr>
+    <tr>
+      <td>events</td>
+      <td><code>events</code></td>
+      <td><a href="http://developer.github.com/v3/activity/events/">events</a></td>
+    </tr>
+    <tr>
+      <td>followers</td>
+      <td><code>users/#{user}/followers</code></td>
+      <td><a href="http://developer.github.com/v3/users/followers/#list-followers-of-a-user">followers list</a></td>
+    </tr>
+    <tr>
+      <td>forks</td>
+      <td><code>repos/#{user}/#{repo}/forks</code></td>
+      <td><a href="http://developer.github.com/v3/repos/forks/#list-forks">forks list</a></td>
+    </tr>
+    <tr>
+      <td>issues</td>
+      <td><code>/repos/#{owner}/#{repo}/issues</code></td>
+      <td><a href="http://developer.github.com/v3/issues/#list-issues-for-a-repository">issues for a repo</a></td>
+    </tr>
+    <tr>
+      <td>issue_comments</td>
+      <td><code>repos/#{owner}/#{repo}/issues/comments/#{comment_id}</code></td>
+      <td><a href="http://developer.github.com/v3/issues/comments/#list-comments-on-an-issue">issue comments</a></td>
+    </tr>
+    <tr>
+      <td>issue_events</td>
+      <td><code>repos/#{owner}/#{repo}/issues/events/#{event_id}</code></td>
+      <td><a href="http://developer.github.com/v3/issues/events/">issue events</a></td>
+    </tr>
+    <tr>
+      <td>org_members</td>
+      <td><code>orgs/#{org}/members</code></td>
+      <td><a href="http://developer.github.com/v3/orgs/members/">organization members</a></td>
+    </tr>
+    <tr>
+      <td>pull_request_comments</td>
+      <td><code>repos/#{owner}/#{repo}/pulls/#{pullreq_id}/comments</code></td>
+      <td><a href="http://developer.github.com/v3/pulls/comments">pull request review comments</a></td>
+    </tr>
+    <tr>
+      <td>pull_requests</td>
+      <td><code>repos/#{user}/#{repo}/pulls</code></td>
+      <td><a href="http://developer.github.com/v3/pulls/">pull requests</a></td>
+    </tr>
+    <tr>
+      <td>repo_collaborators</td>
+      <td><code>repos/#{user}/#{repo}/collaborators</code></td>
+      <td><a href="http://developer.github.com/v3/repos/collaborators/">repo collaborators</a></td>
+    </tr>
+    <tr>
+      <td>repo_labels</td>
+      <td><code>repos/#{owner}/#{repo}/issues/#{issue_id}/labels</code></td>
+      <td><a href="http://developer.github.com/v3/issues/labels/#list-all-labels-for-this-repository">issue labels</a></td>
+    </tr>
+    <tr>
+      <td>repos</td>
+      <td><code>repos/#{user}/#{repo}</code></td>
+      <td><a href="http://developer.github.com/v3/repos/#list-all-public-repositories">repositories</a></td>
+    </tr>
+    <tr>
+      <td>users</td>
+      <td><code>users/#{user}</code></td>
+      <td><a href="http://developer.github.com/v3/users/#get-a-single-user">users</a></td>
+    </tr>
+    <tr>
+      <td>watchers</td>
+      <td><code>repos/#{user}/#{repo}/stargazers</code></td>
+      <td><a href="http://developer.github.com/v3/activity/starring/#list-stargazers">stargazers</a></td>
+    </tr>
+  </tbody>
+</table>
+
+			
+			
+		</div>
+		
+		<div class="col-sm-2 col-md-2 col-lg-2" style="background-color: #fcbo3c;">
+			<br>
+
+<!-- Twitter feed -->
+<div class="row text-center">
+	<a class="twitter-timeline" href="https://twitter.com/promiserepo" data-widget-id="589936627964837888">Tweets by @promiserepo</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<hr>
+
+<div class="row text-center">
+	<a href="" class="btn btn-default no-border"><img src="/img/facebook.png"></a>
+	<a href="mailto:openscience.content@gmail.com" class="btn btn-default no-border"><img src="/img/gmail.png"></a>
+	<a href="https://github.com/opensciences/opensciences.github.io" class="btn btn-default no-border"><img src="/img/github.png"></a>
+</div>
+
+<hr>
+
+<div class="row text-center">
+    <a href="http://csc.ncsu.edu/" alt="N.C. State Computer Science Department Homepage"><img src="/img/csc-logo.jpg"></a>
+</div>
+
+		</div>
+	</div>
+</div>
+
+				</div>
+				
+<!--				<div class="row">
+					<footer class="footer">
+	<br>
+	<h4>Site built by Mitch Rees-Jones</h4>
+</footer>
+
+				</div>-->
+		
+				<!-- JQuery and Bootstrap -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+			</div>
+	</body>
+
+</html>
