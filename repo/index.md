@@ -1,9 +1,11 @@
 ---
-title: Welcome to the tera-PROMISE repository!
+title: Welcome to the tera-PROMISE Repository
 layout: repo-content
+limit: 5
+category: repo
 ---
 
-The tera-PROMISE Repository offers long-term storage solutions for research data (mostly software engineering research data).
+We offer long-term storage solutions for research data (mostly software engineering research data).
 
 Datasets are stored in the sections on the left. These categories are not fixed (the more you contribute, the more our categories change). 
 
@@ -16,7 +18,7 @@ Our goal is to be a long term storage facility for SE data. [More info...](/repo
   <p><a class="btn btn-primary btn-lg" href="/repo/contribute" role="button">Learn more...</a></p>
 </div>
 
-### About Us
+## About Us
 
 **Steering Committee**
 
@@ -52,5 +54,4 @@ Mitch Rees-Jones | Jelber Sayyad (v1)       | Amal Boukhdhir
 
 
 ## Recent Additions (more [here](/repo/recent.html))
-
 

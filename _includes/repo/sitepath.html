@@ -5,11 +5,7 @@
 	{% for directoryLinkText in sitepath %}
 		<li><a href="/
 			{% for directory in sitepath limit:forloop.index0 offset:1 %}
-				{{directory}}/{% endfor %}"> 
-			{% if directoryLinkText == "" %}
-				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-			{% endif %}
-			{{ directoryLinkText }}
+				{{directory}}/{% endfor %}">{% if directoryLinkText == "" %}<span class="glyphicon glyphicon-home" aria-hidden="true"></span>{% endif %}{{ directoryLinkText }}
 		</a></li>
 	{% endfor %}
 </ul>

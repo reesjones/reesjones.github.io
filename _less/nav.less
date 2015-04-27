@@ -38,7 +38,8 @@
   .navbar-brand {
     color: @colDefault;
     &:hover, &:focus { 
-      color: @colHighlight; }}
+      color: @colHighlight; background-color: @gray-dark; 
+		border-radius: @border-radius-base 0px 0px @border-radius-base; }}
   .navbar-text {
     color: @colDefault; }
   .navbar-nav {
@@ -118,12 +119,8 @@
 			padding-bottom: 5px;
 		}
 	}
-	/* The dataset counter */
-	span {
-		:hover {
-			background-color: @gray-lighter;
-			color: @brand-success;
-		}
+	span:hover {
+		background-color: @gray-light;
 	}
 }
 
@@ -132,3 +129,20 @@
     margin-left: 25px;
 }
 
+/****************/
+/* Footer stuff */
+/****************/
+
+footer {
+	height: 300px;
+	background-color: @gray-light;
+	text-align: center;
+	margin-bottom: 0px;
+	h5 {
+		color: @gray-base;
+		margin-bottom: 0px;
+		a {
+			color: white;
+		}
+	}
+}

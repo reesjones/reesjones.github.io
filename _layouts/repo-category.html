@@ -8,19 +8,17 @@
     </head>
 
     <body>
-            <div class="container-fluid">
-                <div class="row">
-                    {% include repo/leftbar.html %}
-
-                    {% include repo/main-category.html %}
-                </div>
+		<div class="container-fluid">
+			<div class="row">
+				{% include repo/leftbar.html %}
 				
-<!--				<div class="row">
-                	{% include repo/footer.html %}
-				</div>-->
-
-                {% include meta/scripts.html %}
-            </div>
-    </body>
+				{% include repo/main-category.html %}
+			</div>
+				
+			{% include meta/scripts.html %}
+		</div>
+		
+		{% include repo/footer.html %}
+	</body>
 
 </html>
