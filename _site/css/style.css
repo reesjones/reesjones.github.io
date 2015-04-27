@@ -8655,10 +8655,8 @@ footer h5 a {
   max-width: 100%;
 }
 /* Site footer less */
-.footer {
-  background-color: #777777;
-  color: #ffffff;
-  text-align: center;
+body {
+  background-image: url("img/sail.jpg");
 }
 /* The tera-PROMISE logo div */
 #repo-logo-div {

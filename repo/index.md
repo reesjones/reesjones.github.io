@@ -5,11 +5,11 @@ limit: 5
 category: repo
 ---
 
-We offer long-term storage solutions for research data (mostly software engineering research data).
+The tera-PROMISE Repository is a long-term storage solution for research data, with a focus on software engineering datasets.
 
-Datasets are stored in the sections on the left. These categories are not fixed (the more you contribute, the more our categories change). 
+Datasets are stored in the categories listed on the left. These categories are not fixed (the more you contribute, the more our categories change). 
 
-This repository is an update to the older PROMISE repository of SE data.
+This repository is an update to the older PROMISE repository hosted on a Google Code site.
 Our goal is to be a long term storage facility for SE data. [More info...](/repo/about)
 
 <div class="jumbotron">
@@ -24,13 +24,13 @@ Our goal is to be a long term storage facility for SE data. [More info...](/repo
 
 Who         |Where            |From     |Contributors                 |Member since
 ------------|-----------------|---------|-----------------------------|---------------
-Olga Baysal |Univ. of Montreal| Canada  |Yaxin Cao                    |Dec'14
-Ayse Benar  |Ryerson Univ.    | Canada  |Bora Çağlayan                |Sept'14
-Tim Menzies |N.C. State       | USA     |Carter Pape, Mitch Rees-Jones|Sept'05
-Burak Turhan|Univ. of Oulu    | Finland |Burak Turhan                 |Sept'14 
+Olga Baysal |Univ. of Montreal| Canada  |Yaxin Cao                    |Dec. 14
+Ayse Benar  |Ryerson Univ.    | Canada  |Bora Çağlayan                |Sept. 14
+Tim Menzies |N.C. State       | USA     |Carter Pape, Mitch Rees-Jones|Sept. 15
+Burak Turhan|Univ. of Oulu    | Finland |Burak Turhan                 |Sept. 14 
 
 Membership of the PROMISE repo is by _invitation_ from the current committee.
-Membership "costs" one grad student who can devote a few days per month on maintenance to the current site.
+Membership "costs" one grad student who can devote some time per month on maintenance to the current site.
 
 **Volunteers**
 
