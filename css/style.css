@@ -8637,10 +8637,13 @@ button.close {
 /* Footer stuff */
 /****************/
 footer {
-  height: 300px;
+  height: 120px;
   background-color: #777777;
   text-align: center;
   margin-bottom: 0px;
+}
+footer .container {
+  width: 100%;
 }
 footer h5 {
   color: #000000;
