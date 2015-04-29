@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <title>tera-PROMISE: How to fish for datasets</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+<meta name="author" content="">
+
+<link rel="icon" href="/img/favicon.ico" type="image/png">
+<link href="/css/style.css" rel="stylesheet">
+    
+    </head>
+
+    <body>
+            <div class="container-fluid" id="footer-container">
+                <div class="row">
+                    <!-- Left sidebar -->
+<div class="col-lg-2 col-md-3 col-sm-3 hidden-xs" id="leftbar">
+	
+	<a href="/repo"><img src="/img/repologo.png" class="img-responsive hidden-xs"></a>
+	
+	<a href="/" class="btn btn-default btn-block" id="back-to-portal">
+		<span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+		Back to Portal
+	</a>
+	
+	<hr>
+	
+	<h2>Categories</h2>
+	
+	<ul class="nav nav-pills nav-stacked" id="category-list">
+		<li><a href="/repo/code-analysis">
+			Code Analysis 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/defect">
+			Defect 
+			<span class="badge">48</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/ck">
+			CK 
+			<span class="badge">33</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/mccabehalsted">
+			McCabe &amp; Halsted 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/defect/other-defect">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/dump">
+			Dump 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/effort">
+			Effort 
+			<span class="badge">13</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cobol">
+			Cobol <span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/cocomo">
+			Cocomo 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/function-points">
+			Function Points Analysis 
+			<span class="badge">4</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/isbsg">
+			ISBSG <span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/personnel">
+			Personnel 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/effort/other-effort">
+			Other 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a href="/repo/green-mining">
+			Green Mining 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/issues">
+			Issues 
+			<span class="badge">16</span>
+		</a></li>
+		
+		<li><a href="/repo/model">
+			Model 
+			<span class="badge">3</span>
+		</a></li>
+		<li><a href="/repo/msr">
+			MSR 
+			<span class="badge">8</span>
+		</a></li>
+		
+		<li><a href="/repo/performance-predict">
+			Performance Predict 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/requirements">
+			Requirements 
+			<span class="badge">5</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/nrp">
+			NRP 
+			<span class="badge">2</span>
+		</a></li>
+		
+		<li><a class="subcategory" href="/repo/requirements/other-requirements">
+			Other 
+			<span class="badge">3</span>
+		</a></li>
+		
+		<li><a href="/repo/search-based-se">
+			Search-Based SE 
+			<span class="badge">1</span>
+		</a></li>
+		
+		<li><a href="/repo/social-analysis">
+			Social Analysis 
+			<span class="badge">0</span>
+		</a></li>
+		<li><a href="/repo/spreadsheet">
+			Spreadsheet 
+			<span class="badge">3</span>
+			</a></li>
+		
+		<li><a href="/repo/other">
+			Other 
+			<span class="badge">17</span>
+		</a></li>
+		
+		<hr>
+	</ul>
+
+</div>
+
+
+                    <div class="col-sm-9 col-md-9 col-lg-10">
+
+	<!-- Content and right column -->
+	<div class="row"> 
+		<div class="col-sm-12 col-md-12 col-lg-10">
+			<!-- Menu bar -->
+<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12">
+		<br>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Homepage link -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/repo">Repo Home</a>
+				</div>
+				
+				<!-- Search bar -->
+				<form class="navbar-form navbar-left" role="search">
+					<div class="form-group"> 
+						<input type="text" style="height: 2em;" class="form-control" placeholder="Search for a dataset..."> 
+					</div>
+					<button type="submit" class="btn btn-default" style="height: 100%;">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</button>
+				</form>
+				<!-- About/People/Blog/Contribute -->
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/repo/about">About</a></li>
+						<li><a href="/repo/people">People</a></li>
+						<li><a href="/repo/blog">Blog</a></li>
+						<li><a href="/repo/contact">Contact</a></li>
+						<!-- Contribute menu -->
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contribute <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="/repo/contribute">As a student</a></li>
+								<li><a href="/repo/contribute">As a researcher</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div><!--/.container-fluid -->
+		</nav>
+	</div>
+</div>
+		
+			<!-- Site path -->
+<ul class="breadcrumb">
+	
+	
+	
+		<li><a href="/
+			"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/">repo
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				contribute/">contribute
+		</a></li>
+	
+		<li><a href="/
+			
+				repo/
+				contribute/
+				hackathon.html/">hackathon.html
+		</a></li>
+	
+</ul>
+
+		
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<h2 class="page-header">How to fish for datasets</h2>
+				</div>
+			</div>
+			<p><strong><em>Interested in participating in a hackathon?</em></strong>
+<em>Click <a href="https://docs.google.com/forms/d/18s9ZLb7TTLcXVRovqRcn5YEN6Js9aJZgPfn_2qz3WFE/viewform?usp=send_form">here</a> to sign up!</em></p>
+
+<p>We will be periodically hosting hackathons to track down and add SE data and papers.</p>
+
+<p>Keep in mind that, in most hackathons, we will only be concerned with steps 3 through 5.</p>
+
+<p>When working on a specific issue, it is vital that you assign yourself to that issue so that others are not replicating your work.</p>
+
+<h1 id="how-to-fish-for-software-engineering-data">How to fish for software engineering data</h1>
+
+<h2 id="browse-conferences">1. <em>Browse</em> conferences</h2>
+
+<ul>
+  <li>Go find a recent SE conference with papers that might have data related to empirical SE experiments.</li>
+  <li><a href="https://github.com/opensciences/opensciences.github.io/issues/new">Create one GitHub issue</a> for each conference, and add the “Conference” label to each
+    <ul>
+      <li>Leave a comment with a hyperlink to the conference</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="chunk-each-conference">2. <em>Chunk</em> each conference</h2>
+
+<ul>
+  <li>Divide the conference into chunks based on its table of contents</li>
+  <li><a href="https://github.com/opensciences/opensciences.github.io/issues/new">Create one GitHub issue</a> for each chunk, and add the “Chunk” label to each
+    <ul>
+      <li>Leave a comment with the page numbers relevant to the chunk, and include the name of all the papers in the chunk.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="find-each-paper-that-maybe-has-data">3. Find each paper that <em>maybe has data</em></h2>
+
+<ul>
+  <li>For each chunk assigned to you, search through the papers, searching for those that may have downloadable data associated with them</li>
+  <li><a href="https://github.com/opensciences/opensciences.github.io/issues/new">Create one GitHub issue</a> for each paper that may have data, and add the “Maybe has data” label to each
+    <ul>
+      <li>Add each issue to the “Content retrieval hangout” milestone</li>
+      <li>Leave a comment with a hyperlink to the specific paper from the conference</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="filter-for-target-papers">4. Filter for <em>target paper</em>s</h2>
+
+<ul>
+  <li>For each “Maybe has data” paper, check if there is actually data to download. In some cases, there will be many downloads available. Probably only one of them is important. Figure out which download is important. You might have to email the paper owner.
+    <ul>
+      <li>If the paper has no downloadable data:
+        <ul>
+          <li>Remove the “Maybe has data” label, add the “No data” label, and close the issue.</li>
+        </ul>
+      </li>
+      <li>If the paper’s data is data that is already in Terapromise:
+        <ul>
+          <li>Remove the “Maybe has data” label, add the “Already have dataset” label, and close the issue.</li>
+        </ul>
+      </li>
+      <li>If the paper <em>does</em> have downloadable data:
+        <ul>
+          <li>If, after downloading all relevant files and compressing it all together, the size of the compressed file is smaller than :
+            <ul>
+              <li>Leave a comment with a hyperlink to the relevant data downloads. You’ll need to spend some time figuring out the appropriate links.</li>
+              <li>Remove the “Maybe has data” label, and add the “Target paper” label.</li>
+            </ul>
+          </li>
+          <li>If the compressed file is larger than  but smaller than :
+            <ul>
+              <li>Remove label “Maybe has data” and add label “Maybe too big”.</li>
+            </ul>
+          </li>
+          <li>If the compressed file is larger than :
+            <ul>
+              <li>Remove label “Maybe has data”, add label “Definitely too big”, and close the issue.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="summarize-the-data">5. <em>Summarize</em> the data</h2>
+<ul>
+  <li>Create <a href="/repo/contribute/contextnotes.html">context notes</a> for the data and add them as a comment to the GitHub issue.</li>
+  <li>Remove the “Target paper” tag and add the “Summarized” tag.</li>
+</ul>
+
+<h2 id="submit-the-job">6. <em>Submit</em> the job</h2>
+
+<ul>
+  <li>Carter Pape and Mitch Rees-Jones will then add the data to the big repo, add the context notes to our small repo, and email the owners with the url for both.</li>
+  <li>Relabel the issue to “Submitted” and close the issue.</li>
+</ul>
+
+					
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<div class="list-group">
+						
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<br>
+
+<!-- Wrapper for hiding on small screens -->
+<div class="col-lg-2 hidden-xs hidden-sm hidden-md">
+	
+	<!-- Twitter feed -->
+	<div class="row text-center">
+		<div class="col-md-12 col-lg-12">
+			<a class="twitter-timeline" href="https://twitter.com/promiserepo" data-widget-id="589936627964837888">Tweets by @promiserepo</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
+	
+	<hr>
+	
+	<div class="row text-center">
+		<a href="" class="btn btn-default no-border"><img src="/img/facebook.png"></a>
+		<a href="mailto:openscience.content@gmail.com" class="btn btn-default no-border"><img src="/img/gmail.png"></a>
+		<a href="https://github.com/opensciences/opensciences.github.io" class="btn btn-default no-border"><img src="/img/github.png"></a>
+	</div>
+
+	<hr>
+
+	<div class="row text-center">
+    <a class="img-responsive" href="http://csc.ncsu.edu/" alt="N.C. State Computer Science Department Homepage"><img src="/img/csc-logo.jpg"></a>
+	</div>
+
+</div>
+
+	</div>
+</div>
+
+                </div>
+
+                <!-- JQuery and Bootstrap -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+            </div>
+			<footer>
+	<div class="container" style="width: 95%;">
+		<div class="row">
+			
+			<div class="col-md-4 col-lg-4">
+				<h5><i>Site design by 
+					<a href="http://www.reesjones.co">Mitch Rees-Jones</a></i>
+				</h5>
+			</div>
+			
+			<div class="col-md-4 col-lg-4">
+				<ul class="nav nav-pills centered-pills" id="category-list">
+					<li><a href="/repo/about">About</a></li>
+					<li><a href="/repo/people">People</a></li>
+					<li><a href="/repo/blog">Blog</a></li>
+					<li><a href="/repo/contact">Contact</a></li>
+					<li><a href="/repo/contribute">Contribute</a></li>
+				</ul>
+			</div>
+			
+			<div class="col-md-4 col-lg-4">
+				<h5>Supported by the National Science Foundation</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+    </body>
+
+</html>
