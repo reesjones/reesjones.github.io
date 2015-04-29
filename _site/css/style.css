@@ -8495,221 +8495,6 @@ button.close {
 .fa-medium:before {
   content: "\f23a";
 }
-/* Variables for site */
-/* Redefine font colors */
-/* Links */
-/* Buttons */
-/* Nav 
-@navbar-height: 60px;
-@navbar-default-color: @gray-dark; */
-/* Site mixins */
-/* Site nav less */
-/*********************/
-/* Site path styling */
-/*********************/
-.breadcrumb a,
-.breadcrumb li {
-  font-size: 20px;
-  text-transform: lowercase;
-}
-/******************/
-/* Navbar styling */
-/******************/
-.navbar-default {
-  background-color: #777777;
-  border-color: #333333;
-}
-.navbar-default .navbar-brand {
-  color: #ffffff;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #fdaf17;
-  background-color: #333333;
-  border-radius: 4px 0px 0px 4px;
-}
-.navbar-default .navbar-text {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #fdaf17;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #777777;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #fdaf17;
-  background-color: #333333;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu .divider {
-  background-color: #333333;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #fdaf17;
-  background-color: #333333;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #fdaf17;
-  background-color: #333333;
-}
-.navbar-default .navbar-toggle {
-  border-color: #333333;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #333333;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-link {
-  color: #ffffff;
-}
-.navbar-default .navbar-link:hover {
-  color: #fdaf17;
-}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #ffffff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #fdaf17;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #fdaf17;
-    background-color: #333333;
-  }
-}
-/* Hover color of navbar list elements */
-.navbar li:hover {
-  background-color: #333333;
-}
-/* Hover color of navbar header element */
-.navbar-brand:hover {
-  background-color: #333333;
-}
-/************************/
-/* Left category navbar */
-/************************/
-/* Leftbar */
-#leftbar {
-  background-color: #eeeeee;
-  border-right: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  border-radius: 0px 0px 4px 0px;
-  height: auto;
-}
-/* li elements in the category ul in leftbar */
-#category-list li :hover {
-  background-color: #333333;
-}
-#category-list li a {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-#category-list span:hover {
-  background-color: #777777;
-}
-/* A subcategory in leftbar */
-.subcategory {
-  margin-left: 25px;
-}
-/****************/
-/* Footer stuff */
-/****************/
-footer {
-  height: 120px;
-  background-color: #777777;
-  text-align: center;
-  margin-bottom: 0px;
-}
-footer .container {
-  width: 100%;
-}
-footer h5 {
-  color: #000000;
-  margin-bottom: 0px;
-}
-footer h5 a {
-  color: white;
-}
-/* Site header less */
-/* */
-.fullwidth {
-  max-width: 100%;
-}
-/* Site footer less */
-body {
-  background-image: url("img/sail.jpg");
-}
-/* The tera-PROMISE logo div */
-#repo-logo-div {
-  height: 100px;
-  display: table;
-}
-/* The tera-PROMISE logo text */
-#repo-logo-text {
-  font-family: 'Courier New', Courier, monospace;
-  display: table-cell;
-  vertical-align: middle;
-}
-/* The Repo Home button in navbar */
-#repo-home-button {
-  background-color: #FDAF17;
-}
-/* Used by the social media buttons in socialbar.html */
-.no-border {
-  border: 0px solid transparent;
-}
-/* Back to portal button */
-#back-to-portal {
-  background-color: #555555;
-  color: #eeeeee;
-  border: 1px solid #555555;
-  border-radius: 0px 0px 6px 6px;
-}
-#back-to-portal:hover {
-  background-color: #333333;
-  color: #fdaf17;
-}
-/* Twitter feed */
-/* Applies correct hover color to buttons */
-.btn:hover {
-  color: #fdaf17;
-}
-.thumbnail img {
-  min-height: 100px;
-  height: 100px;
-}
-.centered {
-  float: none;
-  margin: 0 auto;
-}
-hr {
-  border: 1px solid #b3b3b3;
-}
-.blue-text:hover {
-  color: #333333;
-}
 .navbar {
   border: none;
   font-size: 13px;
@@ -9015,5 +8800,222 @@ input[type="checkbox"] {
   color: #333333;
 }
 .modal .close {
+  color: #333333;
+}
+/* Variables for site */
+/* Redefine font colors */
+/* Links */
+/* Buttons */
+/* Nav 
+@navbar-height: 60px;
+@navbar-default-color: @gray-dark; */
+/* Site mixins */
+/* The tera-PROMISE logo div */
+#repo-logo-div {
+  height: 100px;
+  display: table;
+}
+/* The tera-PROMISE logo text */
+#repo-logo-text {
+  font-family: 'Courier New', Courier, monospace;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* The Repo Home button in navbar */
+#repo-home-button {
+  background-color: #FDAF17;
+}
+/* Used by the social media buttons in socialbar.html */
+.no-border {
+  border: 0px solid transparent;
+}
+/* Back to portal button */
+#back-to-portal {
+  background-color: #555555;
+  color: #eeeeee;
+  border: 1px solid #555555;
+  border-radius: 0px 0px 6px 6px;
+}
+#back-to-portal:hover {
+  background-color: #333333;
+  color: #fdaf17;
+}
+/* Applies correct hover color to buttons */
+.btn:hover {
+  color: #fdaf17;
+}
+/* Site nav less */
+/*********************/
+/* Site path styling */
+/*********************/
+.breadcrumb a,
+.breadcrumb li {
+  font-size: 20px;
+  text-transform: lowercase;
+}
+/******************/
+/* Navbar styling */
+/******************/
+.navbar-default {
+  background-color: #777777;
+  border-color: #333333;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fdaf17;
+  background-color: #333333;
+  border-radius: 4px 0px 0px 4px;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fdaf17;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #777777;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #fdaf17;
+  background-color: #333333;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu .divider {
+  background-color: #333333;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fdaf17;
+  background-color: #333333;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #fdaf17;
+  background-color: #333333;
+}
+.navbar-default .navbar-toggle {
+  border-color: #333333;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #333333;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #fdaf17;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fdaf17;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fdaf17;
+    background-color: #333333;
+  }
+}
+/* Hover color of navbar list elements */
+.navbar li:hover {
+  background-color: #333333;
+}
+/* Hover color of navbar header element */
+.navbar-brand:hover {
+  background-color: #333333;
+}
+/************************/
+/* Left category navbar */
+/************************/
+/* Leftbar */
+#leftbar {
+  background-color: #eeeeee;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 0px 0px 4px 0px;
+  height: auto;
+}
+/* li elements in the category ul in leftbar */
+#category-list li :hover {
+  background-color: #333333;
+}
+#category-list li a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#category-list span:hover {
+  background-color: #777777;
+}
+/* A subcategory in leftbar */
+.subcategory {
+  margin-left: 25px;
+}
+/* Site header less */
+/* */
+.fullwidth {
+  max-width: 100%;
+}
+/* Site footer less */
+/****************/
+/* Footer stuff */
+/****************/
+footer {
+  background-color: #777777;
+  text-align: center;
+  color: #000000;
+}
+footer a {
+  color: white;
+}
+footer a :hover {
+  color: #fdaf17;
+}
+footer .container {
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+.centered-pills {
+  display: flex;
+  justify-content: center;
+}
+.centered-pills li :hover {
+  background-color: #333333;
+}
+.thumbnail img {
+  min-height: 100px;
+  height: 100px;
+}
+.centered {
+  float: none;
+  margin: 0 auto;
+}
+hr {
+  border: 1px solid #b3b3b3;
+}
+.blue-text:hover {
   color: #333333;
 }
