@@ -9052,6 +9052,16 @@ input.gsc-input,
   box-sizing: content-box;
   line-height: normal;
 }
+#gs_tti50,
+.gsib_a {
+  padding: 0px;
+}
+.reset-box-sizing,
+.reset-box-sizing * {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
 table {
   width: 100%;
   max-width: 100%;
