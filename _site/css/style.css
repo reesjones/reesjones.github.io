@@ -4188,7 +4188,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 22px;
+  margin-bottom: 11px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -8844,6 +8844,9 @@ input[type="checkbox"] {
 .btn:hover {
   color: #fdaf17;
 }
+.page-header {
+  margin-top: 11px;
+}
 /* Site nav less */
 /*********************/
 /* Site path styling */
@@ -9018,6 +9021,36 @@ hr {
 }
 .blue-text:hover {
   color: #333333;
+}
+/**************/
+/* Search bar */
+/**************/
+td.gsc-search-button {
+  border: none;
+  padding-right: 0px;
+}
+input.gsc-search-button,
+input.gsc-search-button-v2 {
+  border-color: red;
+}
+input.gsc-search-button :hover,
+input.gsc-search-button-v2 :hover {
+  background-color: #fdaf17;
+}
+td.gsc-input {
+  padding-left: 0px;
+  border: none;
+}
+div.gsc-control-cse-en {
+  padding: 0px;
+}
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button {
+  box-sizing: content-box;
+  line-height: normal;
 }
 table {
   width: 100%;
