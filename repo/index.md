@@ -1,5 +1,5 @@
 ---
-title: Welcome to the tera-PROMISE Repository
+title: Welcome to one of the largest repositories of SE research data
 layout: repo-content
 limit: 5
 category: repo
