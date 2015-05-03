@@ -5,6 +5,8 @@ limit: 5
 category: repo
 ---
 
+The tera-PROMISE Repository is a _research dataset repository_ specializing in software engineering research datasets. Sponsored by the National Science Foundation, we provide **free** and **long-term storage for your research data**. 
+
 The tera-PROMISE Repository is a long-term storage solution for research data, with a focus on software engineering datasets.
 
 Datasets are stored in the categories listed on the left. These categories are not fixed (the more you contribute, the more our categories change). 
@@ -12,10 +14,22 @@ Datasets are stored in the categories listed on the left. These categories are n
 This repository is an update to the older PROMISE repository hosted on a Google Code site.
 Our goal is to be a long term storage facility for SE data. [More info...](/repo/about)
 
-<div class="jumbotron">
-  <h2><strong>Contributing your research data is easy.</strong></h2>
-  <p>Learn how to donate your research data on the contribute pages, whether you're a researcher or a student interested in getting involved.</p>
-  <p><a class="btn btn-primary btn-lg" href="/repo/contribute" role="button">Learn more...</a></p>
+<div class="row">
+	<div class="col-lg-6 col-md-6">
+		<div class="jumbotron">
+			<h2><strong>1. Find research datasets</strong></h2>
+			<p>We have everything from McCabe & Halsted to Spreadsheets to Green Mining.</p>
+			<p><a class="btn btn-primary btn-lg" href="/repo/categories" role="button">View categories...</a></p>
+		</div>
+	</div>
+	
+	<div class="col-lg-6 col-md-6">
+		<div class="jumbotron">
+		  <h2><strong>2. Contribute your data</strong></h2>
+		  <p>Learn how to contribute your research data, whether you're a researcher or a student.</p>
+		  <p><a class="btn btn-primary btn-lg" href="/repo/contribute" role="button">Learn how...</a></p>
+		</div>
+	</div>
 </div>
 
 ## About Us
@@ -53,5 +67,5 @@ Mitch Rees-Jones | Jelber Sayyad (v1)       | Amal Boukhdhir
                  | Mitch Rees-Jones (v4)    |                  
 
 
-## Recent Additions (more [here](/repo/recent.html))
+## Recently Added Datasets (more [here](/repo/recent.html))
 

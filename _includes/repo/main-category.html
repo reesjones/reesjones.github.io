@@ -33,7 +33,7 @@
 					<div class="list-group">
 						{% for dataset in site.categories.[page.category] limit: page.limit do %}
 							<a href="{{dataset.url}}" class="list-group-item">
-								<p class="pull-right"><strong>Added:</strong> {{ dataset.date | date: '%B %d, %Y' }}</p>
+								<p class="pull-right"><strong>Added on:</strong> {{ dataset.date | date: '%B %d, %Y' }}</p>
 								<h4 class="list-group-item-heading">{{dataset.title}}</h4>
 								<p class="list-group-item-text">{{dataset.excerpt}}</p>
 							</a>

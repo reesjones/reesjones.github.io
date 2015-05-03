@@ -8844,6 +8844,7 @@ input[type="checkbox"] {
 .btn:hover {
   color: #fdaf17;
 }
+/* Reduces the excessive margin of the page header titles */
 .page-header {
   margin-top: 11px;
 }
