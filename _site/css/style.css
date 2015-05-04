@@ -8848,6 +8848,13 @@ input[type="checkbox"] {
 .page-header {
   margin-top: 11px;
 }
+.jumbotron {
+  text-align: center;
+}
+.jumbotron h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 /* Site nav less */
 /*********************/
 /* Site path styling */
