@@ -1,0 +1,92 @@
+<h1 id="url">URL</h1>
+
+<ul>
+  <li><a href="https://terapromise.csc.ncsu.edu:8443/!/#repo/view/head/other/apachesquire">Data in Terapromise</a></li>
+  <li><a href="http://dl.acm.org/citation.cfm?id=2487085.2487142">Paper in ACM Digital Library</a></li>
+</ul>
+
+<h1 id="change-log">Change Log</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>May 1st, 2015</td>
+      <td>Donated by <a href="/repo/people/data-donors/promise4.html">Megan Squire</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="reference">Reference</h1>
+
+<p>Studies who have been using the data (in any form) are required to include the following reference:</p>
+
+<p><code>
+@inproceedings{Squire:2013:PRA:2487085.2487142,
+   author = {Squire, Megan},
+   title = {Project Roles in the Apache Software Foundation: A Dataset},
+   booktitle = {Proceedings of the 10th Working Conference on Mining Software Repositories},
+   series = {MSR '13},
+   year = {2013},
+   isbn = {978-1-4673-2936-1},
+   location = {San Francisco, CA, USA},
+   pages = {301--304},
+   numpages = {4},
+   url = {http://dl.acm.org/citation.cfm?id=2487085.2487142},
+   acmid = {2487142},
+   publisher = {IEEE Press},
+   address = {Piscataway, NJ, USA},
+}
+</code></p>
+
+<h1 id="about-the-data">About the Data</h1>
+
+<h2 id="overview-of-data">Overview of Data</h2>
+
+<p>Contains 3 tables in SQL format:</p>
+
+<p><strong>Table 1 (apache_datasources):</strong> List of Apache Data sources
+Attributes (Name, Type): 
+  <code>datasource_id</code> Integer
+  <code>item_description</code> Character
+  <code>date_posted</code> Date
+  <code>date_collected</code> Date
+  <code>method</code> Character
+  <code>item_url</code> Character
+  <code>last_updated</code> Date</p>
+
+<p><strong>Table 2(apache_people_projects):</strong> List of people committing various projects
+Attributes (Name, Type):
+  <code>svn_id</code> Character
+  <code>real_name</code> Character
+  <code>web_site</code> Character
+  <code>datasource_id</code> Integer
+  <code>project_name</code> Character
+  <code>role_on_project</code> Character
+  <code>details</code> Character
+  <code>email</code> Character
+  <code>organization</code> Character
+  <code>last_updated</code> Date</p>
+
+<p><strong>Table 3(apache_unlisted_cla):</strong> List of people with signed CLAs but are not committers
+Attributes (Name, Type):
+  <code>real_name</code> Character
+  <code>datasource_id</code> Integer
+  <code>last_updated</code> Date</p>
+
+<h2 id="paper-abstract">Paper Abstract</h2>
+
+<p>This paper outlines the steps in the creation and maintenance of a 
+new dataset listing leaders of the various projects of the Apache 
+Software Foundation (ASF). Included in this dataset are different 
+levels of committers to the various ASF project code bases, as well 
+as regular and emeritus members of the ASF, and directors and 
+officers of the ASF. The dataset has been donated to the FLOSSmole 
+project under an open source license, and is available for 
+<a href="https://code.google.com/p/flossmole/downloads/detail?name=apachePeople2013-Jan.zip">download</a>, 
+or for direct querying via a database client.</p>

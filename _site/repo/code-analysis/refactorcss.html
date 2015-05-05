@@ -1,0 +1,87 @@
+<h1 id="url">URL</h1>
+
+<ul>
+  <li><a href="https://terapromise.csc.ncsu.edu:8443/!/#repo/view/head/code-analysis/refactorcss">Data in Terapromise</a></li>
+  <li><a href="http://dl.acm.org/citation.cfm?id=2635879">Paper in ACM Digital Library</a></li>
+</ul>
+
+<h1 id="change-log">Change Log</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>When</th>
+      <th>What</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>May 1st, 2015</td>
+      <td>Donated by <a href="/repo/people/data-donors/promise4.html">Davood Mazinanian</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="reference">Reference</h1>
+
+<p>Studies who have been using the data (in any form) are required to include the following reference:</p>
+
+<p><code>
+@inproceedings{Mazinanian:2014:DRO:2635868.2635879,
+   author = {Mazinanian, Davood and Tsantalis, Nikolaos and Mesbah, Ali},
+   title = {Discovering Refactoring Opportunities in Cascading Style Sheets},
+   booktitle = {Proceedings of the 22Nd ACM SIGSOFT International Symposium on Foundations of Software Engineering},
+   series = {FSE 2014},
+   year = {2014},
+   isbn = {978-1-4503-3056-5},
+   location = {Hong Kong, China},
+   pages = {496--506},
+   numpages = {11},
+   url = {http://doi.acm.org/10.1145/2635868.2635879},
+   doi = {10.1145/2635868.2635879},
+   acmid = {2635879},
+   publisher = {ACM},
+   address = {New York, NY, USA},
+   keywords = {Cascading style sheets, duplication, refactoring},
+} 
+</code></p>
+
+<h1 id="about-the-data">About the Data</h1>
+
+<h2 id="overview-of-data">Overview of Data</h2>
+
+<p>Contains CSS code and <strong>FSE’14.csv</strong> which indicates different measures for CSS datasets.</p>
+
+<h2 id="attribute-information">Attribute Information</h2>
+
+<ul>
+  <li>size</li>
+  <li>sloc</li>
+  <li>num_selectors</li>
+  <li>num_base_sel</li>
+  <li>num_grouped_sel</li>
+  <li>num_decs</li>
+  <li>Ionly</li>
+  <li>IIOnly</li>
+  <li>IIIOnly</li>
+  <li>I-II</li>
+  <li>I-III</li>
+  <li>II-III</li>
+  <li>I-II-IIII</li>
+  <li>number_of_duplicated_declarations</li>
+  <li>selectors_with_duplicated_declaration</li>
+  <li>longest_dup</li>
+  <li>max_sup_longest_dup</li>
+  <li>clone_sets</li>
+  <li>refactoring_opportunities</li>
+  <li>applied_refactorings_count</li>
+  <li>number_of_positive_refactorings</li>
+  <li>size_after</li>
+  <li>number_of_order_dependencies</li>
+  <li>Refactoring-Opportunities-excluding-subsumed</li>
+  <li>Positive-Refactoring-Opportunities-excluding-ubsumed</li>
+</ul>
+
+<h2 id="paper-abstract">Paper Abstract</h2>
+
+<p>Cascading Style Sheets (CSS) is a language used for describing the look and formatting of HTML documents. CSS has been widely adopted in web and mobile development practice, since it enables a clean separation of content from presentation. The language exhibits complex features, such as inheritance, cascading and specificity, which make CSS code hard to maintain. Therefore, it is important to find ways to improve the maintainability of CSS code. In this paper, we propose an automated approach to remove duplication in CSS code. More specifically, we have developed a technique that detects three types of CSS declaration duplication and recommends refactoring opportunities to eliminate those duplications. Our approach uses preconditions that ensure the application of a refactoring will preserve the original document styling. We evaluate our technique on 38 real-world web systems and 91 CSS files, in total. Our findings show that duplication in CSS code is widely prevalent. Additionally, there is a significant number of presentation-preserving refactoring opportunities that can reduce the size of the CSS files and increase the maintainability of the code.</p>
