@@ -1,5 +1,3 @@
-# reesjones.github.io
-This is the source code for a redesigned [openscience.us](http://openscience.us) using Bootstrap, Liquid templates, and the Jekyll framework.
+This is my temporary github site based on the (BlackDoc theme)[https://github.com/karloespiritu/BlackDoc].
 
-# Theme
-The theme used in this site is based on the [Yeti theme](http://bootswatch.com/yeti/) from bootswatch.com.
+I will eventually replace it with my own custom Jekyll theme.
