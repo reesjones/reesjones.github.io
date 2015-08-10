@@ -17,7 +17,7 @@ author:
   name:           'Mitch Rees-Jones'
   url:            https://reesjones.github.io
 
-paginate:         5
+paginate:         4
 
 # Custom vars
 version:          1.0.0
