@@ -35,9 +35,13 @@ Feel free to contact me if you have any questions.
 # Skills
 
 **Languages:**   Java, Javascript, HTML/CSS, Python
+
 **Frameworks:**   {Angular, Node, Express}.js, Bootstrap, WordPress
+
 **Platforms:**   Linux/Bash, Win7 & XP, IBM Bluemix & DevOps platforms
+
 **Tools & IDEs:**   Eclipse, Git/GitHub, Subversion, vim, Sublime Text 2, Dr. Java
+
 **Topics:**   Agile development, REST APIs, data structures, algorithms, runtime complexity
 
 # Relevant Experience
