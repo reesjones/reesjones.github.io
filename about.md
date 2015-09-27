@@ -23,7 +23,7 @@ much past opening websites and storing usernames in a text file, they were a fun
 coding. When I started school at NCSSM, I learned HTML, CSS, Python, and Java through the various CS 
 classes I took in two years. Over time, the projects I created for school and on my own time piled 
 up, and organization was messy at best. Over the summer, I learned git and started migrating my 
-[projects](projects.html) to GitHub, in order to create a system with which I can better document and
+[projects](/projects) to GitHub, in order to create a system with which I can better document and
 organize my projects and coding habits. I decided that the best way to manage these projects was 
 with a personal website, and here we are.
 
@@ -31,15 +31,19 @@ Additionally, it serves as a public portfolio and ‘extended resume’ for pote
 
 # What can I do?
 
-My strongest language is Java, and I’ve built a number of large-ish [projects](projects.html) in it. I’ve also used a number of other languages and tools, summarized below:
+My strongest language is Java, and I’ve built a number of large-ish [projects](/projects) in it. I’ve also used a number of other languages and tools, summarized below:
 
 **Languages:**   Java, Javascript, HTML/CSS, C, Python
+
 **Server-side:**   Angular.js, Node.js, Bootstrap, WordPress, Android SDK
+
 **Platforms:**   Linux/Bash, Windows, IBM Bluemix & DevOps platforms
+
 **Tools & IDEs:**   Eclipse, Git/GitHub, Subversion, vim, Android Studio
+
 **Topics:**   Agile development, REST APIs, data structures, algorithms, logic
 
-For more information, view my [resume](resume.html)!
+For more information, view my [resume](/resume)!
 
 # What else do I do?
 
