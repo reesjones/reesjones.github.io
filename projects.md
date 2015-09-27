@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-Here's a collection of webdev/software/other projects I've done (hopefully with links):
+Here's a few of the more notable webdev/software/other projects I've done in the past:
 
 
 ## A software engineering research data repository [[link]](http://openscience.us/repo)
@@ -37,3 +37,7 @@ For my data structures class at [NCSSM]() I implemented an array-based list, lin
 table, and a few sorting algorithms (bubble sort, merge sort).
 
 
+
+## Upcoming: an Android app!
+
+Stay tuned. (9/26/15)
