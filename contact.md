@@ -40,6 +40,10 @@ layout: page
   </div>
 </div>
 
+<!-- Formspree hidden fields -->
+<input type="hidden" name="_subject" value="Message from reesjones.github.io" />
+<input type="text" name="_gotcha" style="display:none" />
+
 </fieldset>
 </form>
 

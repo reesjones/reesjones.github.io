@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            reesjones
 tagline:       	  Mitch Rees-Jones, software & web developer at NC State
-description:      "The temporary personal site of Mitch Rees-Jones"
+description:      "Software, web, & mobile developer at NC State"
 url:              url
 baseurl:          /
 
@@ -20,7 +20,6 @@ author:
 paginate:         4
 
 # Custom vars
-version:          1.0.0
 
 github:           https://github.com/reesjones/
 linkedin:		  https://www.linkedin.com/in/reesjones
