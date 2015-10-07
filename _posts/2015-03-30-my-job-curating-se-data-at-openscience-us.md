@@ -12,6 +12,7 @@ Software analytics deals with the analysis of data gathered from software engine
  * XML descriptions of design patterns to recommend particular designs [1],
  * software process models to learn effective project changes [2], and
  * bug databases to learn defect predictors that guide inspection teams to where the code is most likely to fail [3-5].
+
 A common problem associated with software analytics, which includes SE research, is that many research papers that used SE data to reach conclusions is not provided with the paper. An essential paradigm of the scientific method is that results must be both *reproducible* and *replicable*. Reproducibility is the ability to reproduce an experiment; e.g. take somebody’s previous experiment and rerun it with either their data or on your own data (it depends on who you ask – the precise definition is a bit fuzzy). Replicability is achieved when the same results are gathered from the *same* experimental methods with the *same* data.
 
 So…when the data used in a particular study or experiment is not provided to the academic community, the study or experiment is irreproducible and therefore irreplicable. There’s solid evidence of this, as stated on the [openscience.us/ssj/manifesto](http://openscience.us/ssj/manifesto) page:
