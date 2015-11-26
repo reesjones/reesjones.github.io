@@ -19,14 +19,24 @@
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/blackdoc.css">
+  <link rel="stylesheet" href="/public/css/custom.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=EB+Garamond">
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68102929-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 
@@ -40,11 +50,11 @@
           reesjones
         </a>
       </h1>
-      <p class="lead">The temporary personal site of Mitch Rees-Jones</p>
+      <p class="lead">Software, web, & mobile developer at NC State</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item active" href="/">Home</a>
+      <a class="sidebar-nav-item active" href="/">Home/Blog</a>
 
       
 
@@ -64,11 +74,23 @@
       
         
           
+            <a class="sidebar-nav-item" href="/contact/">Contact Me</a>
+          
+        
+      
+        
+          
         
       
         
           
             <a class="sidebar-nav-item" href="/projects/">Projects</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/reading-list/">Reading List</a>
           
         
       
@@ -82,11 +104,15 @@
           
         
       
+        
+          
+        
+      
 
       <hr>
+      <span class="sidebar-nav-item">Find me elsewhere:</span>
       <a class="sidebar-nav-item" href="https://github.com/reesjones/">GitHub</a>
       <a class="sidebar-nav-item" href="https://www.linkedin.com/in/reesjones">LinkedIn</a>
-      <span class="sidebar-nav-item">Currently v1.0.0</span>
     </nav>
 
   </div>
@@ -94,9 +120,8 @@
 
 
     <div class="content container">
-      Note:
-
-This theme is temporary until I get around to making my own awesome site! Blog posts are below.
+      Hey there, my name's Mitch and I'm a software/web developer at N.C. State! Check out the <a href="/about">about</a> page or
+see below for my most recent blog posts.
 
 
 <hr>
@@ -105,264 +130,205 @@ This theme is temporary until I get around to making my own awesome site! Blog p
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2015/06/19/how-to-not-practice-tdd/">
-        How to not practice TDD
+      <a href="/2015/10/03/how-we-interact-with-technology/">
+        How we interact with technology
       </a>
     </h1>
 
-    <span class="post-date">19 Jun 2015</span>
+    <span class="post-date">03 Oct 2015</span>
 
-    <p>Here are a few rules I’ve learned to follow when practicing test driven development (TDD):</p>
-
-<h3>Don’t use a common dataset that all tests end up using.</h3>
-
-<ul>
-<li>If you have to make a change to that dataset to accommodate for a new test, it might end up breaking all of your other tests in the process.</li>
+    <ul>
+<li>Technology is an attention-stealer</li>
+<li>Despite my career path, I don&#39;t like how people are interacting with technology. Specifically,
+I don&#39;t like how people are interacting with their mobile devices.</li>
 </ul>
 
-<h2>Unit testing is usually good, but not if what you’re testing is changing every 2 days.</h2>
+<p>Later today I&#39;m going to get on a bus to go to the centennial campus of NC State for
+a computer science class. If history is any indication, between half and two thirds of the riders 
+will be actively engaged phone or, at the very least, have their phone out of their pocket, holding it
+in their hands. It&#39;s an addiction. We&#39;re unconsciously waiting for another buzz or notification all
+the time and it&#39;s killing our attention span.</p>
+
+<p>I read an <a href="http://www.nytimes.com/2015/09/27/opinion/sunday/stop-googling-lets-talk.html">article</a> 
+in the New York Times about how we interact with technology.</p>
 
 <ul>
-<li>If the API for a set of functions or a class is changing every day or so and you’re frantically trying to re-write your tests to reflect the API changes, then you might be spending too much time on testing. It’s ok if you initially spend just as long writing tests as you spend writing the functions/methods themselves, but if the specification changes really frequently, you’ll end up frantically trying to re-write your tests before you can get on with the functions themselves.</li>
+<li>I wish we could interact with our most personal technology devices in a different way. Right now,
+our mobile devices are constantly-available attention seekers. They deprive us of attention and it&#39;s
+hurting us psychologically.</li>
+<li>I wish our devices were periodic. Let&#39;s view human attention like a computing resource, for
+example, such as processing resources. When software engineers design programs, they must be conscious
+of their usage of resources. Can&#39;t be too greedy, but the job (whatever it may be) must be done.</li>
 </ul>
 
-<h2>Don’t refactor it before you test it.</h2>
+<p>What if our devices were the so called &#39;developers&#39; competing for &#39;resources&#39;, e.g. attention span?</p>
 
-<ul>
-<li>The idea with TDD is that you design your functions by testing them first. Refactoring comes in after the tests, when you re-write the guts of it to be more readable to other developers, faster, more concise, etc. Prematurely optimizing or refactoring code usually leads to accidentally changing how the function works, and if you haven’t finished tests for that then it’s harder to spot the error.</li>
-</ul>
+<p>Technology devices should respect this scarcity of the &#39;attention&#39; resource. If only there was a way
+for technology to be non-disruptive. What if your phone was set to only check for notifications or
+emails or texts every hour? Every day? What if it was a conscious request that the user had to make?
+Instead of a phone beeping whenever something comes in, what if I had to consciously tell my device
+to check for updates?</p>
 
-<h2>Don’t write 500 assertions per test.</h2>
+<p>I think something like that would do a lot of good to the psychological health of today&#39;s tech-infused
+generation. I remember when I went on a backpacking trip on the app trail and my group of friends set
+a rule of no technology - except for a daily check of the phone for emergency texts from parents.</p>
 
-<ul>
-<li>Ok, I might be exaggerating just a tad, but if you write a test with 500 assertions in it, it should be pretty obvious to you that you’re trying to test too much in one function. Break it up for readability and maintainability.</li>
-</ul>
+<p>Is this a problem that can be solved technologically? Or is it a cultural one? It&#39;d be ironic to use
+technology to get people away from technology and toward human interaction. Maybe a mass cultural
+paradigm shift is required.</p>
 
-<p>Like all software development practices, there’s a time and a place for TDD. Make sure to look before you leap; if TDD won’t end up saving you time or increasing your productivity, then it’s probably not worth it.</p>
+<p>Is this concept of a non-interruptive phone/device profitable? What if I started a company that made
+devices that you interacted with in a way that wasn&#39;t detrimental to your attention span? I&#39;d imagine
+that it&#39;d only appeal to people who are consciously trying to get away from constant immersion and 
+global availability online. Maybe something like this should be targeted specifically to those types
+of people, and if it does a good enough job, others might see the benefit and &#39;switch over&#39;.</p>
+
+<p>links</p>
+
+<p>https://news.ycombinator.com/item?id=10322513      (look for codingdave&#39;s comment &quot;I hope their premises are wrong&quot;)
+phubbing: http://www.sciencedirect.com/science/article/pii/S0747563215300704
+http://time.com/4057948/cell-phone-hurting-relationship/
+http://www.huffingtonpost.com/james-a-roberts/to-phubb-or-not-to-phubb<em>b</em>8209924.html</p>
 
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2015/03/30/my-job-curating-se-data-at-openscience-us/">
-        My Job - Curating SE Data at openscience.us
+      <a href="/2015/10/02/a-tidbit-of-java-magic-integer-caching/">
+        A tidbit of Java magic - integer caching
       </a>
     </h1>
 
-    <span class="post-date">30 Mar 2015</span>
+    <span class="post-date">02 Oct 2015</span>
 
-    <p>Back in January, I started a part-time job at N.C. State, joining my colleague and good friend <a href="https://github.com/CarterPape">Carter Pape</a> in developing version 4 of <a href="http://openscience.us/repo">openscience.us/repo</a>, a long-term repository for software engineering (SE) research data. I wasn’t too knowledgeable about what I was getting into, but through the past few months I’ve gained some insight into the philosophy of SE research – and how <a href="http://menzies.us/">Dr. Tim Menzies</a> and his brainchild OpenScience is making software engineering research a more reproducible and replicable process.</p>
-
-<h2>Software Analytics</h2>
-
-<p>Software analytics deals with the analysis of data gathered from software engineering to gain insights that can produce actionable advice to improve software engineering. Such advice can include using</p>
-
-<ul>
-<li>XML descriptions of design patterns to recommend particular designs [1],</li>
-<li>software process models to learn effective project changes [2], and</li>
-<li>bug databases to learn defect predictors that guide inspection teams to where the code is most likely to fail [3-5].
-A common problem associated with software analytics, which includes SE research, is that many research papers that used SE data to reach conclusions is not provided with the paper. An essential paradigm of the scientific method is that results must be both <em>reproducible</em> and <em>replicable</em>. Reproducibility is the ability to reproduce an experiment; e.g. take somebody’s previous experiment and rerun it with either their data or on your own data (it depends on who you ask – the precise definition is a bit fuzzy). Replicability is achieved when the same results are gathered from the <em>same</em> experimental methods with the <em>same</em> data.</li>
-</ul>
-
-<p>So…when the data used in a particular study or experiment is not provided to the academic community, the study or experiment is irreproducible and therefore irreplicable. There’s solid evidence of this, as stated on the <a href="http://openscience.us/ssj/manifesto">openscience.us/ssj/manifesto</a> page:</p>
-
-<blockquote>
-<p>There are very few replications of prior SE results. For example, in 2010, <a href="http://v.gd/kTm2Kz">Robles</a> published a retrospective study of the 171 papers published in the Mining Software Repositories (MSR) conference [106]. He found that over 95 of those papers were unreproducible, since their associated data was no longer on-line. This lack of availability of old MSR data was discussed, at length, at MSR 2013. According to those participants, the single biggest contributor to this issue was the lack of a free-to-use long-term storage facility for big files. For example, free services like GitHub or GoogleCode impose limits of just a few gigabytes on the total repository size.</p>
-</blockquote>
-
-<p>So not only is some data not being published (therefore breaking the academic research model), but the data that is published tends to go missing over time. As the manifesto states, a reliable long-term storage repository for data simply didn’t exist. That’s where I come in!</p>
-
-<h2>The tera-PROMISE repository</h2>
-
-<p>My job involves two main branches of work: developing the actual site with HTML, CSS, and the Jekyll framework, and curating/adding research data as it is submitted. It is also described in the OpenScience manifesto:</p>
-
-<blockquote>
-<p><strong>SOLUTION #4:</strong> Create a large free-to-use repository for SE <a href="http://openscience.us/ssj/researchproducts.html">research products</a>. To this end, we have created a <a href="https://terapromise.csc.ncsu.edu:8443/svn/repo">large repository</a> for storing the data, plus creating a <a href="http://openscience.us/repo/">discussion site</a> for those contents calculate, that this repository requires one petabyte of storage.</p>
-</blockquote>
-
-<p>So I work on building the actual site with <a href="http://jekyllrb.com/">Jekyll</a>, a “simple, blog-aware, static site generator”, and adding datasets to the site as Jekyll posts and uploading them to the SVN repository. The Jekyll site hosts the data descriptions and context notes to the data, along with a link to the data in the SVN repository, hosted separately at N.C. State University.</p>
-
-<p>And that’s my job! There are currently over 100 datasets housed in the tera-PROMISE repository, some of which are circa 2004, sorted into 18 categories. If you happen to be a researcher who wants data to be uploaded, feel free to browse around the current projects and fill out a <a href="http://goo.gl/7mWybm">Google Form</a> with the appropriate information. You can also email <a href="mailto:openscience.content@gmail.com">openscience.content@gmail.com</a> if you prefer.</p>
-
-<p>These references were gathered from <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6547619">this IEEE article</a> on software analytics, co-authored by Dr. Menzies.</p>
-
-<p>F. Palma, H. Farzin, and Y.-G. Gueheneuc, “Recommendation System for Design Patterns in Software Development: A DPR Overview,” Proc. 3rd Int’l Workshop Recommendation Systems for Software Eng., IEEE, 2012, pp. 1–5
-D. Rodríguez et al., “Multiobjective Simulation Optimisation in Software Project Management,” Proc. Genetic and Evolutionary Computation Conf., ACM, 2011, pp. 1883–1890.
-T. Menzies, J. Greenwald, and A. Frank, “Data Mining Static Code Attributes to Learn Defect Predictors,” IEEE Trans. Software Eng., Jan. 2007; http://menzies.us/pdf/06learnPredict.pdf.
-T.J. Ostrand, E.J. Weyuker, and R.M. Bell, “Where the Bugs Are,” Proc. 2004 ACM SIGSOFT Int’l Symp. Software Testing and Analysis, ACM, 2004, pp. 86–96.
-S. Kim et al., “Predicting Faults from Cached History,” Proc. Int’l Conf. Software Eng., IEEE CS, 2007, pp. 489-498.</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2015/02/22/my-first-bask-function/">
-        My first bash function
-      </a>
-    </h1>
-
-    <span class="post-date">22 Feb 2015</span>
-
-    <p>I found a nice little <a href="http://www.makeuseof.com/tag/4-ways-teach-terminal-commands-linux-si/">article</a> today on learning terminal commands in Linux. The first suggestion in the article was to echo a random command from the /bin directory every time an instance of bash starts up. I took their suggestion of wrapping the output in a cowsay speech bubble slightly further.</p>
-
-<p>cowsay is a little program that prints text from standard input in a speech bubble coming from a cow (there are other animals/characters that you can specify). All I did was plop the cowsay command from the MakeUseOf article into a bash function called <a href="http://www.makeuseof.com/tag/4-ways-teach-terminal-commands-linux-si/">cowtip</a> in my ~/.bashrc and ran it every time a terminal window is started. Here’s the code:</p>
-
-<p>CowTip of the day!</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text">function cowtip {
-   cowsay -f $(ls /usr/share/cowsay/cows | shuf -n 1 | cut    -d -f1) $(whatis $(ls /bin) 2&gt;/dev /null | shuf -n 1)
-}
-cowtip
+    <p>I came across a code snippet on StackOverflow:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Integer a = 42;
+Integer b = 42;
+System.out.println(a == b);
+Integer c = 555;
+Integer d = 555;
+System.out.println(c == d);
 </code></pre></div>
-<p>Just put it in your <code>~/.bashrc</code> and it’ll spit out a random command and its description every time you start the terminal or run cowtip!</p>
-<div class="highlight"><pre><code class="language-text" data-lang="text"> ___________________________________
-&lt; dir (1) - list directory contents &gt;
- -----------------------------------
-       \   ^__^
-        \  (oo)\_______
-           (__)\       )\/\
-               ||----W |
-               ||     ||
+<p>The first print statement prints <code>true</code> and the second one prints <code>false</code>.</p>
+
+<p>Wait, what?</p>
+
+<p>The second comparison makes sense. <code>==</code> in Java compares references to see if they
+are the same object <em>in memory</em> (and primitives are compared by their literal value).
+So <code>c == d</code> should return false, since they&#39;re not the same object in memory.
+The <code>Object.equals()</code> method is a <em>functional</em> comparison, but it doesn&#39;t check
+actual reference equality, e.g. it doesn&#39;t check the addresses of the reference variables.
+So why does the first comparison equate to true?</p>
+
+<p>The answer can be found in the Java Langauge Specification, <a href="http://docs.oracle.com/javase/specs/jls/se7/html/jls-5.html#jls-5.1.7">chapter 5</a>.
+Two primitives being autoboxed into references via a boxing conversion may qualify to
+be cached for optimization purposes. Caching the more commonly used primitive values
+leads to faster access time, so these certain commonly used primitives are cached:</p>
+
+<ul>
+<li><code>true</code>, <code>false</code></li>
+<li><code>byte</code> or <code>char</code> in the range <code>\u0000</code> to <code>\u007f</code></li>
+<li><code>int</code> or <code>short</code> in the inclusive range of -128 to 127</li>
+</ul>
+
+<p>So in the snippet above, <code>a == b</code> is true because <code>a</code> and <code>b</code> are between -128 and 127, so
+when a new <code>Integer a = 42;</code> is created, it simply points to a previously cached Integer object.</p>
+
+<p>Note that this only works when primitive <code>int</code>s are autoboxed to <code>Integer</code>s. If two <code>Integer</code>
+objects are created (not autoboxed from the primitive type)...</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Integer e = new Integer(4);
+Integer f = new Integer(4);
+System.out.println(e == f);
 </code></pre></div>
+<p>...then the comparison will be false, since both <code>Integer</code> references were explicitly initialized
+as separate objects.</p>
+
+<p>Interesting stuff!</p>
+
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/2015/02/13/the-scary-yet-promising-implications-of-ai/">
-        The Scary yet Promising Implications of AI
+      <a href="/2015/09/03/choosing-tech-over-finance/">
+        Choosing tech over finance
       </a>
     </h1>
 
-    <span class="post-date">13 Feb 2015</span>
+    <span class="post-date">03 Sep 2015</span>
 
-    <p>This post was inspired by a long, thought provoking <a href="http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html">post</a> about artificial intelligence (AI) from the very interesting blogging site <a href="http://waitbutwhy.com/">WaitButWhy.com</a>. A big part of my educational enlightenment has been figuring out just what it is that I can do to make an impact in the world, hopefully a good one, on hopefully a large scale. After spending the good part of an afternoon reading and mulling over the Wait But Why article, I had formulated the foggy idea that cognitive computing, machine learning, artificial intelligence, and other related subfields of computer science would provide ample opportunity and potential to make a huge impact by advancing the technology we have today into the superintelligent machines that will most likely be commonplace in the future. Instead of making you read the entire ~23,000 word two-part article, I’ll give you a super condensed version in italics below (note: I have no intention of taking credit for the hard work of the people at waitbutwhy.com – this summary is just a condensation of their really long article).</p>
+    
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/2015/08/09/arroz-con-pollo-recipe/">
+        Arroz con pollo recipe
+      </a>
+    </h1>
 
-<h2>A quick summary</h2>
+    <span class="post-date">09 Aug 2015</span>
 
-<blockquote>
-<p>Basically, human progress is currently here:</p>
-</blockquote>
+    <p>This is a divergence from the usually technically-oriented post. I&#39;ve never put a recipe up on my website, 
+but I made up a pretty good arroz con pollo recipe that I&#39;ve made on a few occasions. It&#39;s kinda long to make, 
+but really good hit the spot hearty cuban-ish food.</p>
 
-<p><img src="/public/images/time.png" alt="Just at the edge of an AI explosion. [Courtesy of waitbutwhy.com]"></p>
+<p><strong>Serves 6</strong></p>
 
-<blockquote>
-<p>Artificial intelligence (AI) technology might be about to skyrocket thanks to the <a href="http://www.kurzweilai.net/the-law-of-accelerating-returns">Law of Accelerating Returns</a>. We don’t exactly know when (or if) it’ll happen, but experts predict it’ll be anywhere from 7 years to 100 years. And if it does reach the point of no return (known as the <a href="http://en.wikipedia.org/wiki/Technological_singularity">singularity</a> – when AI explosively surpasses human intelligence), it’ll be a fun ride.
-Researchers have also classified AI into three calibers: ANI, AGI, and ASI, standing for Artificial Narrow Intelligence, Artificial General Intelligence, and Artificial Superintelligence. We’re currently at ANI, with things like Siri, Google Translate, or <a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/">Watson</a> (the computer that won Jeopardy). AGI is as intelligent as a human, and ASI is anything past AGI, or past the level of human intelligence. Once we build an AI with human capabilities, it’ll likely go through recursive self-improvement (e.g. machine learning) and then become ASI really quickly.</p>
+<h2>Ingredients - need prep</h2>
 
-<p>The problem with ASI being smarter than is us that we wouldn’t know how to control it. It could do unbelievably good things or unbelievably bad things, like figure out how to make us an immortal species (see picture), invent technology for us, and solve all our problems, or it could destroy every living thing on the planet in a ~~plethora~~ <a href="https://theartifexncsu.wordpress.com/2014/12/07/new-college-writing-paradigm-plethora-gives-way-to-myriad/">myriad</a> of different ways. This immense power is what scares many people (including me).</p>
-</blockquote>
+<ul>
+<li>Chicken - 3 breasts, cut to ~1.5 inch pieces</li>
+<li>Half a red onion (cut to 3/4 inch squares)</li>
+<li>Red &amp; green bell pepper - half a pepper each kind (cut into strips)</li>
+<li>3 sweet potatoes (large dice - 3/4 inch)</li>
+<li>Garlic (finely chopped, or if you&#39;re lazy like me, a bit of garlic powder)</li>
+</ul>
 
-<p><img src="/public/images/beam.jpg" alt="The proverbial balance beam. [Courtest of waitbutwhy.com]"></p>
+<h2>Ingredients - no prep</h2>
 
-<blockquote>
-<p>The article then goes on to describe a doomsday-type scenario where a robot is given the task of emulating handwriting by constantly improving, without regards to the human consequences of doing so, and the robot proceeds to kill the rest of the universe to gather the resources it needs to keep practicing its handwriting. 
-This doomsday robot isn’t necessarily evil – computers aren’t ‘friendly’ and ‘evil’, we just anthropomorphize them, e.g. think of them as human. Since human values weren’t initially hard coded into the robot, it didn’t consider the survival of humans to be an imperative goal, so it simply continued on to wipe out humans to gather resources for its task.</p>
-</blockquote>
+<ul>
+<li>Black rice and wild rice (1 cup each)</li>
+<li>Olive oil (drizzle on sweet potatoes)</li>
+<li>Black beans, half drained (2 cans - ~30 oz)</li>
+<li>Diced tomatoes (1 can)</li>
+<li>2 limes</li>
+</ul>
 
-<h2>So how do we control AI?</h2>
+<h2>Ingredients - spices</h2>
 
-<p>AI systems have the potential to drastically alter the current path of life as we know it, whether that path is good, bad, or both. The implications are pretty scary, but the scariest possibility is that we won’t understand how the AI systems we’ve created work, and therefore won’t know how to control them.</p>
+<ul>
+<li>Italian seasoning/oregano (pick one)</li>
+<li>Rosemary</li>
+<li>Cumin</li>
+<li>Some salt/pepper</li>
+<li>Chile powder</li>
+<li>Cilantro and extra lemon/lime(s) for garnish</li>
+</ul>
 
-<p>Figuring out how to gain control of artificial superintelligence and the self-improving decision making of AI <em>before</em> it actually surpasses us could be the difference between us controlling AI and our AI controlling us. And we need to do it fast, because we don’t really know how much longer we have.</p>
-
-<p>In my mind, the key difference between a computer we can and cannot control long-term is whether or not it self-improves. If it self-improves, it could do so unpredictably in a way that creates undesirable behaviors. The intelligent decisions that a computer makes that affects humanity somehow must be moral decisions, in the best interest of human rights. But what’s moral? And how do we govern an AI’s morality?</p>
-
-<p><hr></p>
-
-<p><img src="/public/images/asimov.png" alt="Issac Asimov, author of Runaround and the Three Laws of Robotics [Courtesy of mentalfloss.com]"></p>
-
-<p>You may have heard of <strong>Isaac Asimov&#39;s</strong> Three Laws of Robotics, originally published in <a href="http://en.wikipedia.org/wiki/Runaround">Runaround</a>, a short story from 1942. They are as follows:</p>
+<h2>Prep</h2>
 
 <ol>
-<li>A robot may not injure a human being or, through inaction, allow a human being to come to harm</li>
-<li>A robot must obey the orders given it by human beings, except where such orders would conflict with the First Law.</li>
-<li>A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.</li>
+<li><strong>[3 sweet potatoes] [olive oil] [Rosemary, cumin, cinnamon, salt/pepper]</strong> Preheat oven to 400. Peel and dice 3 sweet potatoes to approximately 3/4 inch cubes. Spread onto sheet pan and drizzle a bit of 
+olive oil for moisture. Spice with rosemary leaves, cumin, cinnamon, salt, and pepper. Use a spatula to lightly toss chunks until seasoning and 
+oil is evenly distributed. Bake at 400 for 50 minutes.</li>
+<li><strong>[Half a red bell pepper] [Half a green bell pepper] [Half a red onion]</strong> Chop half a red and half a green bell pepper (or any combination of pepper colors) into 1/2 inch by 3/4 inch strips and put in a bowl for later cooking. Chop half a 
+red onion into 3/4 inch squares and mix with bell peppers.</li>
+<li><strong>[Cumin, chile powder, salt, pepper, garlic powder or finely chopped garlic]</strong> Prepare spice mix by combining some ratio of cumin, chile powder, salt, pepper, and garlic powder into a small bowl. Not sure how much of each, just kinda splash it in there until there&#39;s enough. Or put it directly in the chicken/veggies sautee as needed.</li>
 </ol>
 
-<p>The problem with these is that they were formed as the basis of a short story, and not from a well-formed scientific approach. They’re too ambiguous, and on top of that, there’s no scientific basis suggesting that they would suffice as valid parameters from which to construct ASI systems.</p>
+<h2>Cook</h2>
 
-<p>But is there really any scientific evidence that we can pull from that gives us insight into which ethical paradigms most successfully guide an AGI’s behavior in favor of humanity? <strong>Not really</strong>. We haven’t developed an AGI yet, and the only way to gather evidence about AGI behavior is to make them and study them. Our situation is paradoxical: in order to develop good ethical AGI/ASI laws before they’re developed, we <em>have</em> to have AGI to study and experiment on.</p>
+<ol>
+<li><strong>[1 cup black rice, 1 cup wild rice]</strong> Bring 1 cup of black rice and 1 cup of wild rice to a boil in uh...however much water the rice bag calls for, and for however 
+long it says. Squeeze juice from 2 limes into rice and stir.</li>
+<li><strong>[3 chicken breasts] [1 can diced tomatoes] [2 cans black beans, only 1 drained]</strong> Prep chicken by cutting off fat and cutting into large chunks (~1.5 inch). Sautee 5-7 minutes or until almost golden brown, and 
+add vegetables from step 2. Add half of spice combination and sautee ~5mins, until vegetables are cooked. Add 1 can of diced 
+tomatoes, 1 can drained black beans, and 1 can UNdrained black beans; bring to a simmer for 5 mins. and stir ingredients until mixed.</li>
+<li>When sweet potatoes are done, remove from oven and add to chicken/beans simmer. And add the rest of the spice mix.</li>
+<li><strong>[Cilantro]</strong> Serve the rice and the chicken mix as a topping. Use cilantro as a garnish.</li>
+</ol>
 
-<p>Effective technical design paradigms take time and experimentation to properly mature, and sometimes good paradigms haven’t matured until the technology has already undergone widespread mainstream implementation. Andrew Tanenbaum noted this in his <a href="http://www.amazon.com/Computer-Networks-Edition-Andrew-Tanenbaum/dp/0132126958">computer networking textbook</a>. The OSI model was developed, but <strong>before the standards could mature</strong> into a better networking paradigm, technology companies started heavily investing in TCP/IP products and the belatedly-developed OSI protocols were left by the wayside. This is known as the <a href="http://students.depaul.edu/%7Ejabsher/apoc_eleph/apoc_eleph.html">apocalypse of two elephants</a>.</p>
-
-<p>The same could happen with AGI. The rate of progress of AI is so volatile that we don’t know when we’ll achieve ASI, but when we do we should hope that solid fundamentals have been developed to ensure our control of their behavior. Fortunately, there’s been considerable development in the field of <a href="http://en.wikipedia.org/wiki/Machine_ethics">machine ethics</a>, which could provide the answer researchers have been looking for as an assuaging and sufficient response to Asimov’s Three Laws of Robotics.</p>
-
-<h2>The successor to Asimov’s Three Laws</h2>
-
-<p>Machine ethics is a relatively new field, only recently coming into focus since the capabilities and sophistication of computers has made artificial intelligence a more realistic endeavor. Basically, it studies the moral behavior of artificially intelligent machines, the potential impact that morality could have on AI behavior, and the creation of &#39;<strong>ethical agents</strong>&#39;, a term defined in James Moor’s paper, <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1667948">&quot;The Nature, Importance and Difficulty of Machine Ethics&quot;</a>.</p>
-
-<p>Machine ethics considers a number of different strategies to control the morality of AI behavior. One such consideration is the domain of algorithms that can be considered safe to use in AI programming: algorithms such as neural networks and genetic algorithms are too indecipherable to be considered safe because of how difficult it is to see how they make decisions. An AI that runs on decision trees or Bayesian networks would be safer, because the implementation of those algorithms are easily inspected and transparent, according to researcher Nick Bostrom (see <a href="http://www.nickbostrom.com/ethics/artificial-intelligence.pdf">this article</a>).</p>
-
-<p>Another consideration on controlling AI behavior is whether or not we can use machine learning techniques to ‘learn’ morality. Some researchers suggest that AGI should be programmed to dynamically analyze the ethical consequences of its own actions, rather than rely on a predetermined list of rules to follow. It would be harder to implement, but would be more flexible and adaptable to different situations.</p>
-
-<h2>Where are we now?</h2>
-
-<p>We ultimately don’t know when (or even if) artificial intelligence will reach a singularity, so there’s no telling what exactly is going to happen. However, the rate of progress of machine ethics and artificial intelligence ethics is definitely nonzero. Products like IBM’s Watson are getting at least within the ballpark of human decision making. Watson can answer impressively complex Jeopardy! questions (as it famously did to beat the two best human Jeopardy! players ever), by combining massive amounts of computing power and massively sophisticated combinations of algorithms in natural language processing and data retrieval to come up with <em>hypotheses</em> and their probabilities of correctness.</p>
-
-<p>Watson is an impressive step forward in cognitive computing, and emulates human brain function on a primitive level: instead of <em>calculating</em> or <em>computing</em> an answer, it <strong>searches</strong> for an answer based on prior ‘experience’ in the form of indexed data. It’s very good at what it was designed to do, but it’s still far away from the general intelligence abilities of the human brain. The jump from ANI (<em>narrow</em> intelligence) to AGI is <strong>huge</strong>. It’ll take some pretty giant leap to get there. Still, Watson is a remarkably advanced product that pushed the capabilities of natural language processing and cognitive computing far beyond what had been done before.</p>
-
-<p>In academic research, a great deal of progress is being made. Researchers have begun developing <a href="http://dijkstra.cs.virginia.edu/genprog/">automated tools</a> (here&#39;s <a href="http://qiyuhua.github.io/publications/icse2014-qi.pdf">another</a>) based on genetic algorithms that can fix bugs. It’ll be fascinating to watch and see what happens as the research continues to push further the extent of human knowledge already made in artificial intelligence and machine learning (and so many more…).</p>
-
-<p><hr></p>
-
-<p>Human morality is and always will be a field of deep divides. A quick Google search of <a href="https://www.google.com/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#q=social%20issues">social issues</a> gives plenty of varying and often extremist opinions. We, as humans, can’t and probably never will agree on the ethicality of certain decisions, and it would certainly be orders of magnitude more difficult to hard code ‘correct’ ethical behavior into an AGI or ASI. Nonetheless, the progress of academic research in both machine ethics and artificial intelligence (and other fields) will ultimately cause advancements in our understanding of the computing systems of the future, and it’ll be fascinating to watch.</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/2014/12/08/increasing-the-presence-of-women-in-computer-science/">
-        Increasing the presence of women in computer science
-      </a>
-    </h1>
-
-    <span class="post-date">08 Dec 2014</span>
-
-    <p><em>The following is my final research paper for ENG101, part of a month-long research and writing process in which I investigated the causes and implications of the lack of female representation in the computer science field.</em></p>
-
-<p>Female representation in computer science is, frankly, pretty sad. In fact, women make up only 26% of “Computer Science and Mathematical Science professionals” in the United States (Google Inc., 2014, p. 2). Similarly, the Bureau of Labor Statistics found that women comprise just over 29% of the “Computer and Software” category as of 2013 (Ullman, 2013, p. 1). However, back when the field was just beginning to turn itself into the massive consumer industry that it is today, women had a vastly higher representation in the field. As an article by Bowman (2014) described, from around 1965 to 1984, the percentage of women in medical school, law school, physical sciences, and computer science education was steadily rising from 5-15% to an eventual ~45-50% (p. 1). However in 1984, with the introduction of Apple’s first personal computer and the subsequent commercialization and targeted advertising that followed, computer science took a heavy nose dive and never quite recovered, while the other percentages continued to steadily rise. A study by Google mentions this effect, saying that the percentage of women graduating with a STEM-related degree “has declined to 18% from a 37% peak in the mid-1980s” (Google Inc., 2014, p. 2).</p>
-
-<p>Meanwhile, large technology companies are struggling to find enough qualified employees to work in software development. This has been stated to be a major concern in many academic studies; “The overall need for [computer science] professionals has severely outstripped the number of graduates entering the workforce” according to the same Google study (Google Inc., 2014, p. 2). In another study, the author cited that “the number of incoming college freshman specifying computer science as a major has dropped 60% over the last 4 years” (Carter, 2006, p. 27).  Recruiting quality employees is a big challenge, and with female representation in the field being so low, the most logical solution is to utilize a demographic that remains largely untapped. The female demographic has a large potential to increase the depth of the employee pool.</p>
-
-<p>Unfortunately, though, the mass media is molding the future female generation of America to think that they are not capable of doing computer science-related work. In recent news, Mattel released a children’s book titled “I Can Be A Computer Engineer”, in which the main character Barbie fumbles around with a computer and asks her male friends to help her fix all the things she’s broken in the process. Females are perfectly capable of doing technical work, but the author tragically portrays Barbie in a way that implies that their abilities in computer science are inadequate, which is the exact opposite of the truth. Many young women have succeeded in the field.</p>
-
-<p>Take Jennie Lamere, for example (Libelson, 2013, p. 1). She competed in a Hackathon in Massachusetts – where computer programmers get together to work on programming competition projects. She developed the winning project, a spoiler alert filter for Twitter feeds, in a single day, by herself. She was the only girl out of the 80 submissions. Similarly, a workshop program in Pennsylvania specifically for women found that when given computer science projects to work on (specifically database applications), women were quite capable of completing the assignment (Harshbarger &amp; Rosson, 2012, p. 67). It’s been shown conclusively that females are perfectly capable of performing technical work; the problem is they just aren’t there in the field.</p>
-
-<p>So the question remains: How do companies attract more women into computer science? A number of solutions and strategies have been shown to increase female interest in the field and incite action for women to pursue it. An analysis of many research studies across many aspects of the problem suggests that in order to increase the percentage of women in the computer science workforce, technology companies and computer science organizations must implement more hands-on computer science workshops and e-mentoring opportunities specifically for women, and high schools must increase the number of computer science classes available to students in order to increase its formal academic presence.</p>
-
-<p>Early in 2014, Google conducted a study to quantify and qualify the most influential factors in young women’s decisions to pursue computer science, as these factors are what play into young women’s major career and college decisions, such as major declaration. The four main factors that the study found were “social encouragement”, “self-perception”, “academic exposure”, and “career perception” (Google, 2014, p. 2). Social encouragement, at 28% of the influence to purse computer science, was defined to be “positive reinforcement from family and peers”, in the form of verbal encouragement and support. Self-perception, at 17%, was defined as a young female’s perception of her skill in math and problem solving. Academic exposure, accounting for 22.4%, was defined as “the ability to participate in [computer science] courses and activities”. Finally, career perception was the heaviest influence on the decision at 27.5%, defined as the perception of the computer science career (Google Inc., 2014, p. 5). These four factors account for a whopping 94.9% of the total influence on women’s decisions to pursue computer science. Logically then, it makes sense to implement activities and programs that engage these four factors as much as possible to maximize interest in the field. Fortunately, the top four are also all highly controllable. Solutions to influences such as age of first computer exposure are not feasible, but they are far down the list. Hands-on workshops, e-mentoring opportunities, and greater presence of computer science in the education system through more classes in academic institutions cover all four of the top influences, so the implementation of them should yield highly effective results.</p>
-
-<p>It is safe to say that most females simply don’t find computer science or related fields particularly interesting or feminine in nature. But formal academic exposure has been shown to yield positive results on women’s interest in computer science. In a study by L. Carter (2006), which investigated via a survey the reasons that high school males and females did not pursue computer science, very few participants (only 20%) had an accurate knowledge of what computer science was or what computer scientists studied (Carter, 2006, p. 30). Less than a third of students had any experience beyond basic software usage and a mere 8% had taken formal computer science classes (Carter, 2006, p. 30). Yet of the students who listed programming as a negative influence on their decision to not pursue computer science, 89% had no programming experience, and thus could not make an educated decision on the matter (Carter, 2006, p. 30). More classes, and possibly even required classes, would allow students to make a more informed decision on pursuing computer science. In fact, in the study, ten non-computer science females took a computer science class during the semester of the study, and out of the ten, six went on to “become a TA for the courses for the next year, add a minor in computer science, or change their major to computer science”, and all reported that “they previously had no idea what computer science was” (Carter, 206, p. 31). Academic exposure, one of the four most influential decision factors in pursuing computer science according to the study by Google Inc. (2014), was strongly shown to increase interest in the field. Carter concluded that a major cause of the lack of female interest in the field is an incorrect perception, and that academic exposure changed the perception to a more accurate one that spurred more interest among the female participants in the study.</p>
-
-<p>Professional development meets an important need in computer science; it has been observed that mentoring and professional development opportunities are more limited for women in computer science than men (Cohoon &amp; Raoking, 2013, p. 1), thus there is a definite need for more opportunities. Professional development programs can yield increased interest in a computer science education, as it has been shown that self-confidence and promotability among females in computer science increases after attending such programs (Cohoon &amp; Raoking, 2013, p. 621). A professional development workshop was held by the researchers to study the effects of professional development workshops on women’s self-confidence in and career perception of computer science, as well as the workshops’ effects on promotability. In general, participants reported “more knowledge and use of career skills” and “more confidence”, and furthermore, the positive effects were found to be present long after the closing of the study (Cohoon &amp; Raoking, 2013, p. 4). Promotability was increased with the professional development workshop as well. Increased promotability of women in computer science increases the number of women in positions of higher leadership, which in turn leads to more female role models in computer science for other women to follow.</p>
-
-<p>Hands-on workshops have also been shown to have positive effects on women’s perceptions of the field. One particular study by Harshbarger &amp; Rosson (2012) evaluated the effect of hands-on computer science workshops specifically tailored for women on women’s interest and perceptions of the computer science field (p. 67). The researchers used a database development application called wProjects to let women in the workshop complete projects that tested their ability to grasp fundamental programming and computer science concepts. The women had no prior experience in programming or databases, and the workshop was specifically designed to enhance educational benefit. A survey about participants’ perceptions and understandings of computer science was given out before and after the workshop. All of the women in the study completed their database development projects and they understood and generally enjoyed the workshop. It was concluded that workshops can and conclusively do “remediate the misunderstandings and misperceptions about computer-related education and careers that are often held by young women” (Harshbarger &amp; Rosson, 2012, p. 70). Additionally, the rating for “will have fun developing the application” increased from pre-workshop to post-workshop, as well as “able to develop application well” and “understand the project assigned”.  The researchers concluded that workshops have a positive impact on both self-perception of ability in computer science-related skills and career perception, two of the main influences found in the Google study.</p>
-
-<p>Eliminating some of the deterring impressions of the field and showing women that they can enjoy computer science and goes a long way in helping to spark interest, but a major obstacle in actually stimulating pursuit is the fact that women have nobody to look up to in the field. Role models are greatly absent; one blogger commented in a post titled “How to be a Woman Programmer” that by the time she reached the deeper rankings of her software company after a full 20 years of constantly swatting away crude sexism, she asked herself “where are all the other women?”, thinking that a plague must have killed off all females at her rank or higher within the company (Ullman, 2013, p. 1). Female role models in computer science are, to an extent, nonexistent.</p>
-
-<p>Fortunately, a study conducted by Cozza (2011) found a potential solution that can abate the problem: e-mentoring opportunities for women can provide hugely effective and beneficial support to women currently pursuing or considering pursuing computer science. Organizations and initiatives have been founded for the purpose of increasing the percentages of women in science and technology fields, specifically through mentoring programs at the high school or pre-high school level (Cozza, 2011, p. 320), and Cozza (2011) also noted that the availability of either mentoring or e-mentoring opportunities affected the career decisions of female students by “reducing the motivation of girls to study technical/scientific subjects &amp; pursue careers in the technological sector” (p. 323). Furthermore, the peer group in computer science perceived to be prevalent in the field lacks sizable female presence, which reinforces the masculine stereotype of the field, a trend also observed in Ullman’s blog article. It was found in the study that e-mentoring programs helped young women get past their concerns about joining technical fields and addressed the isolation that females would experience in engineering and computing disciplines by providing them with beneficial career advice (Cozza, 2011, p. 326). However, Cozza (2011) also remarked that e-mentoring opportunities could potentially go wrong, due to the slow development of strong mentor-mentee relationships, “miscommunication”, and “privacy/confidentiality” issues (p. 327). In the process of recruiting more women into computer science, it is absolutely essential to keep e-mentoring programs successful and effective, because if they go wrong, then the repercussions could actually push women away from the field. E-mentoring can indeed provide valuable career advice and support to women, but the potential disadvantages of mentoring must be especially avoided.</p>
-
-<p>In an effort to make mentoring and e-mentoring programs as successful as possible for this very reason, J. Leck, C. Elliot, and B. Rockwell, researchers at University of Ottawa in Canada, thoroughly investigated the various repercussions and effects of mentoring programs. They especially focused on comparing traditional, in-person mentoring with e-mentoring, usually done through some form of online communication. The actual e-mentoring program that Leck, Elliot, and Rockwell (2012) focused on, conducted by Canadian Women in Technology, was concentrated toward providing “psycho-social and career development support to female mentees and developing trust” (p. 85). It was found through surveys with female participants in the e-mentoring program that many of the benefits of traditional mentoring, such as increased career development skills and self-confidence, are also found to be just as prevalent in e-mentoring (Leck, Elliot, &amp; Rockwell, 2012, p. 90). An advantage with e-mentoring was the ease at which it could occur, since geographic limitations are removed when communication protocol is mainly electronic. But, less face-to-face contact caused the overall experience for the participants to be less personal.</p>
-
-<p>Despite some advantages mentoring holds over e-mentoring, mentoring has some key pitfalls that render it less appropriate compared to e-mentoring, including scheduling limitations, a smaller mentor pool to pull from, and negative influence of demographic factors such as gender on the mentor-mentee relationship. The influence of demographics in the mentor-mentee relationship is the key to the success or failure of mentoring programs. In traditional mentoring, gender, age, ethnicity, social status, and other demographic factors can greatly impact the mentor-mentee relationship. Since there are so few women in the field to serve as mentors, cross-gender mentoring relationships are inevitable. However, Cozza (2012) found that “both male mentors and female mentees may be reluctant to enter into a cross-gender mentoring relationship in case it is misconstrued as a sexual advance or involvement” (p. 84). The results of the study found that e-mentoring, in the absence of a sufficient supply of female mentors, can subdue the negative effects of cross-gender mentor-mentee relationships. Overall, the advantages of e-mentoring and the pitfalls of traditional mentoring make e-mentoring a better option for providing social encouragement and better career perceptions for young women considering computer science.</p>
-
-<p>Increasing female representation in computer science is essential to the success and quality of tomorrow’s workforce. Companies are trying to expand their workforce but failing because there is simply not enough talent to pull from in the employee pool. It has been shown through various studies that women are just as successful as men at grasping computer science and programming concepts, so recruiting the underrepresented demographic of women in computer science is an effective way to expand the workforce to include more talented individuals for the benefit of companies. Not only that, but a more diversified workplace in software development can help mitigate the biased perspectives that affect the work quality and scope in an almost singularly male-dominated profession. It is said that those who write the history books make history, and the internet and technology infrastructure of the 21st century is the single greatest recording construct of human history ever created. It’s important that we create it in such a way that in many years from now, people don’t look back on human civilization and think that it’s mostly comprised of white and Asian males.</p>
-
-<p>Progress is being made, though. North Carolina State University recently announced that the freshman engineering class has the highest percentage of female students in university history, at 25% (Kulikowski, 2014, par. 1). While this is still fairly low, that fact that it is increasing over time is a good sign. Also, some high schools are implementing new engineering graduation requirements. The North Carolina School of Science &amp; Mathematics in Durham North Carolina, for example, revised the graduation requirements in 2013 so that each student must take one class in the engineering department. While it’s not specifically a computer science requirement, the introductory computer science course has experienced a large increase in participation, contributing to the academic exposure of computer science and educating female high school students about the field. If all of the proposed solutions are implemented, a larger increase of women in computer science can be expected, and the gender gap will re-stabilize, creating a better-quality workforce and satisfying the high demand for computer science professionals that plagues the industry today.</p>
-
-<h3>References</h3>
-
-<ul>
-<li><p>Bowman, M. (2014, November 13). Sexism and computer science: Where are my sister coders?. Retrieved December 4, 2014, from http://moduscreate.com/sexism-and-computer-science-where-are-my-sister-coders/</p></li>
-<li><p>Carter, L. (2006). Why students with an apparent aptitude for computer science don’t choose to major in computer science. SIGCSE ’06 Proceedings of the 37th SIGCSE technical symposium on Computer science education, 27-31.</p></li>
-<li><p>Cohoon, J.M., Raoking, F. (2013). Professional development for mid-career women in computer science and engineering. IEEE Frontiers in Education Conference, 618-622.</p></li>
-<li><p>Cozza, M. (2011). Bridging gender gaps, networking in computer science. Gender Technology and Development, 15(2), 319-337.</p></li>
-<li><p>Google Inc. (2014). Women who choose computer science – what really matters. Retrieved from http://static.googleusercontent.com/media/www.wenca.cn/en/us/edu/pdf/women-who-choose-what-really.pdf</p></li>
-<li><p>Harshbarger, N.L., Rosson, M.B. (2012). wProjects: Data-centric web development for female nonprogrammers. Visual Languages and Human-Centric Computing (VL/HCC), 2012 IEEE Symposium, 67-70</p></li>
-<li><p>Leck, J.D., Elliott, C., Rockwell, B. (2012). E-mentoring women: Lessons learned from a pilot program. Journal of Diversity Management, 7(2), 83-96.</p></li>
-<li><p>Libelson, D. (2013, May 8). This 17-year-old coder is saving Twitter from TV spoilers (spoiler: she’s a girl). Retrieved December 4, 2014, from http://www.motherjones.com/media/2013/05/meet-17-year-old-saving-you-game-thrones-twitter-spoilers</p></li>
-<li><p>Kulikowski, M. (2014, November 24). First-year class boasts highest percentage of female engineers. Retrieved December 5, 2014, from http://news.ncsu.edu/2014/11/women-in-engineering/</p></li>
-<li><p>Ullman, E. (2013, May 18). How to be a ‘woman programmer’. Retrieved December 4, 2014, from http://www.nytimes.com/2013/05/19/opinion/sunday/how-to-be-a-woman-programmer.html</p></li>
-</ul>
+<p>Goes well with cilantro lime corn (recipe soon to be posted?) and refried plantains (also soon to be posted?)</p>
 
   </div>
   

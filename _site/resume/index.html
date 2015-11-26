@@ -19,14 +19,24 @@
   <link rel="stylesheet" href="/public/css/poole.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
   <link rel="stylesheet" href="/public/css/blackdoc.css">
+  <link rel="stylesheet" href="/public/css/custom.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=EB+Garamond">
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-  <link rel="shortcut icon" href="/public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68102929-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 
@@ -40,11 +50,11 @@
           reesjones
         </a>
       </h1>
-      <p class="lead">The temporary personal site of Mitch Rees-Jones</p>
+      <p class="lead">Software, web, & mobile developer at NC State</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item" href="/">Home</a>
+      <a class="sidebar-nav-item" href="/">Home/Blog</a>
 
       
 
@@ -64,11 +74,23 @@
       
         
           
+            <a class="sidebar-nav-item" href="/contact/">Contact Me</a>
+          
+        
+      
+        
+          
         
       
         
           
             <a class="sidebar-nav-item" href="/projects/">Projects</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/reading-list/">Reading List</a>
           
         
       
@@ -82,11 +104,15 @@
           
         
       
+        
+          
+        
+      
 
       <hr>
+      <span class="sidebar-nav-item">Find me elsewhere:</span>
       <a class="sidebar-nav-item" href="https://github.com/reesjones/">GitHub</a>
       <a class="sidebar-nav-item" href="https://www.linkedin.com/in/reesjones">LinkedIn</a>
-      <span class="sidebar-nav-item">Currently v1.0.0</span>
     </nav>
 
   </div>
@@ -96,9 +122,7 @@
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Resume</h1>
-  <p><strong>Resume of Mitch Rees-Jones</strong></p>
-
-<p>(last updated 6/21/2015)</p>
+  <p>(last updated 9/26/2015)</p>
 
 <p>Feel free to contact me if you have any questions.</p>
 
@@ -106,20 +130,29 @@
 
 <h1>Education</h1>
 
-<p><strong>North Carolina State University</strong> | Raleigh, NC
+<p><strong><a href="https://www.ncsu.edu/">North Carolina State University</a></strong> | Raleigh, NC
 <em>B.S. in Computer Science, Math minor, Cum. GPA 3.87, Major GPA 4.00</em></p>
 
-<p><strong>North Carolina School of Science and Mathematics</strong>  |  Durham, NC
-<em>High school diploma, Cum. GPA 4.86</em>
-<strong>Relevant Coursework</strong> – AP Computer Science, Advanced Programming, Data Structures, Elements of Computing Systems, Web Development</p>
+<p><strong>Courses:</strong> Java, Discrete Math, Data Structures, C &amp; Software Tools</p>
+
+<p><strong><a href="http://www.ncssm.edu/">North Carolina School of Science and Mathematics</a></strong>  |  Durham, NC
+<em>High school diploma, Cum. GPA 4.86</em></p>
+
+<p><strong>Courses:</strong> AP Computer Science, Advanced Programming, Data Structures, Web Development</p>
 
 <h1>Work Experience</h1>
 
-<p><strong>IBM Watson Group</strong>  |  Research Triangle Park, NC
-<em>Software Engineering Intern, Summer 2015 (current)</em></p>
+<p><strong><a href="http://www.ibm.com/smarterplanet/us/en/ibmwatson/">IBM Watson Group</a></strong>  |  Research Triangle Park, NC
+<em>Software Engineering Intern, Summer 2015</em></p>
 
-<p><strong>OpenScience.us</strong>  |  Raleigh, NC
-<em>Web Developer and Research Data Curator, Spring 2015</em></p>
+<ul>
+<li>Developed tool to visualize cancer treatment data to help cancer patients make more informed treatment decisions. This tool will likely be integrated into IBM Watson’s healthcare solutions.</li>
+<li>Worked as Sprint Manager on an independent team of five interns in a fully Agile development environment</li>
+<li>Designed and implemented AngularJS/Bootstrap UI, and a REST API using Express.js on a Node.js server</li>
+</ul>
+
+<p><strong><a href="http://openscience.us/">OpenScience.us</a></strong>  |  Raleigh, NC
+<em>Web Developer and Research Data Curator, Spring/Fall 2015</em></p>
 
 <ul>
 <li>Curated research datasets at openscience.us to provide free storage of and access to open source software engineering research data, using Subversion, Git, Jekyll static site framework, and GitHub Pages</li>
@@ -127,38 +160,38 @@
 <li>Contributed almost 300 commits, 40,000 additions and 11,000 deletions to the GitHub repository</li>
 </ul>
 
-<h1>Skills</h1>
-
-<p><strong>Languages:</strong>   Java, Javascript, HTML/CSS, Python
-<strong>Frameworks:</strong>   {Angular, Node, Express}.js, Bootstrap, WordPress
-<strong>Platforms:</strong>   Linux/Bash, Win7 &amp; XP, IBM Bluemix &amp; DevOps platforms
-<strong>Tools &amp; IDEs:</strong>   Eclipse, Git/GitHub, Subversion, vim, Sublime Text 2, Dr. Java
-<strong>Topics:</strong>   Agile development, REST APIs, data structures, algorithms, runtime complexity</p>
-
-<h1>Relevant Experience</h1>
-
-<p><strong>Independent Software/Web Development</strong>  | Durham &amp; Raleigh, NC
-<em>Projects documented at www.reesjones.co, Ongoing</em></p>
+<p><strong><a href="http://reesjones.github.io/projects/">Independent Software/Web Development</a></strong>  | Durham &amp; Raleigh, NC
+<em>Projects documented at reesjones.github.io, Ongoing</em></p>
 
 <ul>
 <li>Developed a number of side projects in Java, Python, and HTML/CSS, totaling around 4,500 lines of code</li>
 <li>Gained practical experience in OO concepts &amp; design with Java programs (some implementing Swing-based GUIs), and web design fundamentals with web development projects</li>
-<li><p>Implemented mathematical processes and algorithms with Python scripts for Numerical Analysis and Calculus classes
-<strong>Computer Science Teacher Assistant</strong>  |  Durham, NC
-<em>Engineering Dept. at North Carolina School of Science &amp; Mathematics, Fall 2013 – Spring 2014</em></p></li>
-<li><p>Aided students in computer science classes, including AP Computer Science and Advanced Programming</p></li>
-<li><p>Provided free expertise in subjects including object-oriented programming and design, algorithm complexity, Java-based data structures, and basic website development</p></li>
+<li>Implemented mathematical processes and algorithms with Python scripts for Numerical Analysis and Calculus classes</li>
 </ul>
+
+<h1>Skills</h1>
+
+<p><strong>Languages:</strong>   Java, Javascript, HTML/CSS, C, Python</p>
+
+<p><strong>Frameworks:</strong>   Angular.js, Node.js, Bootstrap, WordPress, Android SDK</p>
+
+<p><strong>Platforms:</strong>   Linux/Bash, Windows, IBM Bluemix &amp; DevOps platforms</p>
+
+<p><strong>Tools &amp; IDEs:</strong>   Eclipse, Git/GitHub, Subversion, vim, Android Studio</p>
+
+<p><strong>Topics:</strong>   Agile development, REST APIs, data structures, algorithms, logic</p>
 
 <h1>Honors &amp; Leadership</h1>
 
-<p><strong>N.C. State University Honors Program</strong>, <em>Member</em> – Accepted into distinguished research-based academic program encouraging academic inquiry. 2014.
-<strong>Varsity Cross Country (H.S.)</strong>, <em>Captain</em> – Led varsity team to 2A state cross country title. 2013.
-<strong>Computer Science Club (H.S.)</strong>, <em>President</em> – Co-taught introductory computer science seminar in Python. 2013.</p>
+<p><strong><a href="http://honors.dasa.ncsu.edu/">N.C. State University Honors Program</a></strong>, <em>Member</em> – Distinguished research and seminar-based academic program encouraging academic inquiry. 2014-2018.</p>
+
+<p><strong>Varsity Cross Country (H.S.)</strong>, <em>Captain</em> – Led varsity team to 2A state cross country title. 2013.</p>
+
+<p><strong>Computer Science Club (H.S.)</strong>, <em>President</em> – Co-taught introductory computer science seminar in Python. 2013.</p>
 
 <h1>Extracurricular Activities</h1>
 
-<p>NCSU Club Cross Country &amp; Track  |  NCSU Linux Users Group (LUG)  |  Classical Piano  |  International travel  |  Sailing</p>
+<p>NCSU Club Cross Country &amp; Track • Classical Piano • International travel • Sailing</p>
 
 </div>
 

@@ -4,7 +4,7 @@
  <title>reesjones</title>
  <link href="url/atom.xml" rel="self"/>
  <link href="url/"/>
- <updated>2015-08-09T15:18:41-04:00</updated>
+ <updated>2015-10-04T19:39:50-04:00</updated>
  <id>url</id>
  <author>
    <name>Mitch Rees-Jones</name>
@@ -13,37 +13,190 @@
 
  
  <entry>
-   <title>How to not practice TDD</title>
-   <link href="url/2015/06/19/how-to-not-practice-tdd/"/>
-   <updated>2015-06-19T00:00:00-04:00</updated>
-   <id>url/2015/06/19/how-to-not-practice-tdd</id>
-   <content type="html">&lt;p&gt;Here are a few rules I’ve learned to follow when practicing test driven development (TDD):&lt;/p&gt;
-
-&lt;h3&gt;Don’t use a common dataset that all tests end up using.&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;If you have to make a change to that dataset to accommodate for a new test, it might end up breaking all of your other tests in the process.&lt;/li&gt;
+   <title>How we interact with technology</title>
+   <link href="url/2015/10/03/how-we-interact-with-technology/"/>
+   <updated>2015-10-03T00:00:00-04:00</updated>
+   <id>url/2015/10/03/how-we-interact-with-technology</id>
+   <content type="html">&lt;ul&gt;
+&lt;li&gt;Technology is an attention-stealer&lt;/li&gt;
+&lt;li&gt;Despite my career path, I don&amp;#39;t like how people are interacting with technology. Specifically,
+I don&amp;#39;t like how people are interacting with their mobile devices.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;Unit testing is usually good, but not if what you’re testing is changing every 2 days.&lt;/h2&gt;
+&lt;p&gt;Later today I&amp;#39;m going to get on a bus to go to the centennial campus of NC State for
+a computer science class. If history is any indication, between half and two thirds of the riders 
+will be actively engaged phone or, at the very least, have their phone out of their pocket, holding it
+in their hands. It&amp;#39;s an addiction. We&amp;#39;re unconsciously waiting for another buzz or notification all
+the time and it&amp;#39;s killing our attention span.&lt;/p&gt;
+
+&lt;p&gt;I read an &lt;a href=&quot;http://www.nytimes.com/2015/09/27/opinion/sunday/stop-googling-lets-talk.html&quot;&gt;article&lt;/a&gt; 
+in the New York Times about how we interact with technology.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;If the API for a set of functions or a class is changing every day or so and you’re frantically trying to re-write your tests to reflect the API changes, then you might be spending too much time on testing. It’s ok if you initially spend just as long writing tests as you spend writing the functions/methods themselves, but if the specification changes really frequently, you’ll end up frantically trying to re-write your tests before you can get on with the functions themselves.&lt;/li&gt;
+&lt;li&gt;I wish we could interact with our most personal technology devices in a different way. Right now,
+our mobile devices are constantly-available attention seekers. They deprive us of attention and it&amp;#39;s
+hurting us psychologically.&lt;/li&gt;
+&lt;li&gt;I wish our devices were periodic. Let&amp;#39;s view human attention like a computing resource, for
+example, such as processing resources. When software engineers design programs, they must be conscious
+of their usage of resources. Can&amp;#39;t be too greedy, but the job (whatever it may be) must be done.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;Don’t refactor it before you test it.&lt;/h2&gt;
+&lt;p&gt;What if our devices were the so called &amp;#39;developers&amp;#39; competing for &amp;#39;resources&amp;#39;, e.g. attention span?&lt;/p&gt;
+
+&lt;p&gt;Technology devices should respect this scarcity of the &amp;#39;attention&amp;#39; resource. If only there was a way
+for technology to be non-disruptive. What if your phone was set to only check for notifications or
+emails or texts every hour? Every day? What if it was a conscious request that the user had to make?
+Instead of a phone beeping whenever something comes in, what if I had to consciously tell my device
+to check for updates?&lt;/p&gt;
+
+&lt;p&gt;I think something like that would do a lot of good to the psychological health of today&amp;#39;s tech-infused
+generation. I remember when I went on a backpacking trip on the app trail and my group of friends set
+a rule of no technology - except for a daily check of the phone for emergency texts from parents.&lt;/p&gt;
+
+&lt;p&gt;Is this a problem that can be solved technologically? Or is it a cultural one? It&amp;#39;d be ironic to use
+technology to get people away from technology and toward human interaction. Maybe a mass cultural
+paradigm shift is required.&lt;/p&gt;
+
+&lt;p&gt;Is this concept of a non-interruptive phone/device profitable? What if I started a company that made
+devices that you interacted with in a way that wasn&amp;#39;t detrimental to your attention span? I&amp;#39;d imagine
+that it&amp;#39;d only appeal to people who are consciously trying to get away from constant immersion and 
+global availability online. Maybe something like this should be targeted specifically to those types
+of people, and if it does a good enough job, others might see the benefit and &amp;#39;switch over&amp;#39;.&lt;/p&gt;
+
+&lt;p&gt;links&lt;/p&gt;
+
+&lt;p&gt;https://news.ycombinator.com/item?id=10322513      (look for codingdave&amp;#39;s comment &amp;quot;I hope their premises are wrong&amp;quot;)
+phubbing: http://www.sciencedirect.com/science/article/pii/S0747563215300704
+http://time.com/4057948/cell-phone-hurting-relationship/
+http://www.huffingtonpost.com/james-a-roberts/to-phubb-or-not-to-phubb&lt;em&gt;b&lt;/em&gt;8209924.html&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>A tidbit of Java magic - integer caching</title>
+   <link href="url/2015/10/02/a-tidbit-of-java-magic-integer-caching/"/>
+   <updated>2015-10-02T00:00:00-04:00</updated>
+   <id>url/2015/10/02/a-tidbit-of-java-magic-integer-caching</id>
+   <content type="html">&lt;p&gt;I came across a code snippet on StackOverflow:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Integer a = 42;
+Integer b = 42;
+System.out.println(a == b);
+Integer c = 555;
+Integer d = 555;
+System.out.println(c == d);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The first print statement prints &lt;code&gt;true&lt;/code&gt; and the second one prints &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Wait, what?&lt;/p&gt;
+
+&lt;p&gt;The second comparison makes sense. &lt;code&gt;==&lt;/code&gt; in Java compares references to see if they
+are the same object &lt;em&gt;in memory&lt;/em&gt; (and primitives are compared by their literal value).
+So &lt;code&gt;c == d&lt;/code&gt; should return false, since they&amp;#39;re not the same object in memory.
+The &lt;code&gt;Object.equals()&lt;/code&gt; method is a &lt;em&gt;functional&lt;/em&gt; comparison, but it doesn&amp;#39;t check
+actual reference equality, e.g. it doesn&amp;#39;t check the addresses of the reference variables.
+So why does the first comparison equate to true?&lt;/p&gt;
+
+&lt;p&gt;The answer can be found in the Java Langauge Specification, &lt;a href=&quot;http://docs.oracle.com/javase/specs/jls/se7/html/jls-5.html#jls-5.1.7&quot;&gt;chapter 5&lt;/a&gt;.
+Two primitives being autoboxed into references via a boxing conversion may qualify to
+be cached for optimization purposes. Caching the more commonly used primitive values
+leads to faster access time, so these certain commonly used primitives are cached:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;The idea with TDD is that you design your functions by testing them first. Refactoring comes in after the tests, when you re-write the guts of it to be more readable to other developers, faster, more concise, etc. Prematurely optimizing or refactoring code usually leads to accidentally changing how the function works, and if you haven’t finished tests for that then it’s harder to spot the error.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;true&lt;/code&gt;, &lt;code&gt;false&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;byte&lt;/code&gt; or &lt;code&gt;char&lt;/code&gt; in the range &lt;code&gt;\u0000&lt;/code&gt; to &lt;code&gt;\u007f&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;int&lt;/code&gt; or &lt;code&gt;short&lt;/code&gt; in the inclusive range of -128 to 127&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;Don’t write 500 assertions per test.&lt;/h2&gt;
+&lt;p&gt;So in the snippet above, &lt;code&gt;a == b&lt;/code&gt; is true because &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;b&lt;/code&gt; are between -128 and 127, so
+when a new &lt;code&gt;Integer a = 42;&lt;/code&gt; is created, it simply points to a previously cached Integer object.&lt;/p&gt;
+
+&lt;p&gt;Note that this only works when primitive &lt;code&gt;int&lt;/code&gt;s are autoboxed to &lt;code&gt;Integer&lt;/code&gt;s. If two &lt;code&gt;Integer&lt;/code&gt;
+objects are created (not autoboxed from the primitive type)...&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Integer e = new Integer(4);
+Integer f = new Integer(4);
+System.out.println(e == f);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;...then the comparison will be false, since both &lt;code&gt;Integer&lt;/code&gt; references were explicitly initialized
+as separate objects.&lt;/p&gt;
+
+&lt;p&gt;Interesting stuff!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Choosing tech over finance</title>
+   <link href="url/2015/09/03/choosing-tech-over-finance/"/>
+   <updated>2015-09-03T00:00:00-04:00</updated>
+   <id>url/2015/09/03/choosing-tech-over-finance</id>
+   <content type="html"></content>
+ </entry>
+ 
+ <entry>
+   <title>Arroz con pollo recipe</title>
+   <link href="url/2015/08/09/arroz-con-pollo-recipe/"/>
+   <updated>2015-08-09T00:00:00-04:00</updated>
+   <id>url/2015/08/09/arroz-con-pollo-recipe</id>
+   <content type="html">&lt;p&gt;This is a divergence from the usually technically-oriented post. I&amp;#39;ve never put a recipe up on my website, 
+but I made up a pretty good arroz con pollo recipe that I&amp;#39;ve made on a few occasions. It&amp;#39;s kinda long to make, 
+but really good hit the spot hearty cuban-ish food.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Serves 6&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Ingredients - need prep&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Ok, I might be exaggerating just a tad, but if you write a test with 500 assertions in it, it should be pretty obvious to you that you’re trying to test too much in one function. Break it up for readability and maintainability.&lt;/li&gt;
+&lt;li&gt;Chicken - 3 breasts, cut to ~1.5 inch pieces&lt;/li&gt;
+&lt;li&gt;Half a red onion (cut to 3/4 inch squares)&lt;/li&gt;
+&lt;li&gt;Red &amp;amp; green bell pepper - half a pepper each kind (cut into strips)&lt;/li&gt;
+&lt;li&gt;3 sweet potatoes (large dice - 3/4 inch)&lt;/li&gt;
+&lt;li&gt;Garlic (finely chopped, or if you&amp;#39;re lazy like me, a bit of garlic powder)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Like all software development practices, there’s a time and a place for TDD. Make sure to look before you leap; if TDD won’t end up saving you time or increasing your productivity, then it’s probably not worth it.&lt;/p&gt;
+&lt;h2&gt;Ingredients - no prep&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Black rice and wild rice (1 cup each)&lt;/li&gt;
+&lt;li&gt;Olive oil (drizzle on sweet potatoes)&lt;/li&gt;
+&lt;li&gt;Black beans, half drained (2 cans - ~30 oz)&lt;/li&gt;
+&lt;li&gt;Diced tomatoes (1 can)&lt;/li&gt;
+&lt;li&gt;2 limes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Ingredients - spices&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Italian seasoning/oregano (pick one)&lt;/li&gt;
+&lt;li&gt;Rosemary&lt;/li&gt;
+&lt;li&gt;Cumin&lt;/li&gt;
+&lt;li&gt;Some salt/pepper&lt;/li&gt;
+&lt;li&gt;Chile powder&lt;/li&gt;
+&lt;li&gt;Cilantro and extra lemon/lime(s) for garnish&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Prep&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[3 sweet potatoes] [olive oil] [Rosemary, cumin, cinnamon, salt/pepper]&lt;/strong&gt; Preheat oven to 400. Peel and dice 3 sweet potatoes to approximately 3/4 inch cubes. Spread onto sheet pan and drizzle a bit of 
+olive oil for moisture. Spice with rosemary leaves, cumin, cinnamon, salt, and pepper. Use a spatula to lightly toss chunks until seasoning and 
+oil is evenly distributed. Bake at 400 for 50 minutes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Half a red bell pepper] [Half a green bell pepper] [Half a red onion]&lt;/strong&gt; Chop half a red and half a green bell pepper (or any combination of pepper colors) into 1/2 inch by 3/4 inch strips and put in a bowl for later cooking. Chop half a 
+red onion into 3/4 inch squares and mix with bell peppers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Cumin, chile powder, salt, pepper, garlic powder or finely chopped garlic]&lt;/strong&gt; Prepare spice mix by combining some ratio of cumin, chile powder, salt, pepper, and garlic powder into a small bowl. Not sure how much of each, just kinda splash it in there until there&amp;#39;s enough. Or put it directly in the chicken/veggies sautee as needed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Cook&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;[1 cup black rice, 1 cup wild rice]&lt;/strong&gt; Bring 1 cup of black rice and 1 cup of wild rice to a boil in uh...however much water the rice bag calls for, and for however 
+long it says. Squeeze juice from 2 limes into rice and stir.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[3 chicken breasts] [1 can diced tomatoes] [2 cans black beans, only 1 drained]&lt;/strong&gt; Prep chicken by cutting off fat and cutting into large chunks (~1.5 inch). Sautee 5-7 minutes or until almost golden brown, and 
+add vegetables from step 2. Add half of spice combination and sautee ~5mins, until vegetables are cooked. Add 1 can of diced 
+tomatoes, 1 can drained black beans, and 1 can UNdrained black beans; bring to a simmer for 5 mins. and stir ingredients until mixed.&lt;/li&gt;
+&lt;li&gt;When sweet potatoes are done, remove from oven and add to chicken/beans simmer. And add the rest of the spice mix.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;[Cilantro]&lt;/strong&gt; Serve the rice and the chicken mix as a topping. Use cilantro as a garnish.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Goes well with cilantro lime corn (recipe soon to be posted?) and refried plantains (also soon to be posted?)&lt;/p&gt;
 </content>
  </entry>
  
@@ -256,7 +409,7 @@ This doomsday robot isn’t necessarily evil – computers aren’t ‘friendly�
  </entry>
  
  <entry>
-   <title>Career Fairs Not Just For Upperclassmen</title>
+   <title>Career Fairs - Not Just for Upperclassmen</title>
    <link href="url/2014/10/14/career-fairs-not-just-for-upperclassmen/"/>
    <updated>2014-10-14T00:00:00-04:00</updated>
    <id>url/2014/10/14/career-fairs-not-just-for-upperclassmen</id>

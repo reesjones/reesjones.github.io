@@ -1,0 +1,23 @@
+input {
+	background-color: #222;
+	border: none;
+	color: #848482;
+	font-size: 100%;
+}
+
+input:focus {
+	color: #848482;
+	font-size: 100%;
+}
+
+textarea {
+	background-color: #222;
+	border: none;
+	color: #848482;
+	font-size: 100%;
+}
+
+textarea:focus {
+	color: #848482;
+	font-size: 100%;
+}
