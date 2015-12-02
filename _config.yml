@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            reesjones
 tagline:       	  Mitch Rees-Jones, software & web developer at NC State
-description:      "Software, web, & mobile developer at NC State"
+description:      "Mitch Rees-Jones, software/web/mobile developer at NC State"
 url:              url
 baseurl:          /
 
