@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome to the Blog – Check it Out!
+comments: true
 ---
 
 Hey there, thanks for visiting my blog! While you’re here, check out some of the stuff I’ve written and leave a comment, if you so desire.
