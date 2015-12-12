@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Increasing the presence of women in computer science
+comments: true
 ---
 
 *The following is my final research paper for ENG101, part of a month-long research and writing process in which I investigated the causes and implications of the lack of female representation in the computer science field.*
