@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My first bash function
+comments: true
 ---
 
 I found a nice little [article](http://www.makeuseof.com/tag/4-ways-teach-terminal-commands-linux-si/) today on learning terminal commands in Linux. The first suggestion in the article was to echo a random command from the /bin directory every time an instance of bash starts up. I took their suggestion of wrapping the output in a cowsay speech bubble slightly further.
