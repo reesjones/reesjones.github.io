@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Arroz con pollo recipe
+comments: true
 ---
 
 This is a divergence from the usually technically-oriented post. I've never put a recipe up on my website, 
