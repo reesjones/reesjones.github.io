@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Scary yet Promising Implications of AI
+comments: true
 ---
 
 This post was inspired by a long, thought provoking [post](http://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) about artificial intelligence (AI) from the very interesting blogging site [WaitButWhy.com](http://waitbutwhy.com/). A big part of my educational enlightenment has been figuring out just what it is that I can do to make an impact in the world, hopefully a good one, on hopefully a large scale. After spending the good part of an afternoon reading and mulling over the Wait But Why article, I had formulated the foggy idea that cognitive computing, machine learning, artificial intelligence, and other related subfields of computer science would provide ample opportunity and potential to make a huge impact by advancing the technology we have today into the superintelligent machines that will most likely be commonplace in the future. Instead of making you read the entire ~23,000 word two-part article, I’ll give you a super condensed version in italics below (note: I have no intention of taking credit for the hard work of the people at waitbutwhy.com – this summary is just a condensation of their really long article).
