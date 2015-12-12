@@ -1,6 +1,7 @@
 ---
 title: A tidbit of Java magic - integer caching
 layout: post
+comments: true
 ---
 
 I came across a code snippet on StackOverflow:
