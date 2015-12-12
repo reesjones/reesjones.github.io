@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Job - Curating SE Data at openscience.us
+comments: true
 ---
 
 Back in January, I started a part-time job at N.C. State, joining my colleague and good friend [Carter Pape](https://github.com/CarterPape) in developing version 4 of [openscience.us/repo](http://openscience.us/repo), a long-term repository for software engineering (SE) research data. I wasn’t too knowledgeable about what I was getting into, but through the past few months I’ve gained some insight into the philosophy of SE research – and how [Dr. Tim Menzies](http://menzies.us/) and his brainchild OpenScience is making software engineering research a more reproducible and replicable process.
