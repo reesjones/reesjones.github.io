@@ -1,6 +1,7 @@
 ---
-layout: post
 title: Career Fairs - Not Just for Upperclassmen
+layout: post
+comments: true
 ---
 
 On Tuesday, September 30th, I attended North Carolina State University’s Engineering Career Fair, one of the largest engineering recruitment fairs in the nation, with over 300 companies attending. I did the “meet ‘n greet” with many excellent hiring managers/industry professionals, and came back from over four hours of networking and self-advertising to find that many of my freshman friends hadn’t gone at all, and weren’t planning on going the next day, either (it was a two-day event).
