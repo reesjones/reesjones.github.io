@@ -1,3 +1,9 @@
-This is my temporary github site based on the [BlackDoc theme](https://github.com/karloespiritu/BlackDoc).
+This is my website, [reesjones.github.io](http://reesjones.github.io)
+=====================================================================
 
-I will eventually replace it with my own custom Jekyll theme.
+This is my personal website/blog/portfolio. I sometimes write blog posts and I
+have some stuff about projects, reading, etc. that I've done.
+
+It's hosted by [GitHub Pages](https://pages.github.com/), 
+runs on [Jekyll](http://jekyllrb.com/), 
+and uses the [BlackDoc theme](https://github.com/karloespiritu/BlackDoc).
