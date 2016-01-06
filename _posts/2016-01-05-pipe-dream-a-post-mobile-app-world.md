@@ -1,4 +1,3 @@
-
 ---
 title: Pipe dream - a post-mobile app world
 layout: post
