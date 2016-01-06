@@ -1,6 +1,8 @@
+
 ---
-title: Pipe dream: A post-mobile app worldhh
+title: Pipe dream - a post-mobile app world
 layout: post
+comments: true
 ---
 
 I was doing some research today on how subnet masks work for a project involving building a VPN, and one
