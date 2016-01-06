@@ -1,5 +1,5 @@
 ---
-title: Pipe dream - a post-mobile app world
+title: Pipe dream&#58; a post-mobile app world
 layout: post
 comments: true
 ---
