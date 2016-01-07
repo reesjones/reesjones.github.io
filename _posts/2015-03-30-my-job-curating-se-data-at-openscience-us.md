@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Job - Curating SE Data at openscience.us
+title: My Job&#58; curating SE data at openscience.us
 comments: true
 ---
 
@@ -36,7 +36,11 @@ And that’s my job! There are currently over 100 datasets housed in the tera-PR
 These references were gathered from [this IEEE article](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6547619) on software analytics, co-authored by Dr. Menzies.
 
 F. Palma, H. Farzin, and Y.-G. Gueheneuc, “Recommendation System for Design Patterns in Software Development: A DPR Overview,” Proc. 3rd Int’l Workshop Recommendation Systems for Software Eng., IEEE, 2012, pp. 1–5
+
 D. Rodríguez et al., “Multiobjective Simulation Optimisation in Software Project Management,” Proc. Genetic and Evolutionary Computation Conf., ACM, 2011, pp. 1883–1890.
+
 T. Menzies, J. Greenwald, and A. Frank, “Data Mining Static Code Attributes to Learn Defect Predictors,” IEEE Trans. Software Eng., Jan. 2007; http://menzies.us/pdf/06learnPredict.pdf.
+
 T.J. Ostrand, E.J. Weyuker, and R.M. Bell, “Where the Bugs Are,” Proc. 2004 ACM SIGSOFT Int’l Symp. Software Testing and Analysis, ACM, 2004, pp. 86–96.
+
 S. Kim et al., “Predicting Faults from Cached History,” Proc. Int’l Conf. Software Eng., IEEE CS, 2007, pp. 489-498.

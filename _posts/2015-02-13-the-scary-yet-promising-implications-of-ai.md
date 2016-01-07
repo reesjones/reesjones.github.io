@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Scary yet Promising Implications of AI
+title: The scary yet promising implications of AI
 comments: true
 ---
 
