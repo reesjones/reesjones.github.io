@@ -5,7 +5,7 @@ title: Resume
 
 (last updated 2/2/2016)
 
-Feel free to [contact me](/contact) if you have any questions.
+Feel free to [contact me](http://www.reesjones.github.io/contact) if you have any questions.
 
 <hr>
 
