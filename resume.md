@@ -3,18 +3,18 @@ layout: page
 title: Resume
 ---
 
-(last updated 9/26/2015)
+(last updated 2/2/2016)
 
-Feel free to contact me if you have any questions.
+Feel free to [contact me](/contact) if you have any questions.
 
 <hr>
 
 # Education
 
 **[North Carolina State University](https://www.ncsu.edu/)** | Raleigh, NC
-*B.S. in Computer Science, Math minor, Cum. GPA 3.87, Major GPA 4.00*
+*B.S. in Computer Science, Math minor, Cum. GPA 3.88, Major GPA 4.00*
 
-**Courses:** Java, Discrete Math, Data Structures, C & Software Tools
+**Courses:** Java, Discrete Math, Data Structures, C & Software Tools, Operating Systems, Assembly
 
 **[North Carolina School of Science and Mathematics](http://www.ncssm.edu/)**  |  Durham, NC
 *High school diploma, Cum. GPA 4.86*
@@ -52,11 +52,11 @@ Feel free to contact me if you have any questions.
 
 **Frameworks:**   Angular.js, Node.js, Bootstrap, WordPress, Android SDK
 
-**Platforms:**   Linux/Bash, Windows, IBM Bluemix & DevOps platforms
+**Platforms:**   Linux, Windows, Amazon AWS, IBM Bluemix/DevOps
 
 **Tools & IDEs:**   Eclipse, Git/GitHub, Subversion, vim, Android Studio
 
-**Topics:**   Agile development, REST APIs, data structures, algorithms, logic
+**Topics:**   Agile development, REST APIs, data structures, algorithms, logic, patents
 
 
 
