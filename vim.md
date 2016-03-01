@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What's that ":wq" thing at the end of your posts?
+title: What's that :wq thing at the end of your posts?
 ---
 
 Vim is a text editor that many software developers use. ```:wq``` is the vim command
