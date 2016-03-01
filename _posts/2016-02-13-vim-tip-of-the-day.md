@@ -17,3 +17,5 @@ for 30 hours ago.
 
 Also: if you're itching to go home early from work, just open the files you're working 
 on for the day and try ```:later 8h```
+
+:wq
