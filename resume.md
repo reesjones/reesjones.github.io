@@ -40,7 +40,7 @@ Feel free to [contact me](http://www.reesjones.github.io/contact) if you have an
 **[Independent Software/Web Development](http://reesjones.github.io/projects/)**  | Durham & Raleigh, NC
 *Projects documented at reesjones.github.io, Ongoing*
 
- * Developed a number of side projects in Java, Python, and HTML/CSS, totaling around 4,500 lines of code
+ * Developed a number of side projects in Java, Python, and HTML/CSS, totaling around 7500 lines of code
  * Gained practical experience in OO concepts & design with Java programs (some implementing Swing-based GUIs), and web design fundamentals with web development projects
  * Implemented mathematical processes and algorithms with Python scripts for Numerical Analysis and Calculus classes
 
