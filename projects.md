@@ -6,6 +6,10 @@ title: Projects
 Here's a few of the more notable webdev/software/other projects I've done in the past:
 
 
+## Upcoming: The Freshspire app! [[link]](http://www.getfreshspired.com/)
+
+Stay tuned. Sign up to hear when we launch [here](http://www.getfreshspired.com/new-page/).
+
 ## A software engineering research data repository [[link]](http://openscience.us/repo)
 
 I built a data repository site from scratch using [Bootstrap](http://getbootstrap.com/) 
@@ -35,9 +39,3 @@ a matrix of hex colors that *could* be used for a GUI.
 
 For my data structures class at [NCSSM]() I implemented an array-based list, linked list, hash
 table, and a few sorting algorithms (bubble sort, merge sort).
-
-
-
-## Upcoming: an Android app!
-
-Stay tuned. (9/26/15)
