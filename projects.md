@@ -8,7 +8,7 @@ Here's a few of the more notable webdev/software/other projects I've done in the
 
 ## Upcoming: The Freshspire app! [[link]](http://www.getfreshspired.com/)
 
-Stay tuned. Sign up to hear when we launch [here](http://www.getfreshspired.com/new-page/).
+Stay tuned. Sign up to hear when we launch [here](http://www.getfreshspired.com/sign-up/).
 
 ## A software engineering research data repository [[link]](http://openscience.us/repo)
 
