@@ -15,7 +15,7 @@ Here's a short summary of my background and abilities.
  * Data science
  * Machine learning
  * Programming languages
- * Interested in promoting open access to research materials (papers, data, etc.) - see [OpenScience](https://openscience.us) as an example
+ * Interested in promoting open access to research materials (papers, data, etc.) - see [OpenScience](http://openscience.us) as an example
 
 
 # Education
