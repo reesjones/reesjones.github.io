@@ -3,73 +3,55 @@ layout: page
 title: Resume
 ---
 
-(last updated 2/2/2016)
+*(last updated 8/30/2016)*
 
-Feel free to [contact me](http://www.reesjones.github.io/contact) if you have any questions.
+Here's a short summary of my background and abilities.
+[Contact me](/contact) if you'd like a complete copy.
 
 <hr>
 
+## Interests
+
+ * Data science
+ * Machine learning
+ * Programming languages
+ * Interested in promoting open access to research materials (papers, data, etc.) - see [OpenScience](https://openscience.us) as an example
+
+
 # Education
 
-**[North Carolina State University](https://www.ncsu.edu/)** | Raleigh, NC
-*B.S. in Computer Science, Math minor, Cum. GPA 3.88, Major GPA 4.00*
+## **North Carolina State University**
+ * B.S. in Computer Science, Math minor
+ * Cum. GPA 3.9, major GPA 4
 
-**Courses:** Java, Discrete Math, Data Structures, C & Software Tools, Operating Systems, Assembly
-
-**[North Carolina School of Science and Mathematics](http://www.ncssm.edu/)**  |  Durham, NC
-*High school diploma, Cum. GPA 4.86*
-
-**Courses:** AP Computer Science, Advanced Programming, Data Structures, Web Development
+## **North Carolina School of Science and Mathematics**
+ * High school diploma with 5 computer science classes.
 
 # Work Experience
 
-**[IBM Watson Group](http://www.ibm.com/smarterplanet/us/en/ibmwatson/)**  |  Research Triangle Park, NC
-*Software Engineering Intern, Summer 2015*
-
- * Developed tool to visualize cancer treatment data to help cancer patients make more informed treatment decisions. This tool will likely be integrated into IBM Watson’s healthcare solutions.
- * Worked as Sprint Manager on an independent team of five interns in a fully Agile development environment
- * Designed and implemented AngularJS/Bootstrap UI, and a REST API using Express.js on a Node.js server
-
-**[OpenScience.us](http://openscience.us/)**  |  Raleigh, NC
-*Web Developer and Research Data Curator, Spring/Fall 2015*
-
- * Curated research datasets at openscience.us to provide free storage of and access to open source software engineering research data, using Subversion, Git, Jekyll static site framework, and GitHub Pages
- * Refocused and rebuilt UI to increase voluntary dataset submissions from 0 per month to ~10 per month, saving approx. 40 hours/month of work to manually add the same amount
- * Contributed almost 300 commits, 40,000 additions and 11,000 deletions to the GitHub repository
-
-**[Independent Software/Web Development](http://reesjones.github.io/projects/)**  | Durham & Raleigh, NC
-*Projects documented at reesjones.github.io, Ongoing*
-
- * Developed a number of side projects in Java, Python, and HTML/CSS, totaling around 7500 lines of code
- * Gained practical experience in OO concepts & design with Java programs (some implementing Swing-based GUIs), and web design fundamentals with web development projects
- * Implemented mathematical processes and algorithms with Python scripts for Numerical Analysis and Calculus classes
-
-
+ * **[Facebook](https://github.com/facebook/nuclide)** *Software Engineering Intern, Summer 2016*
+ * **[Freshspire](http://www.getfreshspired.com/)** *Lead Developer, Spring 2016*
+ * **[IBM Watson](https://www.ibm.com/smarterplanet/us/en/ibmwatson/)** *Software Engineering Intern, Summer 2015*
+ * **[OpenScience.us](http://openscience.us/)** *Web Developer and Research Data Curator, Spring/Fall 2015*
 
 # Skills
 
-**Languages:**   Java, Javascript, HTML/CSS, C, Python
+| Category          | My Skills
+|------------------------------------------------------------------------------
+| **Languages**     | Java, Javascript, Hack, C, Python
+| **Frameworks**    | React.js, Flow (JS type checker), GraphQL, Spring (Java), Bootstrap
+| **Platforms**     | Linux & OSX & Windows, AWS, Node.js, Android (some)
+| **Tools & IDEs**  | Mercurial, Git/GitHub, Subversion, Nuclide, IntelliJ, Eclipse
+| **Specialties**   | IDEs, REST architecture, full stack development, Agile
 
-**Frameworks:**   Angular.js, Node.js, Bootstrap, WordPress, Android SDK
+I also have experience with human factors including: 
 
-**Platforms:**   Linux, Windows, Amazon AWS, IBM Bluemix/DevOps
-
-**Tools & IDEs:**   Eclipse, Git/GitHub, Subversion, vim, Android Studio
-
-**Topics:**   Agile development, REST APIs, data structures, algorithms, logic, patents
-
-
-
-# Honors & Leadership
-
-**[N.C. State University Honors Program](http://honors.dasa.ncsu.edu/)**, *Member* – Distinguished research and seminar-based academic program encouraging academic inquiry. 2014-2018.
-
-**Varsity Cross Country (H.S.)**, *Captain* – Led varsity team to 2A state cross country title. 2013.
-
-**Computer Science Club (H.S.)**, *President* – Co-taught introductory computer science seminar in Python. 2013.
-
+ * Code reviews
+ * Working on a team
+ * Learning huge codebases
+ * Source control at scale
 
 
 # Extracurricular Activities
 
-NCSU Club Cross Country & Track • Classical Piano • International travel • Sailing
+In my free time, I run competitively on the NCSU club cross country & track team, play cajon/piano/didgeridoo, and hike up big mountains.
