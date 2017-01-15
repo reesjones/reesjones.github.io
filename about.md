@@ -23,7 +23,7 @@ students.
 
 While my experience lends itself more to full-stack development, I'm more 
 interested in, and now pursuing, more infrastructure, backend, data science, 
-data mining, machine learning types of problems and opportunities. I did 
+data mining, machine learning opportunities. I did 
 some data infra work when working on [Nuclide](https://nuclide.io/) at my summer 
 '16 Facebook internship, and am currently doing data mining research at NC State.
 
