@@ -23,7 +23,7 @@ students.
 
 While my experience lends itself more to full-stack development, I'm more 
 interested in, and now pursuing, more infrastructure, backend, data science, 
-data mining, machine learning types of problems and opportunities. I did 
+data mining, machine learning opportunities. I did 
 some data infra work when working on [Nuclide](https://nuclide.io/) at my summer 
 '16 Facebook internship, and am currently doing data mining research at NC State.
 
@@ -75,9 +75,8 @@ I also enjoy tinkering with code, ideas, and social conventions.
 
 # What am I working on now?
 
-As of Fall 2016, I'm doing undergrad research in data mining and taking Software 
-Engineering, Automata, and Probability (because I suck at probability, and must 
-get better).
+As of Spring 2017, I'm taking Networking, Data-Driven Decision Making, Combinatorics,
+and Philosophy of Research.
 
 # Check me out!
 
